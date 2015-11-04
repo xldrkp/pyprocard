@@ -10,11 +10,10 @@ Auf der linken Seite des Gleichheitszeichens steht der Variablennamen, auch *Bez
 
 Bezeichner sollten sinnvoll und selbstdokumentierend gewählt werden. Das heißt, dass der Name der Variablen Auskunft über den Sinn und die Verwendung des Werts geben sollte[^4]. In Python können alle Datentypen Variablen zugewiesen werden.
 
-[^4]: Vgl. zur Qual bei der Suche nach dem richtigen Bezeichner Passig (2013)
 
 ### Geltungsbereich von Variablen
 
-Der Ort, wo eine Variable deklariert wurde, entscheidet über ihren Geltungsbereich. Man unterscheidet folglich *lokale* und *globale* Variablen.
+Der Ort, wo eine Variable deklariert wurde, entscheidet über ihren Geltungsbereich. Man unterscheidet *lokale* und *globale* Variablen.
 
 Das folgende Beispiel zeigt die Definition einer lokalen Variablen:
 
@@ -27,3 +26,5 @@ In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewies
 Die Variable `tier` ist nicht bekannt
 
 
+
+[^4]: Vgl. zur Qual bei der Suche nach dem richtigen Bezeichner Passig (2013)
