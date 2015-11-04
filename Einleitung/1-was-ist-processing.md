@@ -10,7 +10,7 @@ und
 
 > "Processing is not a single programming language, but an arts-centric system for learning, teaching, and making visual form with code."[^3]
 
-In der Tat ist es denkbar einfach, mit ein wenig Programmiercode sofort ein Ergebnis zu erzielen. Gibt man bspw. die folgende Zeile Code in der Programmierumgebung von Processing ein (im Java-Mode, vgl. \cref{sub:installation}) und klickt auf den Pfeil oben links (auch: STRG + R), wird ein Kreis auf die Leinwand gezeichnet:
+In der Tat ist es denkbar einfach, mit ein wenig Programmiercode sofort ein Ergebnis zu erzielen. Gibt man bspw. die folgende Zeile Code in der Programmierumgebung von Processing ein (im Java-Mode) und klickt auf den Pfeil oben links (auch: STRG + R), wird ein Kreis auf die Leinwand gezeichnet:
 
 ```java
 ellipse(10,10,20,20);
