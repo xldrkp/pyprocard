@@ -6,7 +6,7 @@ Etwas unscheinbar wird bisher auf der Homepage von Processing auf Processing.py 
 
 Processing.py ermöglicht folglich den Zugang zu den Möglichkeiten von Processing über die Programmiersprache Python ^[Der Name wird in Anlehnung an die typische Dateinamenextension für Pythondateien so geschrieben.].
 
-In \cref{what-is-python} wurde gezeigt, wie mit Python ein Kreis in Processing gezeichnet werden kann, der dem Mauszeiger folgt:
+Im Kapitel "Was ist Python?" wurde gezeigt, wie mit Python ein Kreis gezeichnet werden kann, der dem Mauszeiger folgt:
 
 ```python
 def draw():
@@ -45,7 +45,7 @@ def drawBand(v, w, x, y, z, ypos, barWidth):
 
 Das Ergebnis sieht auf der Leinwand wie folgt aus:
 
-![Durch die unterschiedliche Abfolge der Farben in den Zeilen entsteht eine Wahrnehmungsverschiebung, obwohl die beteiligten Farben oben und unten gleich sind.](images/01-3-relativity.png)
+![Durch die unterschiedliche Abfolge der Farben in den Zeilen entsteht eine Wahrnehmungsverschiebung, obwohl die beteiligten Farben oben und unten gleich sind.](../images/relativity.png)
 
 Dass der abgebildete Code es in sich hat, soll niemandem vom Weiterlesen abhalten. Im Laufe des Buchs wird klar werden, was die Ausdrücke und Abschnitte des Programms bedeuten.
 
