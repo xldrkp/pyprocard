@@ -1,6 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Einleitung](vorbereitung/einleitung.md)
-* Vorbereitung
-
+* [Einleitung](vorbereitung/0-einleitung.md)
+* [Was ist Processing?](vorbereitung/0-was-ist-processing.md)
