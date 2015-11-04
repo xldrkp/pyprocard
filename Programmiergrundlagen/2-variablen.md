@@ -62,7 +62,7 @@ Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch e
 
         UnboundLocalError: local variable 'tier' referenced before assignment
         
-Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier`   
+Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier` lokal nicht definiert wurde **und** Python immer versucht, die Variable im *lokalen* Geltungsbereich zu erstellen oder zu ändern, es sei denn, die Variable wurde als *global* deklariert (s. Lutz 2013, S. 488).  
 
 Zusammenfassend können folgende Regeln formuliert werden:
 
