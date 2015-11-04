@@ -23,7 +23,7 @@ Die Erfahrung aus der Lehre zeigt, dass dieser Zwang zur übersichtlichen Format
 
 Der Zugang zu Python ist ebenfalls sehr einfach, da sich auch hier schon mit wenigen Zeilen Code erste Ergebnisse erzielen lassen. Allerdings fällt das visuelle Feedback hier eher spärlich aus, denn die ersten Schritte mit Python machen die meisten Lehrbücher auf der Kommandozeile.
 
-![Addition zweier Zahlen mit Python. Ein- und Ausgabe erfolgen auf der Kommandozeile.](images/01-2-commandline.png)
+![Addition zweier Zahlen mit Python. Ein- und Ausgabe erfolgen auf der Kommandozeile.](images/commandline.png)
 
 Dieser Ansatz, ins Programmieren von Computern einzusteigen, ruft in der Regel nicht bei allen Beteiligten Begeisterung hervor.
 
