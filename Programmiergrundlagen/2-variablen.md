@@ -60,7 +60,7 @@ def draw():
 
 `tier` wird außerhalb aller Funktionen definiert und steht damit für **lesenden Zugriff** in allen Bereichen des Programms zur Verfügung.
 
-Oft kommt es allerdings vor, dass Variablen zur Laufzeit des Programms ihren Wert ändern sollen. Es soll also **schreiben** auf die Variable zugegriffen werden. Aus dieser Anforderung folgen neue Regeln:
+Oft kommt es allerdings vor, dass Variablen zur Laufzeit des Programms ihren Wert ändern sollen. Es soll also **schreibend** auf die Variable zugegriffen werden. Aus dieser Anforderung folgen neue Regeln:
 
 ![Schreibzugriff auf globale Variable mit Fehler](../images/globale-variable-fehler.png)
 
@@ -68,9 +68,9 @@ Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch e
 
         UnboundLocalError: local variable 'tier' referenced before assignment
         
-Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier` lokal nicht definiert wurde **und** Python immer versucht, die Variable im *lokalen* Geltungsbereich zu erstellen oder zu ändern, es sei denn, sie wurde als *global* deklariert (s. Lutz 2013, S. 488).  
+Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier` lokal nicht definiert wurde **und** Python immer versucht, die Variable im *lokalen* Geltungsbereich zu erstellen oder zu ändern, es sei denn, sie wurde als *global* deklariert (vgl. Lutz 2013, S. 488).  
 
-Um das letzte Beispiel zum Laufen zu bringen, ist also folgendes möglich:
+Um das letzte Beispiel zum Laufen zu bringen, ist folgendes möglich:
 
 ```python
 tier = "Igel"
@@ -84,13 +84,18 @@ def draw():
     text(tier, 10, 80)
 ```
 
-Mit der Deklaration von `tier` als globale Variable ist auch der Schreibzugriff möglich. Das Ergebnis auf der Leinwand zeigt dann auch zweimal die `"Igelstacheln"`, da der Wert der Variablen nicht lokal, sondern global geändert wurde.
+Mit der Deklaration von `tier` als globale Variable ist auch der Schreibzugriff möglich. Das Ergebnis auf der Leinwand zeigt nun zweimal die `"Igelstacheln"`, da der Wert der Variablen nicht lokal, sondern global geändert wurde.
+
+### Zusammenfassung
 
 Zusammenfassend können folgende Regeln formuliert werden:
 
 * Variablen, die in einer Funktion definiert wurden, sind auch nur sichtbar in dieser Funktion. Ein Zugriff von außen auf diese Variablen ist nicht möglich.
 * Variablen, die innerhalb einer Funktion definiert wurden, kollidieren nicht mit Variablen gleichen Namens, die außerhalb oder anderweitig existieren.
 * Wenn eine Variable außerhalb aller Funktionen definiert wurde, ist sie global im Bezug auf die gesamte Datei[^6].
+* Python sucht nach Namen **von innen nach außen**. Das heißt, es wird immer erst geschaut, ob ein Name lokal vorhanden ist, dann ob er global vorhanden ist. Findet Python den Namen, hört die Suche auf.
+
+
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
 
