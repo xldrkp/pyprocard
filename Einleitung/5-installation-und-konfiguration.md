@@ -6,6 +6,10 @@ Der folgende Vorgang ist analog auf Linux, Mac und Windows durchzuführen.
 
 ![Hinzufügen eines Modes in der IDE](../images/mode-installieren-1.png)
 
+***Abbildung:*** Hinzufügen eines Modes in der Processing-IDE
+
 ![Installieren des Modes](../images/mode-installieren-2.png)
+
+***Abbildung:*** Installieren des Modes
 
 Der Python-Mode wird ausgewählt und dann mit Klick auf "Install" installiert. Anschließend muss die IDE neu gestartet und der Python-Mode oben rechts ausgewählt werden. Die IDE startet erneut und befindet sich nun im Python-Mode.
