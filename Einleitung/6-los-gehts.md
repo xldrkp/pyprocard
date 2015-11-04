@@ -10,8 +10,8 @@ Das entspricht dem [*Hello World!*](https://de.wikipedia.org/wiki/Hallo-Welt-Pro
 
 In der IDE sieht das folgendermaßen aus:
 
-![Ein Rechteck zur Begrüßung](images/01-6-helloworld.png)
+![Ein Rechteck zur Begrüßung](../images/helloworld.png)
 
 Ein Klick auf den Pfeil oben links startet das Programm und zeigt folgendes Ergebnis:
 
-![Voilà!](images/01-6-helloworld-result.png)
+![Voilà!](../images/helloworld-result.png)
