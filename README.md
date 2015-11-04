@@ -1,7 +1,3 @@
-# Python.Processing.Arduino
-
-Eine Einführung in die Hard- und Softwareentwicklung
-
 ## Ein Skript zur Veranstaltung
 
 Mit diesem Repository wird ein veranstaltungsbegleitendes Skript zur Verfügung gestellt, das frei verwendet und bearbeitet werden kann. 
