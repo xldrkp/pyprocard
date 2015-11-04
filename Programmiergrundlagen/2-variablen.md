@@ -13,7 +13,7 @@ Bezeichner sollten sinnvoll und selbstdokumentierend gewählt werden. Das heißt
 
 ### Geltungsbereich von Variablen
 
-Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsbereich und damit über ihre *Sichtbarkeit* im Programm. Man unterscheidet *lokale* und *globale* Variablen.
+Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsbereich und damit über ihre *Sichtbarkeit* im Programm. Man unterscheidet *lokale* und *globale* Variablen[^5].
 
 Dieses Konzept bringt einige Regeln mit sich, die zunächst kompliziert erscheinen mögen. Im Moment einer Zuweisung oder Definition werden Bezeichner in einem Namensraum verortet und sind nur dort gültig. Die Idee dahinter ist es, Ordnung zu schaffen und zu vermeiden, dass sich Namen gegenseitig stören und überschreiben können. Man kann sich das vielleicht vorstellen wie Räume in einem Gebäude.
 
@@ -66,6 +66,12 @@ Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor 
 
 Zusammenfassend können folgende Regeln formuliert werden:
 
-* 
+* Variablen, die in einer Funktion definiert wurden, sind auch nur sichtbar in dieser Funktion. Ein Zugriff von außen auf diese Variablen ist nicht möglich.
+* Variablen, die innerhalb einer Funktion definiert wurden, kollidieren nicht mit Variablen gleichen Namens, die außerhalb oder anderweitig existieren.
+* Wenn eine Variable außerhalb aller Funktionen definiert wurde, ist sie global im Bezug auf die gesamte Datei[^6].
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
+
+[^5]: Auf die Erklärung von *nicht-lokalen* Variablen wird hier verzichtet. Vgl. hierzu Lutz (2013, S. 485 ff.)
+
+[^6]: Über Dateien können weitere Namensräume voneinander abgegrenzt werden. Vgl. hierzu auch Lutz (2013)
