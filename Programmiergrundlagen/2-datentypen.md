@@ -10,7 +10,7 @@ Der Mensch gibt Daten in die Maschine ein, diese verarbeitet sie und gibt sie am
 
 Daten, die in einem Programm verarbeitet werden sollen, können unterschiedlicher Natur sein: Zahlen, Zeichenketten, Listen von Daten etc. In fast jeder Programmiersprache wird diese Vielfalt in *Datentypen* abgebildet. In Python ist das nicht anders. **Alles in Python ist ein Objekt**, was die Arbeit mit Daten am Ende sehr einfach verständlich macht. Mehr dazu in einem späteren Kapitel.
 
-Für die Arbeit mit Processing sind zunächst die folgenden Datentypen aus Python relevant:
+Für den Anfang sind zunächst die folgenden Datentypen aus Python relevant:
 
 **Numbers** `1234, 3.1415`
 
