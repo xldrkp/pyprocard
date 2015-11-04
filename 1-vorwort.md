@@ -16,7 +16,7 @@ Um den beschriebenen Anforderungen entsprechen zu können, hatte ich als Ziel f�
 
 Dieser Ansatz hat sich als sehr erfolgreich erwiesen, da Processing und Arduino einen sehr einfachen Einstieg ermöglichen und schnell Erfolgserlebnisse zeitigen.
 
-![](images/00-0-studiprojekt.JPG)
+![](images/studiprojekt.JPG)
 
 _**Abbildung:** Studentisches Projekt (Arduino/Processing/Java): Lernumgebung für auszubildende ElektronikerInnen in der Fachrichtung Energie- und Gebäudetechnik. Quelle: Axel Dürkop [(CC-BY)](https://creativecommons.org/licenses/by/4.0/)_
 
