@@ -15,6 +15,8 @@ Bezeichner sollten sinnvoll und selbstdokumentierend gewählt werden. Das heißt
 
 Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsbereich und damit über ihre *Sichtbarkeit* im Programm. Man unterscheidet *lokale* und *globale* Variablen.
 
+Dieses Konzept bringt einige Regeln mit sich, die zunächst kompliziert erscheinen mögen. Im Moment einer Zuweisung oder Definition werden Bezeichner in einem Namensraum verortet und sind nur dort gültig. Die Idee dahinter ist es, Ordnung zu schaffen und zu vermeiden, dass sich Namen gegenseitig stören und überschreiben können. Man kann sich das vielleicht vorstellen wie Räume in einem Gebäude.
+
 Das folgende Beispiel zeigt die Definition einer lokalen Variablen:
 
 ```python
