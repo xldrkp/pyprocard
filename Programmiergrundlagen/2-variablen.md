@@ -17,7 +17,11 @@ Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsberei
 
 Das folgende Beispiel zeigt die Definition einer lokalen Variablen:
 
-![Definition einer lokalen Variablen und fehlerfreier Zugriff](../images/lokale-variable-1.png)
+```python
+def setup():
+    tier = "Igel"
+    text(tier, 30, 30)
+```
 
 In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewiesen. Damit ist der Geltungsbereich von `tier` lokal auf die Funktion beschränkt. Die Ausführung des Programms funktioniert, es wird der Inhalt der Variablen als Text auf die Leinwand gezeichnet.
 
@@ -36,7 +40,14 @@ Was bedeutet aber *global verfügbar*? Variablen sind dort gültig, wo sie defin
 
 Das folgende Beispiel macht `tier` global verfügbar:
 
-![Definition einer globalen Variablen](../images/globale-variable.png)
+```python
+tier = "Igel"
 
+def setup():
+    text(tier, 30, 30)
+    
+def draw():
+    text(tier, 30, 80)
+```
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
