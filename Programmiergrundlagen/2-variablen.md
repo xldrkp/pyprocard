@@ -19,7 +19,15 @@ Das folgende Beispiel zeigt die Definition einer lokalen Variablen:
 
 ![Definition einer lokalen Variablen und fehlerfreier Zugriff](../images/lokale-variable-1.png)
 
-In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewiesen. Damit ist der Geltungsbereich von `tier` lokal auf die Funktion beschränkt. Außerhalb der Funktion ist `tier` nicht bekannt. In der Funktion `draw()` wird nun versucht, auf diese Variable zuzugreifen. Bei Ausführung des Programms wird ein Fehler geworfen:
+In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewiesen. Damit ist der Geltungsbereich von `tier` lokal auf die Funktion beschränkt. Die Ausführung des Programms funktioniert, es wird der Inhalt der Variablen als Text auf die Leinwand gezeichnet.
+
+Wie sich die lokale Beschränkung des Geltungsbereichs auswirkt, zeigt das folgende Beispiel:
+
+
+
+
+
+Außerhalb der Funktion ist `tier` nicht bekannt. In der Funktion `draw()` wird nun versucht, auf diese Variable zuzugreifen. Bei Ausführung des Programms wird ein Fehler geworfen:
 
         NameError: global name 'tier' is not defined
         
