@@ -2,8 +2,8 @@
 
 Der Sinn und Zweck, Programme für einen Computer zu schreiben, liegt in der Datenverarbeitung, die dieser viel besser und schneller erledigen kann als der Mensch. Das Prinzip, das dahinter steckt, kennzeichnet das Verhältnis von Mensch und Maschine. Es nennt sich *EVA-Prinzip*:
 
-**E** Eingabe
-**V** Verarbeitung
+**E** Eingabe  
+**V** Verarbeitung  
 **A** Ausgabe
 
 Der Mensch gibt Daten in die Maschine ein, diese verarbeitet sie und gibt sie am Ende der Verarbeitung als Ergebnis aus.
