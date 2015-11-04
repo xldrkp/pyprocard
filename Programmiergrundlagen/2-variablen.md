@@ -50,4 +50,7 @@ def draw():
     text(tier, 30, 80)
 ```
 
+`tier` wird außerhalb aller Funktionen definiert und steht damit für **lesenden Zugriff** in allen Bereichen des Programms zur Verfügung.
+
+
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
