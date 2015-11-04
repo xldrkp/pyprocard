@@ -1,0 +1,1 @@
+## Funktionen mit Rückgabewert
