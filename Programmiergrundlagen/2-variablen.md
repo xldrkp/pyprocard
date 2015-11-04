@@ -23,16 +23,20 @@ In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewies
 
 Wie sich die lokale Beschränkung des Geltungsbereichs auswirkt, zeigt das folgende Beispiel:
 
+![](../images/lokale-variable-fehler.png)
 
 
-
-
-Außerhalb der Funktion ist `tier` nicht bekannt. In der Funktion `draw()` wird nun versucht, auf diese Variable zuzugreifen. Bei Ausführung des Programms wird ein Fehler geworfen:
+In der Funktion `draw()` wird versucht, auf die Variable `tier` zuzugreifen. Bei Ausführung des Programms wird ein Fehler geworfen:
 
         NameError: global name 'tier' is not defined
         
 Der Python-Interpreter sucht zunächst lokal, also innerhalb der Funktion `draw()` nach `tier`. Da er die Variable dort nicht findet, geht er davon aus, dass sie global verfügbar ist. Das ist aber auch nicht der Fall, sodass er zu dem Schluss kommt, dass sie noch nicht definiert wurde.
 
-Soll `tier` 
+Was bedeutet aber *global verfügbar*? Variablen sind dort gültig, wo sie definiert wurden. Werden sie folglich außerhalb von Funktionen definiert, ist ihr Geltungsbereich *global*.
+
+Das folgende Beispiel macht `tier` global verfügbar:
+
+![Definition einer globalen Variablen](../images/globale-variable.png)
+
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
