@@ -27,6 +27,12 @@ def setup():
 
 In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewiesen. Damit ist der Geltungsbereich von `tier` lokal auf die Funktion beschränkt. Die Ausführung des Programms funktioniert, es wird der Inhalt der Variablen als Text auf die Leinwand gezeichnet.
 
+Durch das Konzept der Namensräume in Python ist es möglich, zwei verschiedene Variablen mit gleichem Namen zu definieren:
+
+![Gleicher Name in unterschiedlichen Namensräumen](../images/variable-gleicher-name.png)
+
+Die Ausgabe auf der Konsole zeigt, dass die Geltungsbereiche der Variablen unterschiedlich sind.
+
 Wie sich die lokale Beschränkung des Geltungsbereichs auswirkt, zeigt das folgende Beispiel:
 
 ![](../images/lokale-variable-fehler.png)
