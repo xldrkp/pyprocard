@@ -23,7 +23,7 @@ In der Funktion `setup()` wird der Variablen `tier` der String `"Igel"` zugewies
 
         NameError: global name 'tier' is not defined
         
-Der Python-Interpreter sucht zunächst innerhalb der Funktion
+Der Python-Interpreter sucht zunächst innerhalb der Funktion 
 
 
 
