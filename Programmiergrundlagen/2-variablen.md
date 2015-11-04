@@ -97,6 +97,10 @@ Zusammenfassend können folgende Regeln formuliert werden:
 
 
 
+---
+
+
+
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
 
 [^5]: Auf die Erklärung von *nicht-lokalen* Variablen wird hier verzichtet. Vgl. hierzu Lutz (2013, S. 485 ff.)
