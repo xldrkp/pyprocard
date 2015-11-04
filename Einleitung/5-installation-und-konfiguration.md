@@ -1,8 +1,9 @@
 ## Installation und Konfiguration
 
-Um Processing mittels Python zu programmieren, muss die Entwicklungsumgebung (IDE - Integrated Development Environment) im Python-Modus gestartet werden. Dieser muss zunächst installiert werden.
+Um Processing mittels Python zu programmieren, muss die Entwicklungsumgebung (IDE - Integrated Development Environment) im Python-Modus gestartet werden. Bisher funktioniert dieser Modus nur für die Processing-Version **2.2.1**. Das ist aber nicht weiter schlimm, da keine gravierenden Einschränkungen bekannt sind, wenn die ältere Version von Processing verwendet wird. Neuere Features und Verbesserungen von Processing kommen allerdings nicht zur Geltung.
 
-Der folgende Vorgang ist analog auf Linux, Mac und Windows durchzuführen.
+
+Für die Installation des Python-Modes sind folgende Schritte in der Processing-IDE durchzuführen:
 
 ![Hinzufügen eines Modes in der IDE](../images/mode-installieren-1.png)
 
