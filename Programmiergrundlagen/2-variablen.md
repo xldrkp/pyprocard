@@ -13,7 +13,7 @@ Bezeichner sollten sinnvoll und selbstdokumentierend gewählt werden. Das heißt
 
 ### Geltungsbereich von Variablen
 
-Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsbereich. Man unterscheidet *lokale* und *globale* Variablen.
+Der Ort, wo eine Variable definiert wurde, entscheidet über ihren Geltungsbereich und damit über ihre *Sichtbarkeit* im Programm. Man unterscheidet *lokale* und *globale* Variablen.
 
 Das folgende Beispiel zeigt die Definition einer lokalen Variablen:
 
@@ -55,6 +55,12 @@ def draw():
 Oft kommt es allerdings vor, dass Variablen zur Laufzeit des Programms ihren Wert ändern sollen. Es soll also **schreiben** auf die Variable zugegriffen werden. Aus dieser Anforderung folgen neue Regeln:
 
 ![Schreibzugriff auf globale Variable mit Fehler](../images/globale-variable-fehler.png)
+
+Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch ein weiterer String angehängt wird. Der entstehende String `"Igelstacheln"` soll dann der Variable `tier` wieder zugewiesen werden. Der Ínterpreter steigt mit einer Fehlermeldung aus:
+
+        UnboundLocalError: local variable 'tier' referenced before assignment
+        
+Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier`   
 
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
