@@ -64,7 +64,7 @@ Oft kommt es allerdings vor, dass Variablen zur Laufzeit des Programms ihren Wer
 
 ![Schreibzugriff auf globale Variable mit Fehler](../images/globale-variable-fehler.png)
 
-Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch ein weiterer String angehängt wird. Der entstehende String `"Igelstacheln"` soll dann der Variable `tier` wieder zugewiesen werden. Der Ínterpreter steigt mit einer Fehlermeldung aus:
+Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch ein weiterer String angehängt wird. Der entstehende String `"Igelstacheln"` soll dann der Variable `tier` wieder zugewiesen werden. Der Interpreter steigt mit einer Fehlermeldung aus:
 
         UnboundLocalError: local variable 'tier' referenced before assignment
         
