@@ -64,6 +64,22 @@ Hier wird versucht, den bisherigen Inhalt von `tier` zu verändern, indem noch e
         
 Auf Deutsch heißt das: Auf die lokale Variable `tier` wurde zugegriffen, bevor sie definiert wurde. `tier + "stacheln"` funktioniert noch, die Zuweisung an `tier` scheitert dann aber, weil `tier` lokal nicht definiert wurde **und** Python immer versucht, die Variable im *lokalen* Geltungsbereich zu erstellen oder zu ändern, es sei denn, sie wurde als *global* deklariert (s. Lutz 2013, S. 488).  
 
+Um das letzte Beispiel zum Laufen zu bringen, ist also folgendes möglich:
+
+```python
+tier = "Igel"
+
+def setup():
+    global tier
+    tier = tier + "stacheln"
+    text(tier, 10, 30)
+    
+def draw():
+    text(tier, 10, 80)
+```
+
+Mit der Deklaration von `tier` als globale Variable ist auch der Schreibzugriff möglich. Das Ergebnis auf der Leinwand zeigt dann auch zweimal die `"Igelstacheln"`, da der Wert der Variablen nicht lokal, sondern global geändert wurde.
+
 Zusammenfassend können folgende Regeln formuliert werden:
 
 * Variablen, die in einer Funktion definiert wurden, sind auch nur sichtbar in dieser Funktion. Ein Zugriff von außen auf diese Variablen ist nicht möglich.
