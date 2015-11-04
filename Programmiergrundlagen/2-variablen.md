@@ -52,5 +52,9 @@ def draw():
 
 `tier` wird außerhalb aller Funktionen definiert und steht damit für **lesenden Zugriff** in allen Bereichen des Programms zur Verfügung.
 
+Oft kommt es allerdings vor, dass Variablen zur Laufzeit des Programms ihren Wert ändern sollen. Es soll also **schreiben** auf die Variable zugegriffen werden. Aus dieser Anforderung folgen neue Regeln:
+
+![Schreibzugriff auf globale Variable mit Fehler](../images/globale-variable-fehler.png)
+
 
 [^4]: Vgl. Passig (2013) zur qualvollen Suche nach dem richtigen Bezeichner
