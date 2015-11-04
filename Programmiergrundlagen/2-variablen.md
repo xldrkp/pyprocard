@@ -31,7 +31,7 @@ Durch das Konzept der Namensräume in Python ist es möglich, zwei verschiedene 
 
 ![Gleicher Name in unterschiedlichen Namensräumen](../images/variable-gleicher-name.png)
 
-Die Ausgabe auf der Konsole zeigt, dass die Geltungsbereiche der Variablen unterschiedlich sind. Die Zuweisung von `"Dackel"` an `tier` innerhalb von `setup()` überschreibt nicht die Variable außerhalb der Funktion.
+Die Ausgabe auf der Konsole zeigt, dass die Geltungsbereiche der Variablen unterschiedlich sind. Die Zuweisung von `"Dackel"` an `tier` innerhalb von `setup()` überschreibt nicht die Variable außerhalb der Funktion. Der Geltungsbereich von `tier = "Hund"` ist in diesem Beispiel *global*, der von `tier = "Dackel"` *lokal* auf den Geltungsbereich der Funktion beschränkt.
 
 Wie sich die lokale Beschränkung des Geltungsbereichs auswirkt, zeigt das folgende Beispiel:
 
