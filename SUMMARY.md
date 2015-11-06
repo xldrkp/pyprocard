@@ -29,5 +29,5 @@
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
 * [Anhang](Anhang/0-einleitung.md)
    * [Literatur](Anhang/99-literatur.md)
-   * Bekannte Probleme
+   * [Bekannte Probleme](Anhang/bekannte_probleme.md)
 
