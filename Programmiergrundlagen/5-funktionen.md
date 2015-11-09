@@ -11,7 +11,7 @@ In den vorherigen Kapiteln sind schon einige Funktionen verwendet worden, die in
 ```python
 # Beispiele für Processing-Funktionen, die mit Python verwendet werden können.
 
-size(200,300) # Funktion für die Definition der Leinwandgröße
+size(200, 300) # Funktion für die Definition der Leinwandgröße
 print(x) # Funktion zur Ausgabe von Daten auf der Konsole
 ```
 
@@ -22,3 +22,13 @@ Häufig ist es so, dass die Funktionen einer Programmiersprache zwar eine Reihe 
 
 ### Eigene Funktionen definieren
 
+Die Definition von Funktionen in Python ist denkbar einfach. Genaugenommen haben wir das bisher schon oft getan:
+
+```python
+def setup():
+    fullScreen()
+    ellipseMode(CENTER)
+
+def draw():
+    ellipse(mouseX, mouseY, 50, 50)
+```
