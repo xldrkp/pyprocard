@@ -1,6 +1,5 @@
 ## Funktionen
 
-<!--{% youtube %}https://youtu.be/Uzb_ajpcMUo?list=PLD20BEE125C1FC7B1{% endyoutube %}-->
 
 Funktionen machen es möglich, bestimmte Aktionen mit Daten auszuführen. Dieses Konzept ist nicht nur ein Merkmal von Python, auch in anderen Sprachen sind Funktionen zu finden.
 
@@ -63,3 +62,9 @@ zeichne_eckpunkte()
 2. Probiere aus, wie Processing reagiert, wenn eine der beiden Funktionen `setup()` und `draw()` fehlen.
 3. Probiere aus, was passiert, wenn der Aufruf einer Funktion vor ihrer Definition erfolgt.
 2. Definiere eine Funktion, die in der Mitte der Leinwand einen Stern aus zwei Dreiecken zeichnet. Gib der Funktion einen sprechenden Namen.
+
+### Empfohlenes Video zum Thema
+
+{% youtube %}https://youtu.be/Uzb_ajpcMUo?list=PLD20BEE125C1FC7B1{% endyoutube %}
+
+[Video](https://www.youtube.com/watch?v=Uzb_ajpcMUo&feature=youtu.be&list=PLD20BEE125C1FC7B1) von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) unter [CC-BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
