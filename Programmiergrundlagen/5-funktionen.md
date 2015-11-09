@@ -9,12 +9,18 @@ Funktionen machen es möglich, bestimmte Aktionen mit Daten auszuführen. Dieses
 In den vorherigen Kapiteln sind schon einige Funktionen verwendet worden, die in Python eingebaut sind oder die von Processing für Python zur Verfügung gestellt werden.
 
 ```python
+# Beispiele für Processing-Funktionen, die mit Python verwendet werden können.
+
 size(200,300) # Funktion für die Definition der Leinwandgröße
 print(x) # Funktion zur Ausgabe von Daten auf der Konsole
 ```
 
-Weitere Funktionen sind auf der Referenzseite von [Processing ](http://py.processing.org/reference) einzusehen.s
+Weitere Funktionen sind auf der Referenzseite von [Processing ](http://py.processing.org/reference) einzusehen.
+
+Häufig ist es so, dass die Funktionen einer Programmiersprache zwar eine Reihe von Standardaufgaben abdecken, komplexere Programme aber individuelle Lösungen und damit auch neue, individuelle Funktionen benötigen. Daher ist es auch in Python möglich, eigene Funktionen zu definieren und ihnen das gewünschte Verhalten "einzubauen".
 
 
-### Funktionen selbst definieren
+### Eigene Funktionen definieren
+
+
 
