@@ -8,8 +8,10 @@ Funktionen machen es möglich, bestimmte Aktionen mit Daten auszuführen. Dieses
 
 In den vorherigen Kapiteln sind schon einige Funktionen verwendet worden, die in Python eingebaut sind oder die von Processing für Python zur Verfügung gestellt werden.
 
-* `size(200,300) # Funktion für die Definition der Leinwandgröße`
-* `print(x) # Funktion zur Ausgabe von Daten auf der Konsole`
+```python
+size(200,300) # Funktion für die Definition der Leinwandgröße
+print(x) # Funktion zur Ausgabe von Daten auf der Konsole
+```
 
 
 ### Funktionen selbst definieren
