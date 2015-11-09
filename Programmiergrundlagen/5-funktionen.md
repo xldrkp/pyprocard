@@ -41,7 +41,18 @@ Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden
 
 **Eine Funktion sollte genau eine Aufgabe erledigen.**
 
-Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist.
+Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
+
+```python
+def zeichne_eckpunkte():
+    point(0, 0)
+    point(width - 1, 0)
+    point(0, height - 1)
+    point(width - 1, height - 1 )
+```
+
+Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der Funktion. 
+
 
 
 
