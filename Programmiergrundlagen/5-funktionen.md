@@ -46,7 +46,7 @@ def mousePressed():
 
 Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen Parametern (s.u.) bildet diese erste Zeile die *Funktionssignatur*. 
 
-Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll. Das können beliebig viele Zeilen sein. Eine goldene Regel lautet:
+Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll, der *Funktionsrumpf*. Er kann aus beliebig vielen Zeilen bestehen. Eine goldene Regel lautet:
 
 **Eine Funktion sollte genau eine Aufgabe erledigen.**
 
