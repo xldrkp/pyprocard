@@ -41,4 +41,5 @@ Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden
 
 **Eine Funktion sollte genau eine Aufgabe erledigen.**
 
-Da es möglich ist, beliebig viele Funktionen zu definieren, wächst die Anzahl der Funktionen in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, sollte allerdings eine 
+Da es möglich ist, beliebig viele Funktionen zu definieren, wächst die Anzahl der Funktionen in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des PEP 0008 folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist.
+
