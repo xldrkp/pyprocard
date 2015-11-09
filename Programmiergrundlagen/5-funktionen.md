@@ -49,7 +49,7 @@ Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Z
 Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll, der *Funktionsrumpf*. Er kann aus beliebig vielen Zeilen bestehen. Eine goldene Regel lautet:
 
 <div class="box">
-**Eine Funktion sollte genau eine Aufgabe erledigen.**
+Eine Funktion sollte genau eine Aufgabe erledigen.
 </div>
 
 
