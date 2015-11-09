@@ -1,7 +1,7 @@
 ## Funktionen
 
 
-Funktionen machen es möglich, bestimmte Aktionen mit Daten auszuführen. Dieses Konzept ist nicht nur ein Merkmal von Python, auch in anderen Sprachen sind Funktionen zu finden.
+Funktionen machen es möglich, eine Reihe von Anweisungen mehrfach auszuführen. Damit kann vermieden werden, dass derselbe Code mehrfach geschrieben werden oder gar mit *copy and paste* vervielfältigt wird. Dieses Konzept ist nicht nur ein Merkmal von Python, auch in anderen Sprachen sind Funktionen zu finden. Funktionen können auch aus Daten neue Daten berechnen und stellen ein wesentliches Werkzeug für die Strukturierung von Programmen zur Verfügung.
 
 ### Eingebaute Funktionen
 
