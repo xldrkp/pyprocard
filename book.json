@@ -1,7 +1,5 @@
 {
-    "plugins": ["youtube"]
-},
-{
+    "plugins": ["youtube"],
     "styles": {
         "website": "styles/website.css"
     }
