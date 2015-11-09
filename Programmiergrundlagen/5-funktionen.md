@@ -51,7 +51,11 @@ def zeichne_eckpunkte():
     point(width - 1, height - 1 )
 ```
 
-Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der Funktion. 
+Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der Funktion.
+
+```python
+zeichne_eckpunkte()
+```
 
 
 
@@ -60,4 +64,5 @@ Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der
 
 1. Recherchiere die Regeln für Funktionsnamen in der Python-Dokumentation.
 2. Probiere aus, wie Processing reagiert, wenn eine der beiden Funktionen `setup()` und `draw()` fehlen.
+3. Probiere aus, was passiert, wenn der Aufruf einer Funktion vor ihrer Definition erfolgt.
 2. Definiere eine Funktion, die in der Mitte der Leinwand einen Stern aus zwei Dreiecken zeichnet. Gib der Funktion einen sprechenden Namen.
