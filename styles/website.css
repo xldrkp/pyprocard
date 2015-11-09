@@ -1,1 +1,5 @@
 /* CSS for website */
+.box {
+    padding: 5px;
+    border: 1px solid #aaa;
+}
