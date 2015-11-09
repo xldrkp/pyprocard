@@ -33,7 +33,7 @@ def draw():
     ellipse(mouseX, mouseY, 50, 50)
 ```
 
-Hierbei handelt es sich um zwei Funktionen, die, wenn sie vorhanden sind, beim Start eines Programms ausgeführt werden. Alle anderen Funktionen, die wir im defininieren, müssen ausdrücklich aufgerufen werden.
+Hierbei handelt es sich um zwei Funktionen, die, wenn sie vorhanden sind, beim Start eines Programms ausgeführt werden. Alle anderen Funktionen, die wir im definieren, müssen ausdrücklich aufgerufen werden.
 
 Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen Parametern (s.u.) bildet diese erste Zeile die *Funktionssignatur*. 
 
