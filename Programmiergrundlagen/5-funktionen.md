@@ -1,7 +1,7 @@
 ## Funktionen
 
 
-Funktionen machen es möglich, eine Reihe von Anweisungen mehrfach auszuführen. Damit kann vermieden werden, dass derselbe Code mehrfach geschrieben werden oder gar mit *copy and paste* vervielfältigt wird. Dieses Konzept ist nicht nur ein Merkmal von Python, auch in anderen Sprachen sind Funktionen zu finden. Funktionen können auch aus Daten neue Daten berechnen und stellen ein wesentliches Werkzeug für die Strukturierung von Programmen zur Verfügung.
+Funktionen machen es möglich, eine Reihe von Anweisungen mehrfach auszuführen. Damit kann vermieden werden, dass derselbe Code mehrfach geschrieben oder gar mit *copy and paste* vervielfältigt wird. Dieses Konzept ist nicht nur ein Merkmal von Python, auch in anderen Sprachen sind Funktionen zu finden. Funktionen können auch aus Daten neue Daten berechnen und stellen ein wesentliches Werkzeug für die Strukturierung von Programmen zur Verfügung.
 
 ### Eingebaute Funktionen
 
@@ -34,9 +34,9 @@ def draw():
     ellipse(mouseX, mouseY, 50, 50)
 ```
 
-Hierbei handelt es sich um zwei Funktionen, die, wenn sie vorhanden sind, beim Start eines Programms ausgeführt werden. Alle anderen Funktionen, die wir im definieren, müssen ausdrücklich aufgerufen werden.
+Hierbei handelt es sich um zwei Funktionen, die, wenn sie definiert sind, beim Start eines Programms ausgeführt werden. Alle anderen Funktionen, die wir definieren, müssen ausdrücklich aufgerufen werden.
 
-`mousePressed()` ist eine weitere Systemfunktion von Processing, mit der sich die der Mausklick abfragen lässt:
+`mousePressed()` ist eine weitere Systemfunktion von Processing, mit der sich der Mausklick abfragen lässt:
 
 ```python
 # Einmalige Ausführung bei Mausklick
@@ -44,7 +44,7 @@ def mousePressed():
     fill(random(255))
 ```
 
-Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen Parametern (s.u.) bildet diese erste Zeile die *Funktionssignatur*. 
+Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen *Parametern* (s. [Funktionen mit Rückgabewert](Programmiergrundlagen/6-funktionen-mit-rueckgabe.html)) bildet diese erste Zeile die *Funktionssignatur*. 
 
 Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll, der *Funktionsrumpf*. Er kann aus beliebig vielen Zeilen bestehen. Eine goldene Regel lautet:
 
@@ -52,8 +52,7 @@ Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden
 Eine Funktion kann zwar viele Zeilen Code enthalten. Sie sollte aber genau eine Aufgabe erledigen.
 </div>
 
-
-Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
+Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn es komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
 
 ```python
 def zeichne_eckpunkte():
@@ -63,11 +62,13 @@ def zeichne_eckpunkte():
     point(width - 1, height - 1 )
 ```
 
-Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der Funktion.
+Die Ausführung des Programms zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der Funktion.
 
 ```python
 zeichne_eckpunkte()
 ```
+
+Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
 ### Lernvorschläge
 
