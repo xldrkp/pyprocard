@@ -48,7 +48,10 @@ Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Z
 
 Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll, der *Funktionsrumpf*. Er kann aus beliebig vielen Zeilen bestehen. Eine goldene Regel lautet:
 
+<div class="box">
 **Eine Funktion sollte genau eine Aufgabe erledigen.**
+</div>
+
 
 Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
 
