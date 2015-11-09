@@ -43,4 +43,7 @@ Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden
 
 Da es möglich ist, beliebig viele Funktionen zu definieren, wächst die Anzahl der Funktionen in einem Programm, wenn dieses komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des PEP 0008 folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist.
 
+### Lernvorschläge
 
+1. Recherchiere die Regeln für Funktionsnamen in der Python-Dokumentation.
+2. Definiere eine Funktion, die in der Mitte der Leinwand einen Stern aus zwei Dreiecken zeichnet. Gib der Funktion einen sprechenden Namen.
