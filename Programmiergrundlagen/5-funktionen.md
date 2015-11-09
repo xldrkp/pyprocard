@@ -57,9 +57,6 @@ Die Ausführung des Programm zeigt kein Ergebnis. Es fehlt noch der *Aufruf* der
 zeichne_eckpunkte()
 ```
 
-
-
-
 ### Lernvorschläge
 
 1. Recherchiere die Regeln für Funktionsnamen in der Python-Dokumentation.
