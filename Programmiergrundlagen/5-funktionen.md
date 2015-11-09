@@ -22,5 +22,3 @@ Häufig ist es so, dass die Funktionen einer Programmiersprache zwar eine Reihe 
 
 ### Eigene Funktionen definieren
 
-
-
