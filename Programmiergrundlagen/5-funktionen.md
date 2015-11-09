@@ -13,7 +13,7 @@ size(200,300) # Funktion für die Definition der Leinwandgröße
 print(x) # Funktion zur Ausgabe von Daten auf der Konsole
 ```
 
-Weitere Funktionen sind auf der Referenzseite von [Processing ](http://py.processing.org/reference) einzusehen.
+Weitere Funktionen sind auf der Referenzseite von [Processing ](http://py.processing.org/reference) einzusehen.s
 
 
 ### Funktionen selbst definieren
