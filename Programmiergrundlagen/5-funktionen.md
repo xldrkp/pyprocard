@@ -72,6 +72,7 @@ zeichne_eckpunkte()
 2. Probiere aus, wie Processing reagiert, wenn eine der beiden Funktionen `setup()` und `draw()` fehlen.
 3. Probiere aus, was passiert, wenn der Aufruf einer Funktion vor ihrer Definition erfolgt.
 2. Definiere eine Funktion, die in der Mitte der Leinwand einen Stern aus zwei Dreiecken zeichnet. Gib der Funktion einen sprechenden Namen.
+3. Realisiere ein eigenes Malwerkzeug mithilfe einer Funktion.
 
 ### Empfohlene Videos zum Thema
 
