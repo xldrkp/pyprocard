@@ -70,7 +70,6 @@ zeichne_eckpunkte()
 
 Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
-
 ### Lernvorschläge
 
 1. Recherchiere die Regeln für Funktionsnamen in der Python-Dokumentation.
