@@ -25,7 +25,7 @@
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Das Wesen der Animation](Themen/animation.md)
-   * [Interaktion](Themen/7-interaktion.md)
+   * [Interaktion](Themen/interaktion.md)
    * [Bilder und Videos einbinden](Programmiergrundlagen/11-bilder-und-videos.md)
    * [Bibliotheken verwenden](Programmiergrundlagen/12-bibliotheken-verwenden.md)
 * [Anhang](Anhang/0-einleitung.md)
