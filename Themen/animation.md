@@ -1,6 +1,6 @@
 ## Das Wesen der Animation
 
-Die Stärke von Processing liegt darin, dass Grafiken einfach animiert werden können. Entweder geschieht dies durch den Einsatz von Zufallsfunktionen wie `random()` oder `noise()` oder durch Interaktion des Users mit dem Programm.
+Die Stärke von Processing liegt darin, dass Grafiken einfach animiert werden können. Entweder geschieht dies durch den Einsatz von Funktionen wie `random()`, `noise()` und anderen Arten der Berechnung, durch Interaktion des Users mit dem Programm oder durch die Abfrage von Sensoren (vgl. den [Abschnitt zum Arduino](../Arduino/0-einleitung.md)).
 
 Die einfachste Animation besteht in der Veränderung der Koordinaten eines Objekts auf der Leinwand. Das kann ein Punkt sein, eine Linie oder auch eine dreidimensionale Figur. Die Mathematik dahinter ist einfach:
 
@@ -34,4 +34,4 @@ def draw():
 Das Konzept des Ausdrucks `global x` kann im Kapitel [
 Variablen](../Programmiergrundlagen/variablen.md) vertieft werden.
 
-Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwortlich: Zum augenblicklichen Wert der Variablen `x` wird immer `1` hinzuaddiert und das Ergebnis anschließend wieder `x` zugewiesen. So wächst der Wert von `x` bei jedem Durchlauf der Endlosschleife `draw()` um `1`. Der Ball bleibt stehen, wenn `x` die Breite der Leinwand erreicht hat.
+Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwortlich: Zum augenblicklichen Wert der Variablen `x` wird immer `1` hinzuaddiert und das Ergebnis anschließend `x` zugewiesen. So wächst der Wert von `x` bei jedem Durchlauf der Endlosschleife `draw()` um `1`. Der Ball bleibt stehen, wenn `x` die Breite der Leinwand erreicht hat.
