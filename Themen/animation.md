@@ -38,3 +38,5 @@ Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwor
 
 ### Geschwindigkeit
 
+Das Inkrementieren von `x` bringt eine gleichbleibende Geschwindigkeit des Balls mit sich. Will man hier mehr Flexibilität, muss auch der Wert, um den `x` erhöht wird, variabel sein:
+
