@@ -65,3 +65,5 @@ def draw():
 Natürlich kann die Geschwindigkeit auch von anderen Faktoren abhängig gemacht werden, bspw. von `random()`, Sensorwerten eines Arduino oder von Berechnungen ganz anderer Art.
 
 
+
+
