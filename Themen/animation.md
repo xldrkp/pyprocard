@@ -8,7 +8,7 @@ Die einfachste Animation besteht in der Veränderung der Koordinaten eines Objek
 x = x + 1
 ```
 
-Auch wenn der Ausdruck trivial erscheint, liegt darin doch eine Hürde für viele Einsteigerinnen und Einsteiger. Was aber hat diese einfache Rechnung mit Animationen zu tun?
+Auch wenn der Ausdruck trivial erscheint, liegt darin doch eine Hürde für viele Einsteigerinnen und Einsteiger. Was aber hat diese einfache Rechnung mit Animationen zu tun? Ein Beispiel:
 
 ```python
 # Bewegung eines Balls von links nach rechts
@@ -30,3 +30,8 @@ def draw():
         # Sonst inkrementieren
         x = x + 1
 ```
+
+Das Konzept des Ausdrucks `global x` kann im Kapitel [
+Variablen](../Programmiergrundlagen/variablen.md) vertieft werden.
+
+Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwortlich: Zum augenblicklichen Wert der Variablen `x` wird `1` hinzuaddiert und das Ergebnis wiederum `x` zugewiesen. So wächst der Wert von `x` bei jedem Durchlauf der Endlosschleife `draw()` um `1`. Der Ball bleibt stehen, wenn `x` die Breite der Leinwand erreicht hat.
