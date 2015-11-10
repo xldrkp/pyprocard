@@ -102,5 +102,5 @@ Wir sehen nun einen Ball auf der x-Achse pendeln.
 ### Lernvorschläge
 
 1. Sorge dafür, dass der Ball auch auf der y-Achse bewegt wird.
-2. Lies das Kapitel [Vectors](http://natureofcode.com/book/chapter-1-vectors/) in Daniel Shiffmans Buch "The Nature of Code" (Shiffman, 
+2. Lies das Kapitel [Vectors](http://natureofcode.com/book/chapter-1-vectors/) in Daniel Shiffmans Buch "The Nature of Code" (Shiffman, 2012). Beachte dabei, dass alle Beispiele die Java-Syntax verwenden!
 
