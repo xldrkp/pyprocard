@@ -40,3 +40,26 @@ Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwor
 
 Das Inkrementieren von `x` bringt eine gleichbleibende Geschwindigkeit des Balls mit sich. Will man hier mehr Flexibilität, muss auch der Wert, um den `x` erhöht wird, variabel sein:
 
+```python
+# Bewegung eines Balls von links nach rechts
+
+# Startwert auf der x-Achse
+x = 0;
+# Geschwindigkeit des Balls
+speed_x = 2
+
+def draw():
+    # Schreibenden Zugriff auf die Variablen
+    # außerhalb der Funktion
+    global x, speed_x
+    # Löschen des Hintergrunds
+    background(255)
+    # Zeichnen des Balls
+    ellipse(x, 50, 10, 10)
+    # Prüfen, ob der Ball schon den rechten Rand
+    # der Leinwand erreicht hat
+    if x < width: 
+        # Sonst um den Wert von speed_x erhöhen
+        x = x + speed_x
+```
+
