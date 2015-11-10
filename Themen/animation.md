@@ -64,6 +64,43 @@ def draw():
 ```
 Natürlich kann die Geschwindigkeit auch von anderen Faktoren abhängig gemacht werden, bspw. von `random()`, Sensorwerten eines Arduino oder von Berechnungen ganz anderer Art.
 
+### Bewegungsumkehr
 
+In unserem Beispiel stoppt der Ball, sobald er den rechten Rand erreicht hat. Will man, dass er dann wieder umkehrt, ist ein anderes einfaches Prinzip anzuwenden: Es muss der Wert für die Geschwindigkeit nicht mehr addiert, sondern subtrahiert werden:
 
+```python
+x = x - 1
+```
+
+Erweitern wir den letzten Stand unseres Beispiels:
+
+```python
+# Bewegung eines Balls von links nach rechts
+
+x = 0;
+speed_x = 2
+
+def draw():
+    global x, speed_x
+    background(255)
+    ellipse(x, 50, 10, 10)
+    # Prüfen, ob der Ball schon den rechten oder
+    # linken Rand der Leinwand erreicht hat 
+    if x > width or x < 0: 
+        # Sonst das Vorzeichen von speed_x durch die
+        # Multiplikation mit -1 umkehren
+        speed_x = speed_x * -1
+    # Unterschied zu vorher! Die Addition, die x verändert,
+    # wird in jedem Fall ausgeführt. Ob es sich um eine 
+    # Verringerung oder Erhöhung von x handelt, hängt vom 
+    # Vorzeichen von speed_x ab.
+    x = x + speed_x
+```
+
+Wir sehen nun einen Ball auf der x-Achse pendeln.
+
+### Lernvorschläge
+
+1. Sorge dafür, dass der Ball auch auf der y-Achse bewegt wird.
+2. Lies das Kapitel [Vectors](http://natureofcode.com/book/chapter-1-vectors/) in Daniel Shiffmans Buch "The Nature of Code" (Shiffman, 
 
