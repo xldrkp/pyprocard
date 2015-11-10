@@ -62,4 +62,6 @@ def draw():
         # Sonst um den Wert von speed_x erhöhen
         x = x + speed_x
 ```
+Natürlich kann die Geschwindigkeit auch von anderen Faktoren abhängig gemacht werden, bspw. von `random()`, Sensorwerten eines Arduino oder von Berechnungen ganz anderer Art.
+
 
