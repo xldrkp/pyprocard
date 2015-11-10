@@ -11,13 +11,22 @@ x = x + 1
 Auch wenn der Ausdruck trivial erscheint, liegt darin doch eine Hürde für viele Einsteigerinnen und Einsteiger. Was aber hat diese einfache Rechnung mit Animationen zu tun?
 
 ```python
+# Bewegung eines Balls von links nach rechts
 
+# Startwert auf der x-Achse
 x = 0;
 
 def draw():
+    # Schreibenden Zugriff auf die Variable x
+    # außerhalb der Funktion
     global x
+    # Löschen des Hintergrunds
     background(255)
+    # Zeichnen des Balls
     ellipse(x, 50, 10, 10)
+    # Prüfen, ob der Ball schon den rechten Rand
+    # der Leinwand erreicht hat
     if x < width: 
+        # Sonst inkrementieren
         x = x + 1
 ```
