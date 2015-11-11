@@ -17,10 +17,10 @@
    * [Bedingte Anweisungen und Verzweigungen](Programmiergrundlagen/3-bedingte-anweisungen-und-verzweigungen.md)
    * [Schleifen](Programmiergrundlagen/4-schleifen.md)
    * [Funktionen](Programmiergrundlagen/5-funktionen.md)
+   * Funktionen mit Parametern
    * [Funktionen mit Rückgabe](Programmiergrundlagen/6-funktionen-mit-rueckgabe.md)
    * [Operatoren](Programmiergrundlagen/9-operatoren.md)
    * [Objektorientierte Programmierung](Programmiergrundlagen/10-oop.md)
-   * Funktionen mit Parametern
 * [Arduino](Arduino/0-einleitung.md)
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
