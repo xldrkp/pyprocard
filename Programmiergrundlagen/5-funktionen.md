@@ -52,7 +52,13 @@ Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden
 Eine Funktion kann zwar viele Zeilen Code enthalten. Sie sollte aber genau eine Aufgabe erledigen.
 </div>
 
-Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn es komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich am meisten hervorzuheben: Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
+Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn es komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich besonders hervorzuheben:
+
+<div class="box">
+Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Daher ist `zeichne_kreuz()` aussagekräftiger als `kreuz()`. 
+</div>
+
+Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
 
 ```python
 def zeichne_eckpunkte():
@@ -72,7 +78,7 @@ Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
 ### Lokale und globale Variablen
 
-Damit man Variablen *innerhalb* von Funktionen **ändern** kann, die *außerhalb* definiert wurden, müssen sie mit `global` für die jeweilige Funktione verfügbar gemacht werden. Andernfalls kommt es zu einer Fehlermeldung:
+Damit man Variablen *innerhalb* von Funktionen **ändern** kann, die *außerhalb* definiert wurden, müssen sie mit `global` für die jeweilige Funktion verfügbar gemacht werden. Andernfalls kommt es zu einer Fehlermeldung:
 
 ![](../images/fehler-zugriff-variable.png)
 
