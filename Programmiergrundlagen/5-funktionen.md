@@ -74,7 +74,8 @@ Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
 Damit man Variablen *innerhalb* von Funktionen **ändern** kann, die *außerhalb* definiert wurden, müssen sie mit `global` für die jeweilige Funktione verfügbar gemacht werden. Andernfalls kommt es zu einer Fehlermeldung:
 
-![Fehler beim Zugriff auf eine Variable außerhalb des aktuellen Geltungsbereichs](../images/fehler-variable-zugriff.png)
+![](../images/fehler-zugriff-variable.png)
+
 
 In Kapitel [Variablen](../Programmiergrundlagen/2-variablen.md) wurde ausgeführt, dass Variablen, 
 
