@@ -1,6 +1,6 @@
 ## Funktionen mit Parametern
 
-Beim Aufruf von Funktionen können auch *Parameter* übergeben werden. Das sind Werte beliebigen Datentyps, die beim Aufruf mit Kommata getrennt in die Klammern geschrieben werden:
+Beim Aufruf von Funktionen kann wahlweise eine Liste von *Parametern* übergeben werden. Hierbei handelt es sich um Werte beliebigen Datentyps, die beim Aufruf mit Kommata getrennt in die Klammern geschrieben werden:
 
 ```python
 # Funktionsaufruf
