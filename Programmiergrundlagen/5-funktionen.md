@@ -44,7 +44,7 @@ def mousePressed():
     fill(random(255))
 ```
 
-Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen *Parametern* (s. [Funktionen mit Rückgabewert](6-funktionen-mit-rueckgabe.html)) bildet diese erste Zeile die *Funktionssignatur*. 
+Mit dem Schlüsselwort `def` wird die *Definition* einer Funktion eingeleitet. Zusammen mit dem *Namen* der Funktion und möglichen *Parametern* bildet diese erste Zeile die *Funktionssignatur*. 
 
 Eingerückt folgt dann der Code, der beim Aufruf der Funktion ausgeführt werden soll, der *Funktionsrumpf*. Er kann aus beliebig vielen Zeilen bestehen. Eine goldene Regel lautet:
 
