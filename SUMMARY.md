@@ -17,7 +17,7 @@
    * [Bedingte Anweisungen und Verzweigungen](Programmiergrundlagen/3-bedingte-anweisungen-und-verzweigungen.md)
    * [Schleifen](Programmiergrundlagen/4-schleifen.md)
    * [Funktionen](Programmiergrundlagen/5-funktionen.md)
-   * Funktionen mit Parametern
+   * [Funktionen mit Parametern](Programmiergrundlagen/funktionen_mit_parametern.md)
    * [Funktionen mit Rückgabe](Programmiergrundlagen/6-funktionen-mit-rueckgabe.md)
    * [Operatoren](Programmiergrundlagen/9-operatoren.md)
    * [Objektorientierte Programmierung](Programmiergrundlagen/10-oop.md)
