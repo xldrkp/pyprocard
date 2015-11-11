@@ -76,8 +76,17 @@ Damit man Variablen *innerhalb* von Funktionen **ändern** kann, die *außerhalb
 
 ![](../images/fehler-zugriff-variable.png)
 
+Mit `global` funktioniert die Aktualisierung von `x`:
 
-In Kapitel [Variablen](../Programmiergrundlagen/2-variablen.md) wurde ausgeführt, dass Variablen, 
+```python
+x = 0
+
+def draw():
+    global x
+    x = x + 1
+```
+
+Die theoretischen Grundlagen für dieses Vorgehen werden im Kapitel [Variablen](../Programmiergrundlagen/2-variablen.md) genauer ausgeführt. 
 
 ### Lernvorschläge
 
