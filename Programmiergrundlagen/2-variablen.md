@@ -97,7 +97,7 @@ Zusammenfassend können folgende Regeln formuliert werden:
 
 ### Lernvorschläge
 
-1. Lies auch die Kapitel [Funktionen]() und [Animationen](). Dort wird von dem Ausdruck `global` Gebrauch gemacht. 
+1. Lies auch die Kapitel [Funktionen](5-funktionen.md) und [Animationen](../Themen/animationen.md). Dort wird von dem Ausdruck `global` Gebrauch gemacht. 
 
 ---
 
