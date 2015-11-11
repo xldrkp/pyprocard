@@ -95,7 +95,9 @@ Zusammenfassend können folgende Regeln formuliert werden:
 * Wenn eine Variable außerhalb aller Funktionen definiert wurde, ist sie global im Bezug auf die gesamte Datei[^6].
 * Python sucht nach Namen **von innen nach außen**. Das heißt, es wird immer erst geschaut, ob ein Name lokal vorhanden ist, dann ob er global vorhanden ist. Findet Python den Namen, hört die Suche auf.
 
+### Lernvorschläge
 
+1. Lies auch die Kapitel [Funktionen]() und [Animationen](). Dort wird von dem Ausdruck `global` Gebrauch gemacht. 
 
 ---
 
