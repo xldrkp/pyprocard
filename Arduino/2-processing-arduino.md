@@ -1,6 +1,6 @@
 ## Processing und Arduino
 
-~~~ {caption="Das Blink-Beispiel" .python .numberLines}
+```python
 add_library('serial')
 add_library('arduino')
 
@@ -27,4 +27,4 @@ def setup():
 def draw():
     Blink.on()
     Blink.off()
-~~~
+```
