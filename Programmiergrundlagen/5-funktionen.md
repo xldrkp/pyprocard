@@ -55,7 +55,7 @@ Eine Funktion kann zwar viele Zeilen Code enthalten. Sie sollte aber genau eine 
 Da es möglich ist, beliebig viele Funktionen zu definieren, wächst deren Anzahl in einem Programm, wenn es komplexer wird. Der Name der Funktion ist frei wählbar, solange er den Regeln des [PEP 0008](https://www.python.org/dev/peps/pep-0008/#function-names) folgt. Neben den syntaktischen Anforderungen ist eine Sache sicherlich besonders hervorzuheben:
 
 <div class="box">
-Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Daher ist `zeichne_kreuz()` aussagekräftiger als `kreuz()`. 
+Der Name der Funktion sollte aussagen, was die Aufgabe der Funktion ist. Daher ist zeichne_kreuz() aussagekräftiger als kreuz(). 
 </div>
 
 Im folgenden Beispiel wird eine Funktion definiert, die in alle vier Ecken der Leinwand einen Punkt zeichnet.
