@@ -14,3 +14,7 @@ def zeichne_kreuz(x, y):
     line(x-20, y, x+20, y)
     line(x, y-20, x, y+20)    
 ```
+
+Die übergebenen Parameter werden in den lokalen Variablen `x` und `y` gespeichert.
+
+Für die Arbeit mit Processing sind Funktionen dieser Art sehr hilfreich, da sie die Berechnung der Position von Objekten *relativ zu den Parametern* durchführen.
