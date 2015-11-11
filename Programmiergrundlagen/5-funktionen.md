@@ -72,8 +72,9 @@ Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
 ### Lokale und globale Variablen
 
-Variablen, die außerhalb von Funktionen definiert wurden, müssen mit `global` für den Schreibzugriff in Funktionen "freigeschaltet" werden.
+Damit man Variablen *innerhalb* von Funktionen **ändern** kann, die *außerhalb* definiert wurden, müssen sie mit `global` für die jeweilige Funktione verfügbar gemacht werden. Andernfalls kommt es zu einer Fehlermeldung:
 
+![Fehler beim Zugriff auf eine Variable außerhalb des aktuellen Geltungsbereichs](../images/fehler-variable-zugriff.png)
 
 In Kapitel [Variablen](../Programmiergrundlagen/2-variablen.md) wurde ausgeführt, dass Variablen, 
 
