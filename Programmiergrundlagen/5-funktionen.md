@@ -70,6 +70,13 @@ zeichne_eckpunkte()
 
 Funktionen in Python existieren nur, wenn sie aufgerufen werden.
 
+### Lokale und globale Variablen
+
+Variablen, die außerhalb von Funktionen definiert wurden, müssen mit `global` für den Schreibzugriff in Funktionen "freigeschaltet" werden.
+
+
+In Kapitel [Variablen](../Programmiergrundlagen/2-variablen.md) wurde ausgeführt, dass Variablen, 
+
 ### Lernvorschläge
 
 1. Recherchiere die Regeln für Funktionsnamen in der Python-Dokumentation.
