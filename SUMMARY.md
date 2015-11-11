@@ -24,7 +24,6 @@
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
-   * [Das Wesen der Animation](Themen/animation.md)
    * [Interaktion](Themen/interaktion.md)
    * [Bilder und Videos einbinden](Programmiergrundlagen/11-bilder-und-videos.md)
    * [Bibliotheken verwenden](Programmiergrundlagen/12-bibliotheken-verwenden.md)
