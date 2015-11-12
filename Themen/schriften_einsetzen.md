@@ -10,6 +10,8 @@ Ein erstes Beispiel soll zeigen, wie man Typographie in eigenen Programmen einse
 letter = "A"
 
 def setup():
+    # Einkommentieren, um Liste aller verfügbaren Fonts auszugeben
+    # print(PFont.list())
     size(800, 800)
     background(255)
     fill(0)
