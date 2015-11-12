@@ -55,6 +55,12 @@ Die Funktion `mouseDragged()` tut dasselbe wie `mouseMoved()`, ohne aber den Hin
 
 Die Funktion `keyReleased()` fragt die Tastatur ab und ändert den Wert der Variablen `letter`, sobald eine Taste losgelassen wird.
 
+### Besondere Fonts verwenden
+
+Mit der Anweisung `print(PFont.list())` lässt sich eine Liste aller auf dem aktuellen Computer verfügbaren Schriftarten ausgeben. Reichen diese nicht aus, sind [Google Webfonts](http://www.google.com/webfonts) eine unerschöpfliche Anlaufstelle für Schriftarten jeder Art.
+
+
+
 ---
 
 [^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt, S. 258. Sämtlicher Quellcode des Buchs steht auf der Webseite des Projekts auch als Ausgangsbasis für eigene Ideen zur Verfügung. Allerdings ist der Code dort in Java-Sytax zu finden. Er müsste also für den Kontext "Python mit Processing" angepasst werden.
