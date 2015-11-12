@@ -35,7 +35,6 @@ def mouseDragged():
    
 def keyReleased():
     global letter
-    print key
     if key != CODED:
         letter = key
 
@@ -50,10 +49,12 @@ Die Funktion `draw()` hält das Programm am Laufen, was für die permanente Abfr
 
 Das Verhalten des Programms liegt in den Systemfunktionen `mouseMoved()`, `mouseDragged()` und `keyReleased()`. In `mouseMoved()` wird die Leinwand zunächst gelöscht und anschließend mit `textSize()` die größe des Buchstabens aus der Breite der Leinwand und der Mausposition errechnet. Anschließend wird der aktuelle Buchstabe in `letter` in die Mitte der Leinwand auf Höhe der y-Koordinate der Maus gezeichnet.
 
+Die Funktion `mouseDragged()` tut dasselbe wie `mouseMoved()`, ohne aber den Hintergrund zuvor zu löschen.
 
+Die Funktion `keyReleased()` fragt die Tastatur ab und ändert den Wert der Variablen `letter`, sobald eine Taste losgelassen wird.
 
 ### Unterschiede zwischen `loadFont()` und `createFont()`
 
 ---
 
-[^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt, S. 258
+[^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt, S. 258. Sämtlicher Quellcode des Buchs steht auf der Webseite des Projekts auch als Ausgangsbasis für eigene Ideen zur Verfügung. Allerdings ist der Code dort in Java-Sytax zu finden. Er müsste also für den Kontext "Python mit Processing" angepasst werden.
