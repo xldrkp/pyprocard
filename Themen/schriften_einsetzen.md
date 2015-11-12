@@ -31,10 +31,26 @@ def mouseMoved():
 def mouseDragged():
     textSize((mouseX-width/2)*5+1)
     text(letter, width/2, mouseY)
+ 
+   
+def keyReleased():
+    global letter
+    print key
+    if key != CODED:
+        letter = key
+
 ```
 ***Listing:*** *Zeichnen mit Buchstaben. Das Beispiel ist dem großartigen Buch "Generative Gestaltung" entnommen und für Python angepasst[^1].*
 
-Mit `createFont()` wird ein vektorbasierter Zeichensatz generiert, mit dem im Anschluss gezeichnet werden kann.
+Mit `createFont()` wird ein vektorbasierter Zeichensatz generiert, mit dem im Anschluss gezeichnet werden kann. Vektorbasiert heißt hier, dass keine Kanten entstehen, wenn Buchstaben vergrößert und verkleinert dargestellt werden.
+
+Die Funktion `textFont()` wählt den Font aus, der zuvor erzeugt wurde. `textAlign()` positioniert Text im Bezug auf die Parameter von `text()`. Zu allen drei Funktionen empfiehlt es sich, die Dokumentationsseiten aus der Processing-Referenz zu lesen - in der Java-Version, denn in der Processing.py-Version fehlen die Erklärungen.
+
+Die Funktion `draw()` hält das Programm am Laufen, was für die permanente Abfrage von Tastatur und Maus notwendig ist. Die Anweisung `pass` darf nicht fehlen, weil Python eine leere Funktion nicht erlaubt.
+
+Das Verhalten des Programms liegt in den Systemfunktionen `mouseMoved()`, `mouseDragged()` und `keyReleased()`. In `mouseMoved()` wird die Leinwand zunächst gelöscht und anschließend mit `textSize()` die größe des Buchstabens aus der Breite der Leinwand und der Mausposition errechnet. Anschließend wird der aktuelle Buchstabe in `letter` in die Mitte der Leinwand auf Höhe der y-Koordinate der Maus gezeichnet.
+
+
 
 ### Unterschiede zwischen `loadFont()` und `createFont()`
 
