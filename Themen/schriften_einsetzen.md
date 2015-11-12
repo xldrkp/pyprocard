@@ -32,10 +32,12 @@ def mouseDragged():
     textSize((mouseX-width/2)*5+1)
     text(letter, width/2, mouseY)
 ```
-***Listing:*** *Zeichnen mit Buchstaben. Das Beispiel ist dem großartigen Buch "Generative Gestaltung" entnommen[^1].*
+***Listing:*** *Zeichnen mit Buchstaben. Das Beispiel ist dem großartigen Buch "Generative Gestaltung" entnommen und für Python angepasst[^1].*
+
+Mit `createFont()` wird ein vektorbasierter Zeichensatz generiert, mit dem im Anschluss gezeichnet werden kann.
 
 ### Unterschiede zwischen `loadFont()` und `createFont()`
 
 ---
 
-[^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt., S. 258
+[^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt, S. 258
