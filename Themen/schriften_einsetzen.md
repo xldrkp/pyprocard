@@ -75,6 +75,12 @@ font = createFont("DawningofaNewDay.ttf", 12)
 
 Wichtig ist die genaue Schreibweise der Schriftart samt Dateinamenserweiterung.
 
+### Lernvorschläge
+
+* Verändere das Beispielprogramm, indem Du die Schriftart änderst oder die Berechnung von Größe und Position anpasst.
+* Suche in [Wikiquote](https://de.wikiquote.org/wiki/Hauptseite) ein Zitat, das Dir gefällt. Schreibe ein Programm, das das Zitat mit Typographie interaktiv in Szene setzt.
+* Lass Dich von den Beispielen der Seite [Generative Gestaltung](http://generativegestaltung.de/) inspirieren. Wenn Du die Codebeispiele in Aktion sehen willst, starte die Processing-IDE im Java-Mode.
+
 ---
 
 [^1]: Bohnacker, H., Gross, B., Laub, J., & Lazzeroni, C. (2009). Generative Gestaltung: entwerfen, programmieren, visualisieren. Mainz: Schmidt, S. 258. Sämtlicher Quellcode des Buchs steht auf der Webseite des Projekts auch als Ausgangsbasis für eigene Ideen zur Verfügung. Allerdings ist der Code dort in Java-Sytax zu finden. Er müsste also für den Kontext "Python mit Processing" angepasst werden.
