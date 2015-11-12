@@ -59,7 +59,21 @@ Die Funktion `keyReleased()` fragt die Tastatur ab und ändert den Wert der Vari
 
 Mit der Anweisung `print(PFont.list())` lässt sich eine Liste aller auf dem aktuellen Computer verfügbaren Schriftarten ausgeben. Reichen diese nicht aus, sind [Google Webfonts](http://www.google.com/webfonts) eine unerschöpfliche Anlaufstelle für Schriftarten jeder Art.
 
+Dort können über das Webinterface Schriften einer so genannten *Collection* hinzugefügt werden. Ein Pfeil oben rechts bietet den Download der Collection an:
 
+![](../images/download-font.png)
+
+***Abbildung:*** *Download der Collection als zip-file mit dem Pfeil*
+
+Es öffnet sich ein Overlay, das darauf hinweist, dass ein Download der Schriften nicht notwendig sei, wenn man sie auf Webseiten verwenden will. Da wir Schriften in Processing verwenden wollen, laden wir das **.zip file* herunter und entpacken es. Die Schriften, die darin enthalten sind, legen wir in einem Ordner `data` ab, der sich innerhalb unseres Sketchordners befinden muss. Ist er noch nicht vorhanden, muss er erstellt werden.
+
+Um die Schriftart nun in Processing verwenden zu können, muss für das obige Programm eine Zeile angepasst werden:
+
+```python
+font = createFont("DawningofaNewDay.ttf", 12)
+```
+
+Wichtig ist die genaue Schreibweise der Schriftart samt Dateinamenserweiterung.
 
 ---
 
