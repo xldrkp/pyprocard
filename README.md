@@ -18,4 +18,4 @@ Durch das Projekt [Processing.py](http://py.processing.org) ist ein Zugang zu de
 
 ## Lizenz
 
-Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 4.0 International Lizenz. Um eine Kopie dieser Lizenz einzusehen, besuchen Sie bitte http://creativecommons.org/licenses/by/4.0/.
+Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung Weitergabe unter gleichen Bedingungen 4.0 International Lizenz. Um eine Kopie dieser Lizenz einzusehen, besuchen Sie bitte https://creativecommons.org/licenses/by-sa/4.0/.
