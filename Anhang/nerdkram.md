@@ -36,6 +36,8 @@ wird zu
 args = ["#{file.path}"]
 ```
 
+Anschließend muss Atom neu geladen werden.
+
 ### Package konfigurieren
 
 In den Einstellungen des Packages ist nun noch der Pfad zum Shellskript `processing-py.sh` zu hinterlegen. Ein Aufruf der Settingsseite in Atom mit `STRG + ,` und die Suche nach `processing` in den installierten Packages zeigt das Package von *bleikamp* an. In das Feld *Processing-executable* wird nun `processing-py.sh` eingetragen.
