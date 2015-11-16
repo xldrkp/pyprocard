@@ -18,7 +18,7 @@ Während des Buildprozesses wird eine JRE-Datei von Oracle heruntergeladen. Hier
 
 Ist der Buildprozess gelungen, liegt die Datei `processing-py.jar` im Unterordner `work`. Von dort wird sie neben `processing-py.sh` verschoben. 
 
-Nun sollte auf der Kommandozeile das Ausführen von `pyde`-Programmen möglich sein.
+Nun sollte auf der Kommandozeile das Ausführen von `pyde`-Programmen möglich sein. Der Developer-Mode von Atom gibt Aufschluss über Fehler und Warnungen.
 
 ### Package anpassen
 
