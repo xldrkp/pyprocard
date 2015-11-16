@@ -8,7 +8,7 @@ Das Skript entsteht begleitend zur Lehrveranstaltung "Einführung in die Informa
 
 Die Erfahrungen aus vergangenen Lehrveranstaltungen haben gezeigt, dass Processing und Arduino zusammengenommen einen guten Einstieg auch für ProgrammieranfängerInnen und Neulinge in informatischen Zusammenhängen ermöglichen. Es wurde aber auch deutlich, dass der bisherige Wechsel der Sprache von Processing/Arduino zu PHP im zweiten Semester bei vielen eine unnötige Komplexität mit sich brachte.
 
-## Python: Eine Sprache fürs Leben
+## Python: Eine Sprache fürs (Berufs)leben
 
 Daher soll versucht werden, in den kommenden Veranstaltungen Python als "eine Sprache fürs (Berufs)leben" einzuführen. Es wird davon ausgegangen, dass Python im berufsschulischen Kontext zur Lösung zahlreicher fachbezogener Probleme herangezogen werden kann und damit auch als Gegenstand und Beispiel für Programmiersprachen im Berufsschulunterricht gute Dienste leistet.
 
