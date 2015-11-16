@@ -16,9 +16,13 @@ Damit das funktioniert, muss eine Datei mit Namen `processing-py.jar` im selben 
 
 Während des Buildprozesses wird eine JRE-Datei von Oracle heruntergeladen. Hierbei kann es zu Problemen kommen, die durch manuelles Laden der Datei behoben werden können. Die URL wird in der Fehlermeldung angezeigt. Die Datei muss anschließend in einem zu erstellenden Ordner `linux` im Ordner `processing.py` abgelegt werden.
 
-Ist der Buildprozess gelungen, liegt die Datei `processing-py.jar` im Unterordner `work`. 
+Ist der Buildprozess gelungen, liegt die Datei `processing-py.jar` im Unterordner `work`. Von dort wird sie neben `processing-py.sh` verschoben. 
+
+Nun sollte auf der Kommandozeile das Ausführen von `pyde`-Programmen möglich sein.
 
 ### Package anpassen
+
+Um `pyde`-Programme aus Atom heraus ausführbar zu machen, muss das oben genannte Package von *bleikamp* geringfügig angepasst werden.
 
 Die folgende Zeile in `lib/processing.coffee` muss verändert werden:
 
@@ -32,13 +36,11 @@ wird zu
 args = ["#{file.path}"]
 ```
 
-### Processing von der Kommandozeile ausführbar machen
+### Package konfigurieren
 
-In den Einstellungen des Packages ist nun noch der Pfad zum Shellskript zu hinterlegen, das Processing.py auf der Kommandozeile ausführbar macht. (Linux).
+In den Einstellungen des Packages ist nun noch der Pfad zum Shellskript `processing-py.sh` zu hinterlegen. Ein Aufruf der Settingsseite in Atom mit `STRG + ,` und die Suche nach `processing` in den installierten Packages zeigt das Package von *bleikamp* an. In das Feld *Processing-executable* wird nun `processing-py.sh` eingetragen.
 
-```
-processing-py.sh
-```
+Anschließend sollte der Aufruf "Processing -> Run" über das Menü sowie über die Tastenkombination `STRG + ALT + B` möglich sein.
 
 ### Syntax Highlighting für .pyde
 
