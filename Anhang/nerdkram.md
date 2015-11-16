@@ -6,7 +6,13 @@
 
 ### Processing.py installieren
 
-Processing.py-Sketche werden aus Atom über die Kommandozeile gestartet. Dazu muss der Python-Mode heruntergeladen werden. Das entsprechende Repo findet sich bei [Github](https://github.com/jdf/processing.py).
+Processing.py-Sketche werden aus Atom über die Kommandozeile gestartet. Dazu muss der Python-Mode heruntergeladen werden. Das entsprechende Repo findet sich bei [Github](https://github.com/jdf/processing.py). In dem Ordner befindet sich das Shellskript `processing-py.sh`. Mit `chmod +x` muss es ausführbar gemacht werden. Sketches werden nun mit folgendem Befehl gestartet:
+
+```bash
+processing-py.sh mein-sketch.pyde
+```
+
+Damit das funktioniert, muss eine Datei mit Namen `processing-py.jar` im selben Ordner liegen. Diese wird mit `ant jar` erstellt. Dazu müssen `ant` und `antlr` installiert sein. Außerdem müssen `processing` und `processing-video` neben dem Verzeichnis `processing-py` liegen. Beide Ordner 
 
 ### Package anpassen
 
