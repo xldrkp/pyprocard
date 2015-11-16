@@ -12,7 +12,9 @@ Processing.py-Sketche werden aus Atom über die Kommandozeile gestartet. Dazu mu
 processing-py.sh mein-sketch.pyde
 ```
 
-Damit das funktioniert, muss eine Datei mit Namen `processing-py.jar` im selben Ordner liegen. Diese wird mit `ant jar` erstellt. Dazu müssen `ant` und `antlr` installiert sein. Außerdem müssen `processing` und `processing-video` neben dem Verzeichnis `processing-py` liegen. Beide Ordner 
+Damit das funktioniert, muss eine Datei mit Namen `processing-py.jar` im selben Ordner liegen. Diese wird mit `ant jar` erstellt. Dazu müssen `ant` und `antlr` installiert sein. Außerdem müssen `processing` und `processing-video` neben dem Verzeichnis `processing-py` liegen. Beide Projekte sind auch bei Github zu finden. Weitere Informationen zu diesem Vorgang finden sich bei [Github](https://github.com/jdf/processing.py/issues/96).
+
+Während des Buildprozesses wird eine JRE-Datei von Oracle heruntergeladen. Hierbei kann es zu Problemen kommen, die durch manuelles Laden der Datei behoben werden können. Die URL wird in der Fehlermeldung angezeigt. Die Datei muss anschließend in einem zu erstellenden Ordner `linux` im Ordner `processing.py` abgelegt werden.
 
 ### Package anpassen
 
