@@ -16,6 +16,8 @@ Damit das funktioniert, muss eine Datei mit Namen `processing-py.jar` im selben 
 
 Während des Buildprozesses wird eine JRE-Datei von Oracle heruntergeladen. Hierbei kann es zu Problemen kommen, die durch manuelles Laden der Datei behoben werden können. Die URL wird in der Fehlermeldung angezeigt. Die Datei muss anschließend in einem zu erstellenden Ordner `linux` im Ordner `processing.py` abgelegt werden.
 
+Ist der Buildprozess gelungen, liegt die Datei `processing-py.jar` im Unterordner `works`.
+
 ### Package anpassen
 
 Die folgende Zeile in `lib/processing.coffee` muss verändert werden:
