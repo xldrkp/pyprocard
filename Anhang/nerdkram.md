@@ -22,7 +22,7 @@ Ist der Buildprozess gelungen, liegt die Datei `processing-py.jar` im Unterordne
 
 Nun sollte auf der Kommandozeile das Ausführen von `pyde`-Programmen möglich sein. Der Developer-Mode von Atom gibt Aufschluss über Fehler und Warnungen.
 
-### Package anpassen
+### Atom-Package anpassen
 
 Um `pyde`-Programme aus Atom heraus ausführbar zu machen, muss das oben genannte Package von *bleikamp* geringfügig angepasst werden.
 
