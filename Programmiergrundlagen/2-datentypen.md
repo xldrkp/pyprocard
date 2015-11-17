@@ -70,3 +70,4 @@ Wollen wir Python herausfinden lassen, wieviele Elemente sich in einer Liste bef
 lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
+
