@@ -70,19 +70,3 @@ Wollen wir Python herausfinden lassen, wieviele Elemente sich in einer Liste bef
 lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
-
-
-
-```python
-size(150, 150)
-lottozahlen = [3, 5, 8, 13, 22, 31]
-text("Es sind " + str(len(lottozahlen)) + " Lose im Hut.", 10, height/2)
-```
-
-Der Ausdruck in Zeile 3 gibt einen String als Text auf der Leinwand aus. Dieser wird aus festen und variablen Bestandteilen zusammengesetzt. Der Ausdruck `str(len(lottozahlen))` wird von innen nach außen abgearbeitet: Zunächst wird mit `len(lottozahlen)` die *Anzahl* der Elemente in der Liste ermittelt, anschließend wird mit `str()` der Datentyp von *int* zu *str* konvertiert, also umgewandelt. Wenn wir den Datentyp des Rückgabewerts (vgl. Kapitel Funktionen mit Rückgabewert) ermitteln, 
-
-```python
-print(type(len(lottozahlen))) # Ausgabe: <type 'int'>
-```
-
-stellen wir fest, dass es sich um eine Ganzzahl handelt. Ein Test 
