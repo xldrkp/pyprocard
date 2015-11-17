@@ -64,12 +64,14 @@ Die Zählung der Elemente in einer Liste beginnt bei 0.
 
 In der Liste `lottozahlen` befinden sich folglich sechs Elemente, deren Positionen in der Liste mit *0, 1, 2, 3, 4 und 5* angegeben werden können.
 
-Wollen wir herausfinden, wieviele Elemente sich in einer Liste befinden, können wir die Python-Funktion `len()` verwenden:
+Wollen wir Python herausfinden lassen, wieviele Elemente sich in einer Liste befinden, können wir die Funktion `len()` verwenden:
 
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
+
+
 
 ```python
 size(150, 150)
