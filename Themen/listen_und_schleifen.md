@@ -83,9 +83,15 @@ erklärt weitere Methoden des Listenobjekts und sollte in diesem Zusammenhang st
 
 ### Beispiel: Koordinaten speichern
 
-Im Kapitel [Datentypen](../Programmiergrundlagen/2-datentypen.html) wird eine besondere Eigenschaft von Listen genannt, die sehr nützlich für die Arbeit mit Positionskoordinaten in Processing ist. Listen können wiederum Listen speichern und sind damit bestens geeignet, eine Matrix abzubilden.
+Im Kapitel [Datentypen](../Programmiergrundlagen/2-datentypen.html) wird eine besondere Eigenschaft von Listen genannt, die sehr nützlich für die Arbeit mit Positionskoordinaten in Processing ist: Listen können wiederum Listen speichern und sind damit bestens geeignet, eine Matrix abzubilden.
 
+Dazu ist es zunächst notwendig, dass wir uns ansehen, wie eine einfache 3x3-Matrix mit einer Python-Liste aufgebaut ist:
 
+```python
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+```
+
+Hier ist 
 
 ### Lernvorschläge
 
