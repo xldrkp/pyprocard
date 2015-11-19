@@ -61,21 +61,23 @@ def setup():
     # Leere Liste erzeugen
     lottozahlen = []
     
-    # 6 aus 49 erzeugen
+    # 6 Zufallszahlen ...
     for i in range(6):
         
-        zufallszahl = random(1,50)
-        gerundet = round(zufallszahl)
-        ganzzahl = int(gerundet)
+        # ... aus 49 erzeugen
+        zufallszahl = random(0,49)
+        aufgerundet = ceil(zufallszahl)
         
         # Bei jedem Durchlauf die neue Zahl
         # an die Liste dranhängen (append)
-        lottozahlen.append(ganzzahl)
+        lottozahlen.append(aufgerundet)
     
     # Am Ende die Liste sortieren    
     lottozahlen.sort()
     print(lottozahlen)
 ```
+
+Neu sind hier zwei *Methoden* des Listenobjekts `lottozahlen`. `append()` und `sort()` sind **Methoden der Klasse *list*** und werden daher mit dem *Punktoperator* direkt mit dem Objekt verbunden. Weitere Details zu diesem Konzept finden sich im Kapitel 
 
 ### Lernvorschläge
 
