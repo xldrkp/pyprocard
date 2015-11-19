@@ -32,9 +32,9 @@ Python kennt noch eine Zahl weiterer Datentypen, die aber für den Einstieg mit 
 
 ### Der Datentyp *list*
 
-Dem Datentyp *list* soll an dieser Stelle besondere Aufmerksamkeit geschenkt werden, da er für die Arbeit mit Processing viele interessante Möglichkeiten eröffnet.
+Dem Datentyp *list* soll an dieser Stelle besondere Aufmerksamkeit geschenkt werden, da er für die Arbeit mit Processing viele interessante Möglichkeiten eröffnet. In anderen Programmiersprachen erfüllt der Datentyp *array* ähnliche Zwecke.
 
-Eine Liste in Python kann leer sein oder beliebig viele Objekte beinhalten.
+In Python ist alles ein Objekt. Eine Liste speichert kann leer sein, beliebig viele gleiche oder unterschiedliche Objekte enthalten (z.B. Strings, Booleans, Numbers) und auch selbst wieder Listen enthalten.
 
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
