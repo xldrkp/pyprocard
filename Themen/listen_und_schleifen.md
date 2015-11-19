@@ -51,6 +51,32 @@ Das Ergebnis ähnelt start der Ansicht aus dem [Browsertool](https://color.adobe
 
 ![Farbthema "Backstein"](../images/backstein.png)
 
+### Beispiel: Eine Liste mit zufälligen Werten füllen
+
+In der Datenverarbeitung muss man häufig eine Reihe von Werten zwischenspeichern, um später mit ihnen weiterzuarbeiten. Wir konstruieren einen solchen Fall mit der Auslosung der Lottozahlen:
+
+```python
+def setup():
+
+    # Leere Liste erzeugen
+    lottozahlen = []
+    
+    # 6 aus 49 erzeugen
+    for i in range(6):
+        
+        zufallszahl = random(1,50)
+        gerundet = round(zufallszahl)
+        ganzzahl = int(gerundet)
+        
+        # Bei jedem Durchlauf die neue Zahl
+        # an die Liste dranhängen (append)
+        lottozahlen.append(ganzzahl)
+    
+    # Am Ende die Liste sortieren    
+    lottozahlen.sort()
+    print(lottozahlen)
+```
+
 ### Lernvorschläge
 
 * Wandele das Programm "Farbthema" so ab, dass es durch Tasten- oder Mausinteraktion immer neue, zufällige Farbthemen erzeugt.
