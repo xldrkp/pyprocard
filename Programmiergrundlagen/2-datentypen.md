@@ -46,7 +46,7 @@ Für Listen lassen sich folgende Eigenschaften angeben:
 lottozahlen = [3, 5, 8, 13, 22, 31]
 ```
 
-Hier wird unter dem Namen `lottozahlen` eine Reihe von Ganzzahlen gespeichert. Es ist ratsam, den Namen der Variablen, die die Liste speichert, im Plural zu wählen. So sieht man ihr im ganzen Programm an, dass sie mehrere Werte speichert oder speichern soll.
+Hier wird unter dem Namen `lottozahlen` eine Liste von Ganzzahlen gespeichert. Es ist ratsam, den Namen der Variablen, die die Liste speichert, im Plural zu wählen. So sieht man ihr im ganzen Programm an, dass sie mehrere Werte speichert oder speichern soll.
 
 Python stellt eine praktische Funktion zur Verfügung, mit der sich der Datentyp einer Variablen ermitteln lässt: `type()`. In der Processing-IDE können wir sie folgendermaßen einsetzen:
 
@@ -55,7 +55,9 @@ lottozahlen = [3, 5, 8, 13, 22, 31]
 print(type(lottozahlen)) # Ausgabe: <type 'list'>
 ```
 
-Auf die einzelnen *Elemente* der Liste kann mit dem Index-Operator zugegriffen werden:
+So lässt sich der Typ eines jeden Objekts feststellen.
+
+Auf die einzelnen *Elemente* der Liste kann mit dem *Index-Operator* zugegriffen werden:
 
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
@@ -65,7 +67,7 @@ text(lottozahlen[0], width/2, height/2)
 Die Leinwand sollte in der Mitte eine "3" zeigen, und das Prinzip des Index-Operators wird deutlich:
 
 <div class="box">
-Die Zählung der Elemente in einer Liste beginnt bei 0.
+Die Zählung der Elemente in einer Liste beginnt bei 0. Die Position in einer Liste wird in der englischen Literatur auch als *offset* bezeichnet.
 </div>
 
 Der Index-Operator eignet sich nicht nur zum Auslesen von Werten, sondern auch zum Ändern von Elementen in der Liste:
