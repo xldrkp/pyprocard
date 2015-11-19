@@ -30,7 +30,7 @@
    * [Schriften einsetzen](Themen/schriften_einsetzen.md)
    * [Bilder und Videos einbinden](Programmiergrundlagen/11-bilder-und-videos.md)
    * [Bibliotheken verwenden](Programmiergrundlagen/12-bibliotheken-verwenden.md)
-   * Listen und Schleifen
+   * [Listen und Schleifen](Themen/listen_und_schleifen.md)
 * [Anhang](Anhang/0-einleitung.md)
    * [Literatur](Anhang/99-literatur.md)
    * [Bekannte Probleme](Anhang/bekannte_probleme.md)
