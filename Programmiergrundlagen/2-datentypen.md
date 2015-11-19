@@ -93,7 +93,8 @@ print(len(lottozahlen)) # Ausgabe: 6
 ```
 
 Listen in Python sind ganz wesentlich für die Bewältigung alltäglicher Programmierprobleme. Daher sind sie anderer Stelle (s. [
-Literaturverzeichnis](../Anhang/99-literatur.html) ausführlich dokumentiert. In diesem Skript widmet sich das Kapitel XYZ den Möglichkeiten von Listen im Zusammenhang mit Processing.
+Literaturverzeichnis](../Anhang/99-literatur.html) ausführlich dokumentiert. In diesem Skript widmet sich das Kapitel [
+Listen und Schleifen](../Themen/listen_und_schleifen.html) den Möglichkeiten von Listen im Zusammenhang mit Processing.
 
 ### Lernvideos zum Thema
 
