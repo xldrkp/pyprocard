@@ -97,7 +97,9 @@ Die äußeren eckigen Klammern umfassen die äußere Liste. Darin sind drei Elem
 print(matrix[1]) # Ausgabe: [4, 5, 6]
 ```
 
-Durch einen zweiten Indexoperator können wir nun auch auf 
+Durch einen zweiten Indexoperator können wir nun auch auf die Elemente der inneren Listen zugreifen:
+
+
 
 ### Lernvorschläge
 
