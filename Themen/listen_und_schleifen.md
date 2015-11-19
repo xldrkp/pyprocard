@@ -160,7 +160,7 @@ def keyPressed():
 
 ```
 
-Zum Auslesen der Koordinatenliste haben wir hier keine Schleife verwendet, sondern mit einem Zähler gearbeitet, der *global* im ganzen Programm verfügbar ist. Dieses Konzept ist bewährt und wird häufig zum *Austausch von Zuständen* unter Funktionen und Methoden angewandt.
+Zum Auslesen der Koordinatenliste haben wir hier keine Schleife verwendet, sondern mit einem Zähler gearbeitet, der *global* im ganzen Programm verfügbar ist. Dieses Konzept ist bewährt und wird häufig zum *Austausch von Zuständen* zwischen Funktionen und Objekten angewandt.
 
 ### Lernvorschläge
 
