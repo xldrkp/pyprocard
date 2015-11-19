@@ -42,9 +42,6 @@ Für Listen lassen sich folgende Eigenschaften angeben:
 * Listen sind beliebig verschachtelbar. Das heißt, dass Listen wiederum Listen als Elemente enthalten können.
 *  Listen können zur Laufzeit des Programms wachsen, schrumpfen.
 
-
-
-
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
 ```
