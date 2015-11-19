@@ -2,7 +2,7 @@
 
 Der Datentyp *list* wird im Kapitel [Datentypen](../Programmiergrundlagen/2-datentypen.html) schon vorgestellt. Im folgenden Abschnitt sollen die Möglichkeiten von Listen für Processing behandelt werden.
 
-### Beispiel: Farbthema
+### Beispiel: Farbthema - Werte einer Liste auslesen
 
 Inspiriert vom Farbentool [Adobe Color CC](https://color.adobe.com/de/create/color-wheel/) wollen wir analog ein Farbthema mit Processing visualisieren.
 
@@ -15,7 +15,9 @@ def setup():
     size(500, 350)
     noStroke()
     # Die hexadezimalen Farbwerte von "Backstein"
-    # als Strings in einer Liste
+    # als Strings in einer Liste.
+    # Siehe hierzu das Beispiel in der IDE
+    # "Python Mode Differences -> LiteralColors"
     farben = ["#B01E1F", 
             "#E82407", 
             "#FF5214", 
