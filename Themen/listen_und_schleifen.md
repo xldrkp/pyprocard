@@ -77,7 +77,9 @@ def setup():
     print(lottozahlen)
 ```
 
-Neu sind hier zwei *Methoden* des Listenobjekts `lottozahlen`. `append()` und `sort()` sind **Methoden der Klasse *list*** und werden daher mit dem *Punktoperator* direkt mit dem Objekt verbunden. Weitere Details zu diesem Konzept finden sich im Kapitel 
+Neu sind hier zwei *Methoden* des Listenobjekts `lottozahlen`. `append()` und `sort()` sind **Methoden der Klasse *list*** und werden daher mit dem *Punktoperator* direkt mit dem Objekt verbunden. Weitere Details zu diesem Konzept finden sich im Kapitel [Objektorientierte Programmierung](../Programmiergrundlagen/10-oop.html). Die Referenz von
+[Processing.py](http://py.processing.org/reference/)
+erklärt weitere Methoden des Listenobjekts und sollte in diesem Zusammenhang studiert werden.
 
 ### Lernvorschläge
 
