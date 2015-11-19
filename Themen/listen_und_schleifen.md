@@ -81,6 +81,12 @@ Neu sind hier zwei *Methoden* des Listenobjekts `lottozahlen`. `append()` und `s
 [Processing.py](http://py.processing.org/reference/)
 erklärt weitere Methoden des Listenobjekts und sollte in diesem Zusammenhang studiert werden.
 
+### Beispiel: Koordinaten speichern
+
+Im Kapitel [Datentypen](../Programmiergrundlagen/2-datentypen.html) wird eine besondere Eigenschaft von Listen genannt, die sehr nützlich für die Arbeit mit Positionskoordinaten in Processing ist. Listen können wiederum Listen speichern und sind damit bestens geeignet, eine Matrix abzubilden.
+
+
+
 ### Lernvorschläge
 
 * Wandele das Programm "Farbthema" so ab, dass es durch Tasten- oder Mausinteraktion immer neue, zufällige Farbthemen erzeugt.
