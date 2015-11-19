@@ -91,9 +91,15 @@ Dazu ist es zunächst notwendig, dass wir uns ansehen, wie eine einfache 3x3-Mat
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 ```
 
-Hier ist 
+Die äußeren eckigen Klammern umfassen die äußere Liste. Darin sind drei Elemente enthalten, die jeweils eine Liste repräsentieren. Wir können die Elemente der äußeren Liste folgendermaßen ansprechen:
+
+```python
+print(matrix[1]) # Ausgabe: [4, 5, 6]
+```
+
+Durch einen zweiten Indexoperator können wir nun auch auf 
 
 ### Lernvorschläge
 
 * Wandele das Programm "Farbthema" so ab, dass es durch Tasten- oder Mausinteraktion immer neue, zufällige Farbthemen erzeugt.
-
+* Schreibe ein Programm, das die Bewegung der Maus über die Leinwand speichert. Sobald die linke Maustaste gedrückt wird, soll der Pfad der Maus sichtbar werden.
