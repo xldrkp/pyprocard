@@ -2,7 +2,7 @@
 
 Der Datentyp *list* wird im Kapitel [Datentypen](../Programmiergrundlagen/2-datentypen.html) schon vorgestellt. Im folgenden Abschnitt sollen die Möglichkeiten von Listen für Processing behandelt werden.
 
-### Beispiel: Farbthemen
+### Beispiel: Farbthema
 
 Inspiriert vom Farbentool [Adobe Color CC](https://color.adobe.com/de/create/color-wheel/) wollen wir analog ein Farbthema mit Processing visualisieren.
 
@@ -42,10 +42,14 @@ def setup():
         rect(rect_pos_x, 0, breite, height)
         # Position fürs nächste Rechteck errechnen
         rect_pos_x += breite
-        
-
-
-
 ```
 
+Das Ergebnis ähnelt start der Ansicht aus dem [Browsertool](https://color.adobe.com/de/Backstein-color-theme-7211262/?showPublished=true)
+.
+
+![Farbthema "Backstein"](../images/backstein.png)
+
+### Lernvorschläge
+
+* Wandele das Programm "Farbthema" so ab, dass es durch Tasten- oder Mausinteraktion immer neue, zufällige Farbthemen erzeugt.
 
