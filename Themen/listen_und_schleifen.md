@@ -110,7 +110,7 @@ print(matrix[1][2]) # Ausgabe: 6
 
 Immer dran denken, dass der Index in Listen bei `0` beginnt!
 
-Das Speichern von Werten des Koordinatensystems folgt diesem Ansatz. Wir schreiben ein Programm, dass die Positionen von 100 Bällen zufällig generiert und in einer Liste speichert. Mit jedem Klick der Maus können wir einen Ball auf die Leinwand werfen. Mit dem Druck der Leertaste können wir die Leinwand löschen und dann wieder Bälle auf die Leinwand werfen - **an denselben Koordinaten wie zuvor!** Letzteres ist ausschlaggebend: Zufällige Koordinaten werden einmal generiert und dann immer wieder verwendet.
+Das Speichern von Werten des Koordinatensystems folgt diesem Ansatz. Wir schreiben ein Programm, das die Positionen von 100 Bällen zufällig generiert und in einer Liste speichert. Mit jedem Klick der Maus können wir einen Ball auf die Leinwand werfen. Mit dem Druck der Leertaste können wir die Leinwand löschen und dann wieder Bälle auf die Leinwand werfen - **an denselben Koordinaten wie zuvor!** Letzteres ist ausschlaggebend: Zufällige Koordinaten werden einmal generiert und dann immer wieder verwendet.
 
 ```python
 # Global verfügbare Liste für die Koordinaten
