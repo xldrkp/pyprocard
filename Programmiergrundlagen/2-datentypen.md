@@ -90,6 +90,8 @@ lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
 
+
+
 ### Lernvorschläge
 
 *  Das Kapitel bei Lutz (2013, S. 239 ff.) ist sehr empfehlenswert, um alle weiteren Eigenschaften und Möglichkeiten von Listen genauer zu studieren. Die [Python-Referenz](https://docs.python.org/2.7/library/stdtypes.html#sequence-types-str-unicode-list-tuple-bytearray-buffer-xrange) führt auch ins Thema Listen ein.
