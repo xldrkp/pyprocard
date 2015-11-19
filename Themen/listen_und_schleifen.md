@@ -89,6 +89,11 @@ Dazu ist es zunächst notwendig, dass wir uns ansehen, wie eine einfache 3x3-Mat
 
 ```python
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+# Hilfreiche und mögliche Notationsweise:
+matrix = [ [1,2,3],
+           [4,5,6],
+           [7,8,9] ]
 ```
 
 Die äußeren eckigen Klammern umfassen die äußere Liste. Darin sind drei Elemente enthalten, die jeweils eine Liste repräsentieren. Wir können die Elemente der äußeren Liste folgendermaßen ansprechen:
@@ -104,6 +109,8 @@ print(matrix[1][2]) # Ausgabe: 6
 ```
 
 Immer dran denken, dass der Index in Listen bei `0` beginnt!
+
+Das Speichern von Werten des Koordinatensystems folgt 
 
 ### Lernvorschläge
 
