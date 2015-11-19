@@ -110,7 +110,55 @@ print(matrix[1][2]) # Ausgabe: 6
 
 Immer dran denken, dass der Index in Listen bei `0` beginnt!
 
-Das Speichern von Werten des Koordinatensystems folgt 
+Das Speichern von Werten des Koordinatensystems folgt diesem Ansatz. Wir schreiben ein Programm, dass die Positionen von 100 Bällen zufällig generiert und in einer Liste speichert. Mit jedem Klick der Maus können wir einen Ball auf die Leinwand werfen. Mit dem Druck der Leertaste können wir die Leinwand löschen und dann wieder Bälle auf die Leinwand werfen - **an denselben Koordinaten wie zuvor!** Letzteres ist ausschlaggebend: Zufällige Koordinaten werden einmal generiert und dann immer wieder verwendet.
+
+```python
+# Global verfügbare Liste für die Koordinaten
+koordinaten = []
+
+# Zähler
+counter = 0
+
+def setup():
+    size(400, 400)
+    fill(255, 0, 0)
+    background(255)
+
+    # Hundert Werte generieren
+    for i in range(100):
+
+        random_x = random(width)
+        random_y = random(height)
+
+        # Jedes x/y-Paar ist eine Liste mit zwei
+        # Werten, die der äußeren Liste angehängt wird
+        koordinaten.append([random_x, random_y])
+
+def draw():
+    pass
+
+# Bei jedem Klick
+def mouseClicked():
+    global counter, koordinaten
+    
+    # Mithilfe des Counters auf die Koordinaten zugreifen und
+    # einen Kreis zeichnen
+    ellipse(koordinaten[counter][0], koordinaten[counter][1], 10, 10)
+
+    # Solange noch Koordinaten in der Liste sind, 
+    # die nicht ausgelesen wurden, den Zähler erhöhen
+    if counter < len(koordinaten):
+        counter += 1
+
+# Mit Leertaste die Leinwand löschen...
+def keyPressed():
+    global counter
+    if key == " ":
+        # ... und den Zähler auf Null setzen
+        background(255)
+        counter = 0
+
+```
 
 ### Lernvorschläge
 
