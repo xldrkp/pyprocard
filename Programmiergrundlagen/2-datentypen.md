@@ -90,6 +90,8 @@ lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
 
+### Lernvideos zum Thema
+
 Diese und weitere Möglichkeiten zur Arbeit mit Listen werden in der Screencastreihe von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) erklärt:
 
 
