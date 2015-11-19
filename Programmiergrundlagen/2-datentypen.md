@@ -68,10 +68,15 @@ Die Leinwand sollte in der Mitte eine "3" zeigen, und das Prinzip des Index-Oper
 Die Zählung der Elemente in einer Liste beginnt bei 0.
 </div>
 
-Der Index-Operator eignet sich nicht nur zum Auslesen von Werten, sondern auch zum Füllen oder Ändern der Liste. Bspw. hätten wir die Liste auch folgendermaßen definieren können:
+Der Index-Operator eignet sich nicht nur zum Auslesen von Werten, sondern auch zum Ändern von Elementen in der Liste:
 
 ```python
+lottozahlen = [3, 5, 8, 13, 22, 31]
 
+# Ändern des Elements an fünfter(!) Stelle
+lottozahlen[4] = 99
+
+print(lottozahlen) #  Ausgabe: [3, 5, 8, 13, 99, 31]
 ```
 
 In der Liste `lottozahlen` befinden sich folglich sechs Elemente, deren Positionen in der Liste mit *0, 1, 2, 3, 4 und 5* angegeben werden können.
