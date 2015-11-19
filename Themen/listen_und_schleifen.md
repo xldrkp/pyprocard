@@ -167,7 +167,7 @@ Zum Auslesen der Koordinatenliste haben wir hier keine Schleife verwendet, sonde
 * Wandele das Programm "Farbthema" so ab, dass es durch Tasten- oder Mausinteraktion immer neue, zufällige Farbthemen erzeugt.
 * Schreibe ein Programm, das die Bewegung der Maus über die Leinwand speichert. Sobald die linke Maustaste gedrückt wird, soll der Pfad der Maus sichtbar werden.
 * Suche im Internet ein Zitat, das dir gefällt. Speichere die einzelnen Wörter in einer Liste und animiere sie anschließend. Dabei kannst Du Maus- und Tasteninteraktion, Größen- und Schriftartveränderung und farbliche Spielereien einbauen.
-* Baue eine Diashow mit Bildern, die du in einer Liste speicherst.
+* Baue eine Diashow mit Bildern, die in einer Liste gespeichert sind.
 * Realisiere einen Button mit vier Bildern, die je nach Mausaktion angezeigt werden:
     * keine Interaktion: erstes Bild
     * mouseOver: zweites Bild
