@@ -99,7 +99,11 @@ print(matrix[1]) # Ausgabe: [4, 5, 6]
 
 Durch einen zweiten Indexoperator können wir nun auch auf die Elemente der inneren Listen zugreifen:
 
+```python
+print(matrix[1][2]) # Ausgabe: 6
+```
 
+Immer dran denken, dass der Index in Listen bei `0` beginnt!
 
 ### Lernvorschläge
 
