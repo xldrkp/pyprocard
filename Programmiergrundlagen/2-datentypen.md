@@ -32,7 +32,7 @@ Python kennt noch eine Zahl weiterer Datentypen, die aber für den Einstieg mit 
 
 ### Der Datentyp *list*
 
-Dem Datentyp *list* soll an dieser Stelle besondere Aufmerksamkeit geschenkt werden, da er für die Arbeit mit Processing viele interessante Möglichkeiten eröffnet. In anderen Programmiersprachen erfüllt der Datentyp *array* ähnliche Zwecke.
+Dem Datentyp *list* soll an dieser Stelle besondere Aufmerksamkeit geschenkt werden, da er für die Arbeit mit Processing und Python viele interessante Möglichkeiten eröffnet. In anderen Programmiersprachen erfüllt der Datentyp *array* ähnliche Zwecke.
 
 Für Listen lassen sich folgende Eigenschaften angeben:
 
@@ -41,6 +41,8 @@ Für Listen lassen sich folgende Eigenschaften angeben:
 * Die Elemente in Listen sind von links nach rechts geordnet, sodass die Elemente durch Angabe ihrer Position angesprochen werden können.
 * Listen sind beliebig verschachtelbar. Das heißt, dass Listen wiederum Listen als Elemente enthalten können.
 *  Listen können zur Laufzeit des Programms wachsen, schrumpfen.
+
+### Beispiel: Lottozahlen
 
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
@@ -67,7 +69,7 @@ text(lottozahlen[0], width/2, height/2)
 Die Leinwand sollte in der Mitte eine "3" zeigen, und das Prinzip des Index-Operators wird deutlich:
 
 <div class="box">
-Die Zählung der Elemente in einer Liste beginnt bei 0. Die Position in einer Liste wird in der englischen Literatur auch als *offset* bezeichnet.
+Die Zählung der Elemente in einer Liste beginnt bei 0. Die Position in einer Liste wird in der englischen Literatur auch als <em>offset</em> bezeichnet.
 </div>
 
 Der Index-Operator eignet sich nicht nur zum Auslesen von Werten, sondern auch zum Ändern von Elementen in der Liste:
@@ -89,6 +91,9 @@ Wollen wir Python herausfinden lassen, wieviele Elemente sich in einer Liste bef
 lottozahlen = [3, 5, 8, 13, 22, 31]
 print(len(lottozahlen)) # Ausgabe: 6
 ```
+
+Listen in Python sind ganz wesentlich für die Bewältigung alltäglicher Programmierprobleme. Daher sind sie anderer Stelle (s. [
+Literaturverzeichnis](../Anhang/99-literatur.html) ausführlich dokumentiert. In diesem Skript widmet sich das Kapitel 
 
 ### Lernvideos zum Thema
 
