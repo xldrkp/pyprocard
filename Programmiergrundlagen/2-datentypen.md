@@ -109,4 +109,12 @@ _**Video**: "[Python-Programmierung - weitere Listen-Methoden ](https://youtu.be
 " von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
 ### Lernvorschläge
 
+{% youtube %}https://youtu.be/vw3-jMTAaHQ?list=PLD20BEE125C1FC7B1{% endyoutube %}
+
+_**Video**: "[Python-Programmierung - Listen-Index](https://youtu.be/vw3-jMTAaHQ?list=PLD20BEE125C1FC7B1)
+" von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
+### Lernvorschläge
+
+
+
 *  Das Kapitel bei Lutz (2013, S. 239 ff.) ist sehr empfehlenswert, um alle weiteren Eigenschaften und Möglichkeiten von Listen genauer zu studieren. Die [Python-Referenz](https://docs.python.org/2.7/library/stdtypes.html#sequence-types-str-unicode-list-tuple-bytearray-buffer-xrange) führt auch ins Thema Listen ein.
