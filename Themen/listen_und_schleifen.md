@@ -90,7 +90,7 @@ Dazu ist es zunächst notwendig, dass wir uns ansehen, wie eine einfache 3x3-Mat
 ```python
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 
-# Hilfreiche und mögliche Notationsweise:
+# Hilfreiche alternative Notationsweise:
 matrix = [ [1,2,3],
            [4,5,6],
            [7,8,9] ]
