@@ -34,7 +34,17 @@ Python kennt noch eine Zahl weiterer Datentypen, die aber für den Einstieg mit 
 
 Dem Datentyp *list* soll an dieser Stelle besondere Aufmerksamkeit geschenkt werden, da er für die Arbeit mit Processing viele interessante Möglichkeiten eröffnet. In anderen Programmiersprachen erfüllt der Datentyp *array* ähnliche Zwecke.
 
-In Python ist alles ein Objekt. Eine Liste speichert kann leer sein, beliebig viele gleiche oder unterschiedliche Objekte enthalten (z.B. Strings, Booleans, Numbers) und auch selbst wieder Listen enthalten.
+Für Listen lassen sich folgende Eigenschaften angeben:
+
+* Eine Liste kann leer sein, beliebig viele gleiche oder unterschiedliche Objekte enthalten (z.B. Strings, Booleans, Numbers)
+* Man kann Listen auch als *Gruppen* denken. 
+* Die Elemente in Listen sind von links nach rechts geordnet, sodass die Elemente durch Angabe ihrer Position angesprochen werden können.
+* Listen sind beliebig verschachtelbar. Das heißt, dass Listen wiederum Listen als Elemente enthalten können.
+*  Listen können zur Laufzeit des Programms wachsen, schrumpfen.
+
+Das Kapitel bei Lutz (2013, S. 239 ff.) ist sehr empfehlenswert, um alle weiteren Eigenschaften und Möglichkeiten von Listen genauer zu studieren. 
+
+
 
 ```python
 lottozahlen = [3, 5, 8, 13, 22, 31]
@@ -61,6 +71,12 @@ Die Leinwand sollte in der Mitte eine "3" zeigen, und das Prinzip des Index-Oper
 <div class="box">
 Die Zählung der Elemente in einer Liste beginnt bei 0.
 </div>
+
+Der Index-Operator eignet sich nicht nur zum Auslesen von Werten, sondern auch zum Füllen oder Ändern der Liste. Bspw. hätten wir die Liste auch folgendermaßen definieren können:
+
+```python
+
+```
 
 In der Liste `lottozahlen` befinden sich folglich sechs Elemente, deren Positionen in der Liste mit *0, 1, 2, 3, 4 und 5* angegeben werden können.
 
