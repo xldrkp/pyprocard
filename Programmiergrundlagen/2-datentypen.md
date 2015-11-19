@@ -96,7 +96,7 @@ Listen in Python sind ganz wesentlich für die Bewältigung alltäglicher Progra
 Literaturverzeichnis](../Anhang/99-literatur.html)) ausführlich dokumentiert. In diesem Skript widmet sich das Kapitel [
 Listen und Schleifen](../Themen/listen_und_schleifen.html) den Möglichkeiten von Listen im Zusammenhang mit Processing.
 
-### Lernvideos zum Thema
+### Lernvideos zum Thema *Listen*
 
 Diese und weitere Möglichkeiten zur Arbeit mit Listen werden in der Screencastreihe von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) erklärt:
 
