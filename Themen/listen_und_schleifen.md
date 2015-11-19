@@ -34,7 +34,7 @@ def setup():
     
     # Mit einer Schleife iterieren wir über die Liste.
     # Bei jedem Durchlauf enthält farbe einen anderen
-    # Farbwert aus der Liste
+    # Wert aus der Liste.
     for farbe in farben:
         # Füllfarbe ändern
         fill(farbe)
