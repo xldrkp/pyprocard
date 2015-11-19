@@ -93,8 +93,15 @@ print(len(lottozahlen)) # Ausgabe: 6
 Diese und weitere Möglichkeiten zur Arbeit mit Listen werden in der Screencastreihe von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) erklärt:
 
 
+{% youtube %}https://youtu.be/Z-folPNH6ro?list=PLD20BEE125C1FC7B1{% endyoutube %}
 
+_**Video**: "[Python-Programmierung - Listen](https://youtu.be/Z-folPNH6ro?list=PLD20BEE125C1FC7B1)
+" von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
 
+{% youtube %}https://youtu.be/CSkrKxMOv10?list=PLD20BEE125C1FC7B1{% endyoutube %}
+
+_**Video**: "[Python-Programmierung - Listen (Teil 2)](https://youtu.be/CSkrKxMOv10?list=PLD20BEE125C1FC7B1)
+" von [openscreencast](https://www.youtube.com/channel/UC_oJHQiMx9dNkbt2Wz9nicQ) [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)_
 
 ### Lernvorschläge
 
