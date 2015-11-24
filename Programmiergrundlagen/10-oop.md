@@ -15,4 +15,6 @@ Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierun
 * Es kann hupen.
 * Es kann das Verdeck öffnen.
 
+
+
 [^1]: Das Autobeispiel ist in deutscher Sprache gut erklärt in Schmidt (2009, S. 5 ff.), allerdings im Kontext von PHP mit entsprechender Syntax.
