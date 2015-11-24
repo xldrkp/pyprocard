@@ -51,7 +51,49 @@ Methoden werden genauso wie Funktionen definiert - einziger Unterschied an diese
 
 Da die Klassendefinition in einer eigenen Datei liegt, hat das Hauptprogramm keine Kenntnis von ihr. Daher müssen wir die Klassendefinition im Hauptprogramm *importieren*.
 
+```python
+from Smiley import Smiley
 
+def setup():
+    pass
+    
 
+def draw():
+    pass
+```
 
+Die erste Zeile lässt sich so lesen: Aus der Datei `Smiley.py` importiere die darin enthaltene Klasse `Smiley`. Beachte, dass die Dateiendung nicht angegeben wird.
+
+Nun haben wir Zugriff auf die Klasse und können ein erstes Objekt erstellen.
+
+```python
+from Smiley import Smiley
+
+smiley1 = Smiley()
+
+def setup():
+    pass
+    
+def draw():
+    pass
+```
+
+In der neuen Zeile wird der Variablen `smiley1` eine Instanz der Klasse `Smiley` zugewiesen. Das heißt konkret, dass unsere Klassendefinition als Bauanleitung genommen wurde, um daraus ein konkretes Objekt zu erstellen. Weil das so einfach geht, lassen wir uns gleich noch einen zweiten Smiley bauen.
+
+```python
+from Smiley import Smiley
+
+smiley1 = Smiley()
+smiley2 = Smiley()
+
+def setup():
+    pass
+    
+def draw():
+    pass
+```
+
+Unser Smiley ist ja grundsätzlich mit einem minimalen *Können* ausgestattet: Er kann was sagen. Das können wir in unserem Code wie folgt abbilden:
+
+![Stimmungen der Smileys](../images/oop-aussagen-smileys.png)
 
