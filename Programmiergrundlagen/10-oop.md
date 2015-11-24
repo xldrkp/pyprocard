@@ -1,28 +1,17 @@
 ## Objektorientierte Programmierung (OOP)
 
-Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierung zum vorherrschenden Konzept geworden. Um es zu verstehen, sollte man zunächst die Bedeutung des Begriffs *Objektorientierte Programmierung* einmal genauer unter die Lupe nehmen. Wir, die Subjekte, nehmen die Welt außerhalb von uns als *gegenständlich* wahr. Man könnte auch sagen, wir sehen, riechen, hören, schmecken und ertasten die Welt in ihrer Gegenständlichkeit, in ihrer Objekthaftigkeit. Dabei sind wir in der Lage, *Eigenschaften* und *Funktionen* dieser Objekte anzugeben. Wir können sagen, wie etwas *ist* und was etwas *kann*. Ein Beispiel, das in vielen Lehrbüchern über OOP verwendet wird, ist das Auto mit seinen Eigenschaften und Funktionen. Nennen wir ein paar[^1]:
+Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierung zum vorherrschenden Konzept geworden. Um es zu verstehen, sollte man zunächst die Bedeutung des Begriffs *Objektorientierte Programmierung* einmal genauer unter die Lupe nehmen. Wir, die Subjekte, nehmen die Welt außerhalb von uns als *gegenständlich* wahr. Man könnte auch sagen, wir sehen, riechen, hören, schmecken und ertasten die Welt in ihrer Gegenständlichkeit, in ihrer Objekthaftigkeit. Dabei sind wir in der Lage, *Eigenschaften* dieser Objekte anzugeben. Wir können sagen, wie etwas *ist* und was etwas *kann*. Im Kontext von Processing wählen wir ein erstes Beispiel, das wir später in Code umsetzen werden:
 
-### Eigenschaften eines Autos
+### Eigenschaften eines Smileys
 
-* Es ist farbig, z.B. blau.
-* Es hat vier Räder.
-* Es hat ein Lenkrad.
-* Es hat einen Dieselmotor.
+* Er ist farbig.
+* Er kann lächeln oder traurig sein.
 
-### Funktionen eines Autos
-
-* Es kann beschleunigen.
-* Es kann hupen.
-* Es kann das Verdeck öffnen.
-
-Genauso können wir auch andere reale oder virtuelle Gegenstände beschreiben. 
-
-Die Objektorientierte Programmierung überträgt nun diese Weltsicht auf die Strukturierung von Code. Das bildet sich auch in der Syntax einer Sprache ab. Betrachten wir dazu einige Objekte in Python. Da alles in Python ein Objekt ist, müssen wir nicht lange suchen:
-
-```python
-# Eine Zeichenkette (String) und ausgewählte Methoden
+Bemerkenswert ist hier die Qualität der Eigenschaften: Die erste drückt eher einen Zustand aus, die zweite ein Können, eine Funktion. Dieser Unterschied wird in der OOP auch im Code abgebildet.
 
 
-```
+
+
+
 
 [^1]: Das Autobeispiel ist in deutscher Sprache gut erklärt in Schmidt (2009, S. 5 ff.), allerdings im Kontext von PHP mit entsprechender Syntax.
