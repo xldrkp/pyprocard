@@ -6,4 +6,11 @@ Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierun
 
 * Es ist farbig, z.B. blau.
 * Es hat vier Räder.
-* Es 
+* Es hat ein Lenkrad.
+* Es hat einen Dieselmotor.
+
+### Funktionen eines Autos
+
+* Es kann beschleunigen.
+* Es kann hupen.
+* Es kann das Verdeck öffnen.
