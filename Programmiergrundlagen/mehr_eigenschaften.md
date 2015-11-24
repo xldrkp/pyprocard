@@ -71,3 +71,41 @@ smiley2 = Smiley('#0077FF') # blau
 
 Damit das funktioniert, muss die Klassendefinition angepasst werden.
 
+```python
+# -*- coding: utf-8 -*-
+
+class Smiley:    
+    
+    def __init__(self, col):
+        self.col = col
+    
+    def say_something(self, something):
+        print(something)
+        
+    def paint(self, x_pos, y_pos, size_xy):
+        """ Malt einen Smiley auf Basis der übergebenen
+        Argumente. Positionen von Augen und Mund werden
+        aus den Parametern errechnet.
+        """ 
+        ellipseMode(CENTER)
+        
+        ## Füllfarbe setzen
+        fill(self.col)
+        
+        # Körper
+        ellipse(x_pos, y_pos, size_xy, size_xy)
+        
+        # Füllfarbe temporär ändern
+        fill(0)
+        # Auge links
+        ellipse(x_pos - size_xy * .2, y_pos - size_xy * .12, size_xy * .2, size_xy * .2)
+        # Auge rechts
+        ellipse(x_pos + size_xy * .2, y_pos - size_xy * .12, size_xy * .2, size_xy * .2)
+        
+        # Mund
+        noFill()
+        arc(x_pos, y_pos, size_xy * .75, size_xy * .75, radians(25), radians(155));
+        
+        # Füllfarbe zurücksetzen
+        fill(self.col)
+```
