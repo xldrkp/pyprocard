@@ -61,4 +61,10 @@ Das Ergebnis ist schon ganz passabel.
 
 ![Zwei Smileys](../images/zwei-smileys.png)
 
-Im nächsten Schritt sollten wir uns darum kümmern, dem Smiley ein wenig mehr Farbe zu geben. Dabei soll es möglich sein, jedes Objekt unterschiedlich einzufärben.
+Im nächsten Schritt sollten wir uns darum kümmern, dem Smiley ein wenig mehr Farbe zu geben. Dabei soll es möglich sein, jedes Objekt unterschiedlich einzufärben. Die Farbgebung soll schon in dem Moment der Objekterzeugung erfolgen. 
+
+```python
+smiley1 = Smiley('#FFFF00') # gelb
+smiley2 = Smiley('#0000FF') # blau
+```
+
