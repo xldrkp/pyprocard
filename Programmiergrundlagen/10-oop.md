@@ -15,6 +15,14 @@ Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierun
 * Es kann hupen.
 * Es kann das Verdeck öffnen.
 
+Genauso können wir auch andere reale oder virtuelle Gegenstände beschreiben. 
 
+Die Objektorientierte Programmierung überträgt nun diese Weltsicht auf die Strukturierung von Code. Das bildet sich auch in der Syntax einer Sprache ab. Betrachten wir dazu einige Objekte in Python. Da alles in Python ein Objekt ist, müssen wir nicht lange suchen:
+
+```python
+# Eine Zeichenkette (String) und ausgewählte Methoden
+
+
+```
 
 [^1]: Das Autobeispiel ist in deutscher Sprache gut erklärt in Schmidt (2009, S. 5 ff.), allerdings im Kontext von PHP mit entsprechender Syntax.
