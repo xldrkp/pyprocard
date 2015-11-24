@@ -59,6 +59,8 @@ smiley1.say_something("Smiley1: Mir geht's blendend!")
 rufen wir eine Methode des Objekts `smiley1` auf und übergeben ein Argument. Python sucht dann nach der Klasse, aus der das Objekt entstanden ist und darin nach der Methode. Schauen wir uns nochmal den entsprechenden Abschnitt in der Klassendefinition an,
 
 ```python
+class Smiley:
+    
     def say_something(self, something):
         print(something)
 ```
