@@ -35,6 +35,8 @@ class Smiley:
         fill(255)
 ```
 
+Keine Angst vor dem bisschen Mathematik, es sieht schlimmer aus, als es ist. Im Grunde handelt es sich um Prozentrechung, um ausgehend von `size_xy` die Positionen von Augen und Mund korrekt berechnen zu können.
+
 Im Hauptsketch können wir nun richtige Smileys auf die Leinwand zeichnen.
 
 ```python
