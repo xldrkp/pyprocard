@@ -93,6 +93,8 @@ def draw():
     pass
 ```
 
+Wichtig an dieser Stelle ist das Verständnis dafür, dass Python zwei völlig eigenständige Bereiche im Speicher für `smiley1` und `smiley2` verwaltet. Die einzige Gemeinsamkeit der beiden Objekte ist ihre Herkunft, die Klasse `Smiley`.
+
 Unser Smiley ist ja grundsätzlich mit einem minimalen *Können* ausgestattet: Er kann was sagen. Das können wir in unserem Code wie folgt abbilden:
 
 ![Stimmungen der Smileys](../images/oop-aussagen-smileys.png)
@@ -103,4 +105,11 @@ In der Zeile
 smiley1.say_something("Smiley1: Mir geht's blendend!")
 ```
 
-rufen wir eine Methode des Objekts `smiley1` auf und übergeben ein Argument. Python sucht dann nach der Klasse, aus der das Objekt entstanden ist und darin nach der Methode. 
+rufen wir eine Methode des Objekts `smiley1` auf und übergeben ein Argument. Python sucht dann nach der Klasse, aus der das Objekt entstanden ist und darin nach der Methode. Schauen wir uns nochmal den entsprechenden Abschnitt in der Klassendefinition an,
+
+```python
+    def say_something(self, something):
+        print(something)
+```
+fällt unser Blick erneut auf das Schlüsselwort `self`. Es ist dafür zuständig, dass beim Aufruf der Methode nicht das *Klassenobjekt*, sondern das *Instanzobjekt* angesprochen wird. `self` bezieht sich also immer auf ein konkretes Objekt, auf eine Instanz der Klasse, nicht auf die Klasse als Bauplan. Dadurch ist es möglich, unterschiedliche Parameter wie in unserem Beispiel zu übergeben und die Smiley individuelle Aussagen machen zu lassen.
+
