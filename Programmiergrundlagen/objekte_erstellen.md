@@ -65,4 +65,3 @@ class Smiley:
         print(something)
 ```
 fällt unser Blick erneut auf das Schlüsselwort `self`. Es ist dafür zuständig, dass beim Aufruf der Methode nicht das *Klassenobjekt*, sondern das *Instanzobjekt* angesprochen wird. `self` bezieht sich also immer auf ein konkretes Objekt, auf eine Instanz der Klasse, nicht auf die Klasse als Bauplan. Dadurch ist es möglich, unterschiedliche Parameter wie in unserem Beispiel zu übergeben und die Smiley individuelle Aussagen machen zu lassen.
-
