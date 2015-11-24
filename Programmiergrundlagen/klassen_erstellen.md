@@ -97,3 +97,10 @@ Unser Smiley ist ja grundsätzlich mit einem minimalen *Können* ausgestattet: E
 
 ![Stimmungen der Smileys](../images/oop-aussagen-smileys.png)
 
+In der Zeile 
+
+```python
+smiley1.say_something("Smiley1: Mir geht's blendend!")
+```
+
+rufen wir eine Methode des Objekts `smiley1` auf und übergeben ein Argument. Python sucht dann nach der Klasse, aus der das Objekt entstanden ist und darin nach der Methode. 
