@@ -29,3 +29,5 @@ Die Booleschen Werte *True* und *False* werden auch *Wahrheitswerte* genannt und
 *Listen* stellen einen Sammeldatentyp dar. In einer Liste können Werte ganz unterschiedlichen Typs enthalten sein. Kennzeichnend für eine Liste sind die eckigen Klammern, Elemente der Liste werden mit Kommata getrennt.
 
 Python kennt noch eine Zahl weiterer Datentypen, die aber für den Einstieg mit Processing zunächst nicht relevant sind. Weiterführende Informationen finden sich in der [Python-Referenz](https://docs.python.org/2.7/library/stdtypes.html).
+
+In den folgenden Abschnitten sollen die vier vorgenannten Datentypen genauer vorgestellt werden. Im Kapitel [Anwendungsbezogene Themen](../Themen/0-einleitung.html) sind Beispiele zu finden, in denen alle Datentypen eine Rolle spielen.
