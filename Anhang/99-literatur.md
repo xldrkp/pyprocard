@@ -1,5 +1,7 @@
 # Literaturverzeichnis
 
+Bartmann, E. (2010). Processing. Köln: O’Reilly.
+
 Lutz, M. (2013). Learning Python (5. Aufl.). Beijing: O’Reilly.
 
 Passig, K. (2013). Weniger schlecht programmieren. (J. Jander, Hrsg.) (1. Aufl.). O’Reilly Verlag.
