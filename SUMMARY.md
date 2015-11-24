@@ -24,6 +24,7 @@
    * [Objektorientierte Programmierung](Programmiergrundlagen/10-oop.md)
        * [Klassen erstellen](Programmiergrundlagen/klassen_erstellen.md)
        * [Objekte erstellen](Programmiergrundlagen/objekte_erstellen.md)
+       * Mehr Eigenschaften
 * [Arduino](Arduino/0-einleitung.md)
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
