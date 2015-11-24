@@ -61,3 +61,4 @@ Das Ergebnis ist schon ganz passabel.
 
 ![Zwei Smileys](../images/zwei-smileys.png)
 
+Im nächsten Schritt sollten wir uns darum kümmern, 
