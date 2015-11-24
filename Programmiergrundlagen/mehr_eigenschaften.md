@@ -115,5 +115,14 @@ Neu dazu gekommen ist die Definition einer speziellen Methode der Klasse, dem **
 Es besteht also folgender Zusammenhang zwischen Instanziierung eines Objekts der Klasse im Hauptprogramm und dem Konstruktor:
 
 ```python
+# Hauptprogramm
+smiley1 = Smiley('#FFFF00') # gelb
+smiley2 = Smiley('#0077FF') # blau
 
+# Klassendefinition
+class Smiley:
+
+    def __init__(self, col):
+        self.col = col
 ```
+
