@@ -22,3 +22,5 @@ class Smiley:
         ellipse(x_pos + size_xy * .2, y_pos - size_xy * .12, size_xy * .2, size_xy * .2)
 ```
 
+Im Hauptsketch können wir nun richtige Smileys auf die Leinwand zeichnen.
+
