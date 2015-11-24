@@ -56,3 +56,7 @@ def setup():
 def draw():
     pass
 ```
+
+Das Ergebnis ist schon ganz passabel.
+
+![Zwei Smileys](../images/zwei-smileys.png)
