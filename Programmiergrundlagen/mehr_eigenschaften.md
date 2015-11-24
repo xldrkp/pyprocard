@@ -126,3 +126,6 @@ class Smiley:
         self.col = col
 ```
 
+Der Konstruktor speichert die übergebenen Argumente in einer *Instanzvariablen*, hier `col`. Durch die Bindung an `self` wird klar, dass die Farbe nicht zur Klasse, sondern zu jedem einzelnen Objekt gehört.
+
+Im restlichen Code wird nun die Füllfarbe entsprechend gesetzt.
