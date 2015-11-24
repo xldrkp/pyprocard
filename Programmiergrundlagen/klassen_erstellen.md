@@ -36,7 +36,14 @@ class Smiley:
 
 Mit dem Schlüsselwort `class` gefolgt von einem bezeichnenden Substantiv beginnt die Definition. `pass` ist an dieser Stelle wieder nur ein Platzhalter für Code, der später folgt.
 
+Unsere Klasse soll eine erste Eigenschaft in Form einer Funktion bekommen. Sind Funktionen Teil einer Klasse, spricht man von einer *Methode*.
 
+```python
+class Smiley:
+    
+    def say_something(self, something):
+        print(something)
+```
 
 
 
