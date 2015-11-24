@@ -13,7 +13,7 @@
 * [Programmiergrundlagen](Programmiergrundlagen/0-einleitung.md)
    * [Die Befehlsreferenz](Programmiergrundlagen/1-die-referenz.md)
    * [Datentypen](Programmiergrundlagen/2-datentypen.md)
-       * Listen
+       * [Listen](Programmiergrundlagen/listen.md)
    * [Variablen](Programmiergrundlagen/2-variablen.md)
    * [Bedingte Anweisungen und Verzweigungen](Programmiergrundlagen/3-bedingte-anweisungen-und-verzweigungen.md)
    * [Schleifen](Programmiergrundlagen/4-schleifen.md)
