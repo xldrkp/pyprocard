@@ -4,7 +4,7 @@ Um selbst Objekte in Python (und auch anderen objektorientierten Programmierspra
 
 Um mit Klassen in der Processing-IDE bequem arbeiten zu können, wird folgendes Vorgehen empfohlen:
 
-### Neuen Tab für jede Klasse
+### Klassen definieren
 
 Zunächst erstellen wir in der Processing-IDE (Python-Mode) das Grundgerüst eines Processing-Sketches.
 
@@ -45,8 +45,11 @@ class Smiley:
         print(something)
 ```
 
-Methoden werden genauso wie Funktionen definiert - einziger Unterschied an dieser Stelle: Als Argument muss immer `self` übergeben werden.
+Methoden werden genauso wie Funktionen definiert - einziger Unterschied an dieser Stelle: Als Argument muss immer `self` übergeben werden. `self` steht für eine Instanz der Klasse `Smiley`. Dieses Konzept wird in Kürze deutlicher, wenn wir konkrete Objekte bzw. Instanzen aus der Klasse erstellen.
 
+### Objekte erstellen
+
+Da die Klassendefinition in einer eigenen Datei liegt, hat das Hauptprogramm keine Kenntnis von ihr. Daher müssen wir die Klassendefinition im Hauptprogramm *importieren*.
 
 
 
