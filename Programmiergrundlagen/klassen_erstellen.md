@@ -45,6 +45,7 @@ class Smiley:
         print(something)
 ```
 
+Methoden werden genauso wie Funktionen definiert - einziger Unterschied an dieser Stelle: Als Argument muss immer `self` übergeben werden.
 
 
 
