@@ -21,5 +21,9 @@ Den Sketch speichern wir unter dem Namen `Smiley` ab.
 
 Die Processing-IDE unterstützt die Verwaltung von Programmteilen wie Klassen oder Modulen durch Tabs am Kopf des Editorbereichs. Für das Smiley-Beispiel erstellen wir also einen neuen Tab und vergeben den Namen `Smiley`.
 
+![Erstellen eines neuen Tabs in Processing](../images/neuer-tab.png)
+
+
+
 
 
