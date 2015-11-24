@@ -8,10 +8,3 @@ Objektorientierte Programmierung (OOP) ist in vielen Bereichen der Programmierun
 * Er kann lächeln oder traurig sein.
 
 Bemerkenswert ist hier die Qualität der Eigenschaften: Die erste drückt eher einen *Zustand* aus, die zweite ein *Können*, eine Funktion. Dieser Unterschied wird in der OOP auch im Code abgebildet.
-
-
-
-
-
-
-[^1]: Das Autobeispiel ist in deutscher Sprache gut erklärt in Schmidt (2009, S. 5 ff.), allerdings im Kontext von PHP mit entsprechender Syntax.
