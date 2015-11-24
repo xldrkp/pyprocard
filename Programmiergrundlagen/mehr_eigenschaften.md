@@ -109,3 +109,11 @@ class Smiley:
         # Füllfarbe zurücksetzen
         fill(self.col)
 ```
+
+Neu dazu gekommen ist die Definition einer speziellen Methode der Klasse, dem **Konstruktor**. Diese Methode wird **in dem Moment aufgerufen, in dem das Objekt erzeugt wird.** Sollen dabei Argumente berücksichtigt werden, müssen diese bei der *Instanziierung* des Objekts übergeben werden.
+
+Es besteht also folgender Zusammenhang zwischen Instanziierung eines Objekts der Klasse im Hauptprogramm und dem Konstruktor:
+
+```python
+
+```
