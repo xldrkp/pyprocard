@@ -132,4 +132,10 @@ Im restlichen Code wird nun die Füllfarbe entsprechend gesetzt.
 
 ### Zwischenfazit
 
-Die bisherigen Kapitel haben erste Ansätze objektorientierter Programmierung vermittelt. 
+Die bisherigen Kapitel haben erste Ansätze objektorientierter Programmierung vermittelt. Dabei sind folgende Aspekte angesprochen worden:
+
+* Definition eigener Klassen als Baupläne für Objekte
+* Erstellen von Objekten als Instanzen einer Klasse
+* Definition von Funktionen innerhalb der Klassendefinition. Diese nennt man *Methoden*.
+* Verwendung von Instanzvariablen
+* Einsatz und Bedeutung des Schlüsselwortes `self` im Rahmen der Klassendefinition.
