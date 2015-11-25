@@ -129,3 +129,7 @@ class Smiley:
 Der Konstruktor speichert die übergebenen Argumente in einer *Instanzvariablen*, hier `col`. Durch die Bindung an `self` wird klar, dass die Farbe nicht zur Klasse, sondern zu jedem einzelnen Objekt gehört. Der Konstruktor wird immer mit `__init__()` definiert.
 
 Im restlichen Code wird nun die Füllfarbe entsprechend gesetzt.
+
+### Zwischenfazit
+
+Die bisherigen Kapitel haben erste Ansätze objektorientierter Programmierung vermittelt. 
