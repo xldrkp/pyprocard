@@ -130,6 +130,8 @@ Der Konstruktor speichert die übergebenen Argumente in einer *Instanzvariablen*
 
 Im restlichen Code wird nun die Füllfarbe entsprechend gesetzt.
 
+![Bunte Smileys](../images/oop-bunte-smileys.png)
+
 ### Zwischenfazit
 
 Die bisherigen Kapitel haben erste Ansätze objektorientierter Programmierung vermittelt. Dabei sind folgende Aspekte angesprochen worden:
