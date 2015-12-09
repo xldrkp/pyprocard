@@ -17,3 +17,7 @@ Die Eingabe von *minim* in das Filtereingabefeld oben links zeigt die gewünscht
 ![Libraries laden](../images/lib-libraries-laden.png)
 
 Mit der Schaltfläche *Install* wird die Bibliothek heruntergeladen und in der IDE installiert. Dieser Vorgang muss für weitere Sketches nicht wiederholt werden.
+
+Anschließend kann über *Sketch->Library importieren* *minim* ausgewählt werden. Die folgende Abbildung zeigt die entsprechende Codezeile:
+
+![Library importiert](../images/lib-importiert.png)
