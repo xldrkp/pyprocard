@@ -4,7 +4,7 @@ Der Funktionsumfang von Processing kann durch [eine Reihe verschiedener Biblioth
 
 Bei Python spricht man von Modulen statt von Bibliotheken, das Prinzip ist aber dasselbe.
 
-### Eine Bibliothek in einem Processing-Sketch verwenden
+### Eine Bibliothek in einen Processing-Sketch einbinden
 
 Am Beispiel der *minim*-Bibliothek wollen wir herausfinden, wie man eine Bibliothek in Processing einbindet und wie man mit ihr programmiert.
 
@@ -21,3 +21,10 @@ Mit der Schaltfläche *Install* wird die Bibliothek heruntergeladen und in der I
 Anschließend kann über *Sketch->Library importieren* *minim* ausgewählt werden. Die folgende Abbildung zeigt die entsprechende Codezeile:
 
 ![Library importiert](../images/lib-importiert.png)
+
+### Die Referenz der Bibliothek finden und lesen
+
+Zu jeder Bibliothek gehört eine Referenz, die dokumentiert, wie sie zu installieren ist und welche Schnittstelle sie bietet. Im Englischen spricht man auch von *Application Programming Interface (API)*. Hiermit sind alle Funktionen gemeint, die die Bibliothek zum Programmieren zur Verfügung stellt. Die [*minim*-Referenz](http://code.compartmental.net/minim/) ist nicht über die Website von Processing zu finden, jedoch leicht über eine Suchmaschine zu finden.
+
+### Eine Sounddatei mit minim abspielen
+
