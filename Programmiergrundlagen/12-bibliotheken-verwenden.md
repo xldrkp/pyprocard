@@ -12,3 +12,8 @@ Damit die Funktionen der Bibliothek in unserem Sketch bekannt sind und verwendet
 
 ![Library einbinden](../images/lib-library-hinzufuegen.png)
 
+Die Eingabe von *minim* in das Filtereingabefeld oben links zeigt die gewünschte Bibliothek an:
+
+![Libraries laden](../images/lib-libraries-laden.png)
+
+Mit der Schaltfläche *Install* wird die Bibliothek heruntergeladen und in der IDE installiert. Dieser Vorgang muss für weitere Sketches nicht wiederholt werden.
