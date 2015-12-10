@@ -44,7 +44,15 @@ diff = t1 - t0 # Ergebnis: 156613 Millisekunden
 
 Wenn wir also die Differenz zwischen "eben" und "jetzt" errechnen, können wir auch sagen, ob das für unsere Zwecke schon genug vergangene Zeit ist. Gemäß unserem Beispiel wäre erst "genug Zeit" vergangen, wenn `diff` größer oder gleich 200000 ist. Prüfen wir `diff` fortlaufend in der `draw()`, kommt irgendwann der Zeitpunkt, der unser Kriterium erfüllt. In Code können wir diese Gedanken wie folgt abbilden:
 
-
+```python
+wartezeit = 2000 # 2 Sekunden
+    
+def draw():
+    if (millis() > wartezeit):
+        # Ereignis, das erst stattfindet, wenn die 
+        # Wartezeit rum ist
+        ellipse(10,10,10,10)
+```
 
 
 
