@@ -79,5 +79,22 @@ def stop():
 Zum Abschluss dieses Beispiels noch einmal der komplette Code:
 
 ```python
+# minim-Bibliothek laden
+add_library('minim')
 
+def setup():
+    # Ein minim-Objekt erzeugen.
+    minim = Minim(this)
+    # Sounddatei laden und einer Variablen zuweisen
+    song = minim.loadSample('song.mp3')
+    song.trigger()
+
+def draw():
+    pass
+        
+def stop():
+    # Ausführung von Minim in diesem Sketch stoppen
+    minim.stop()
+    # Ausführung von Minim in der übergeordneten Klasse stoppen 
+    super.stop()
 ```
