@@ -33,4 +33,7 @@ Ausgehen von den Eigenschaften von `millis()` können wir einen Timer bauen, der
 - ein Ereignis tritt **einmalig** nach einer bestimmten Zeit ein
 - ein Ereignis tritt **wiederholt** nach einer bestimmten Zeit ein
 
+Zunächst etwas zur Logik des Timers. Wenn wir durch `millis()` jederzeit wissen, wie lange der Sketch schon läuft, dann können wir auch immer sagen, wieviel Zeit seit einem bestimmten Zeitpunkt vergangen ist.
+
+Ein Beispiel: t0 = 
 
