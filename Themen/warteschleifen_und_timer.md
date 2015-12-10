@@ -42,6 +42,9 @@ t1 = 1032847 # Millisekunden
 diff = t1 - t0 # Ergebnis: 156613 Millisekunden
 ```
 
-Wenn wir also die Differenz zwischen "eben" und "jetzt" errechnen, können wir auch sagen, ob das für unsere Zwecke schon genug vergangene Zeit ist.
+Wenn wir also die Differenz zwischen "eben" und "jetzt" errechnen, können wir auch sagen, ob das für unsere Zwecke schon genug vergangene Zeit ist. Gemäß unserem Beispiel wäre erst "genug Zeit" vergangen, wenn `diff` größer oder gleich 200000 ist. Prüfen wir `diff` fortlaufend in der `draw()`, kommt irgendwann der Zeitpunkt, der unser Kriterium erfüllt. In Code können wir diese Gedanken wie folgt abbilden:
+
+
+
 
 
