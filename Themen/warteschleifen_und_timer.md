@@ -36,13 +36,14 @@ Ausgehend von den Eigenschaften von `millis()` können wir Timer bauen, die zwei
 Zunächst etwas zur Logik des Timers. Wenn wir durch `millis()` jederzeit wissen, wie lange der Sketch schon läuft, dann können wir auch immer sagen, wieviel Zeit seit einem bestimmten Zeitpunkt vergangen ist.
 
 ```python
-t0 = 876234  # "eben" in Millisekunden
-t1 = 1032847 # "jetzt" in Millisekunden
+genug = 200000 # in Millisekunden
+t0    = 876234  # "eben" in Millisekunden
+t1    = 1032847 # "jetzt" in Millisekunden
 
 diff = t1 - t0 # Ergebnis: 156613 Millisekunden
 ```
 
-Wenn wir also die Differenz zwischen "eben" und "jetzt" errechnen, können wir auch sagen, ob das für unsere Zwecke schon genug vergangene Zeit ist. Gemäß unserem Beispiel wäre erst "genug Zeit" vergangen, wenn `diff` größer oder gleich 200000 ist. Prüfen wir `diff` fortlaufend in der `draw()`, kommt irgendwann der Zeitpunkt, der unser Kriterium erfüllt. In Code können wir diese Gedanken wie folgt abbilden:
+Wenn wir also die Differenz zwischen "eben" und "jetzt" errechnen, können wir auch sagen, ob das für unsere Zwecke schon genug vergangene Zeit ist. Gemäß unserem Beispiel wäre erst "genug Zeit" vergangen, wenn `diff` größer oder gleich 200000 ist. Prüfen wir `diff` fortlaufend in der `draw()`, kommt irgendwann der Zeitpunkt, an dem unser Kriterium erfüllt ist. In Code können wir diese Gedanken wie folgt abbilden:
 
 ```python
 wartezeit = 2000 # 2 Sekunden
