@@ -36,8 +36,8 @@ Ausgehen von den Eigenschaften von `millis()` können wir einen Timer bauen, der
 Zunächst etwas zur Logik des Timers. Wenn wir durch `millis()` jederzeit wissen, wie lange der Sketch schon läuft, dann können wir auch immer sagen, wieviel Zeit seit einem bestimmten Zeitpunkt vergangen ist.
 
 ```python
-t0 = 876234  # Millisekunden
-t1 = 1032847 # Millisekunden
+t0 = 876234  # "eben" in Millisekunden
+t1 = 1032847 # "jetzt" in Millisekunden
 
 diff = t1 - t0 # Ergebnis: 156613 Millisekunden
 ```
