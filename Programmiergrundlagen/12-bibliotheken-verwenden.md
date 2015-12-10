@@ -26,7 +26,11 @@ Wenn wir nun unseren Sketch laufen lassen, wird der Code in der externen Bibliot
 
 ### Die Referenz der Bibliothek finden und lesen
 
-Zu jeder Bibliothek gehört eine Referenz, die dokumentiert, wie sie zu installieren ist und welche Schnittstelle sie bietet. Im Englischen spricht man auch von *Application Programming Interface (API)*. Hiermit sind alle Funktionen gemeint, die die Bibliothek zum Programmieren zur Verfügung stellt. Die [*minim*-Referenz](http://code.compartmental.net/minim/) ist nicht über die Website von Processing zu finden, jedoch leicht über eine Suchmaschine zu finden.
+Zu jeder Bibliothek gehört eine Referenz, die dokumentiert, wie sie zu installieren ist und welche Schnittstelle sie bietet. Im Englischen spricht man auch von *Application Programming Interface (API)*. Hiermit sind alle Funktionen gemeint, die die Bibliothek zum Programmieren zur Verfügung stellt. Die [*minim*-Referenz](http://code.compartmental.net/minim/) ist nicht über die Website von Processing, jedoch leicht über eine Suchmaschine zu finden. 
+
+Nahezu alle Referenzen von Bibliotheken enthalten Beispiele in der Java-Syntax, sodass für die Anwendung im Python-Mode die entsprechende Anpassung vorgenommen werden muss.
+
+Durch das Hinzufügen von Bibliotheken aus dem Netz wird auch die Liste der Beispiele in der Processing-IDE erweitert - allerdings auch nur in Java-Syntax.
 
 ### Eine Sounddatei mit minim abspielen
 
