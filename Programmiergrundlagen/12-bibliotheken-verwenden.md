@@ -46,7 +46,7 @@ def setup():
     # Ein minim-Objekt erzeugen.
     minim = Minim(this)
     # Sounddatei laden und einer Variablen zuweisen
-    song = minim.loadSample("snowflake_-_Breathe_the_Sun.mp3")
+    song = minim.loadSample("song.mp3")
 ```
 
 Nichts zu hören? Das liegt daran, dass die mimim-Klasse Methoden bereithält, die das Abspielen von Klängen genau steuern können. Um unseren Song abspielen zu können, reicht eine weitere Zeile:
@@ -74,4 +74,10 @@ def stop():
     minim.stop()
     # Ausführung der übergeordneten Klasse stoppen 
     super.stop()
+```
+
+Zum Abschluss dieses Beispiels noch einmal der komplette Code:
+
+```python
+
 ```
