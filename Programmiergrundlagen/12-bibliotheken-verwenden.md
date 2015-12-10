@@ -30,7 +30,7 @@ Zu jeder Bibliothek gehört eine Referenz, die dokumentiert, wie sie zu installi
 
 Nahezu alle Referenzen von Bibliotheken enthalten Beispiele in der Java-Syntax, sodass für die Anwendung im Python-Mode die entsprechende Anpassung vorgenommen werden muss.
 
-Durch das Hinzufügen von Bibliotheken aus dem Netz wird auch die Liste der Beispiele in der Processing-IDE erweitert - allerdings auch nur in Java-Syntax.
+Durch das Hinzufügen von Bibliotheken aus dem Netz wird auch die Liste der Beispiele in der Processing-IDE erweitert *(Datei -> Beispiele)* - allerdings auch nur in Java-Syntax.
 
 ### Eine Sounddatei mit minim abspielen
 
