@@ -34,5 +34,8 @@ Durch das Hinzufügen von Bibliotheken aus dem Netz wird auch die Liste der Beis
 
 ### Eine Sounddatei mit minim abspielen
 
+Bevor wir eine Sounddatei in unserem Sketch abspielen können, muss diese dem `data`-Ordner hinzugefügt werden. Das kann über den Dateimanager unseres Betriebssystems geschehen oder einfach über *Sketch -> Datei hinzufügen*.
+
+Nun können wir den Code schreiben, der unsere Datei zum Klingen bringt.
 
 
