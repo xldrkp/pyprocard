@@ -72,6 +72,6 @@ Erik Bartmann weist in seinem hervorragenden Processing-Buch darauf hin, dass ma
 def stop():
     # Ausführung von Minim in diesem Sketch stoppen
     minim.stop()
-    # Ausführung von Minim in der übergeordneten Klasse stoppen 
+    # Ausführung der übergeordneten Klasse stoppen 
     super.stop()
 ```
