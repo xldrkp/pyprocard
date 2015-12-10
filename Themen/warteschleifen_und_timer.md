@@ -87,4 +87,4 @@ Der Vorteil dieser Lösung ist, dass sich damit unabhängig voneinander verschie
 
 ### Lernvorschläge
 
-1. Lass mit zeitlichem Abstand Objekte auf der Leinwand erscheinen. Synchronisiere diese Ereignisse mit einem Klang (vgl. dazu das Kapitel [Bibliotheken verwenden](./Themen/bibliotheken-verwenden.html).
+1. Lass mit zeitlichem Abstand Objekte auf der Leinwand erscheinen. Synchronisiere diese Ereignisse mit einem Klang (vgl. dazu das Kapitel [Bibliotheken verwenden](./Themen/bibliotheken-verwenden.html)).
