@@ -2,7 +2,7 @@
 
 Der Funktionsumfang von Processing kann durch [eine Reihe verschiedener Bibliotheken](https://processing.org/reference/libraries/) (engl.: libraries) erweitert werden. Eine Bibliothek ist eine Sammlung von Funktionen oder Klassen, die eine Programmiersprache um weitere Befehle erweitert.
 
-Bei Python spricht man von Modulen statt von Bibliotheken, das Prinzip ist aber dasselbe.
+Bei Python spricht man von Modulen statt von Bibliotheken, das Prinzip ist aber dasselbe. Das Einbinden von Python-Modulen werden wir noch an anderer Stelle besprechen.
 
 ### Eine Bibliothek in einen Processing-Sketch einbinden
 
