@@ -64,4 +64,12 @@ Nichts zu hören? Das liegt daran, dass die mimim-Klasse Methoden bereithält, d
 
 ### Den Sketch korrekt beenden
 
-Erik Bartmann weist in seinem hervorragenden Processing-Buch darauf hin, dass man einen Sketch um die Funktion `stop()` ergänzen sollte. Sie wird aufgerufen, wenn der Sketch beendet wird und gibt Speicherresourcen frei, die *minim* in Anspruch nimmt (Bartmann, 2010). 
+Erik Bartmann weist in seinem hervorragenden Processing-Buch darauf hin, dass man einen Sketch um die Funktion `stop()` ergänzen sollte. Sie wird aufgerufen, wenn der Sketch beendet wird und gibt Speicherresourcen frei, die *minim* in Anspruch nimmt (Bartmann, 2010).
+
+```python
+def stop():
+    # Ausführung von Minim in diesem Sketch stoppen
+    minim.stop()
+    # Ausführung von Minim in der übergeordneten Klasse stoppen 
+    super.stop()
+```
