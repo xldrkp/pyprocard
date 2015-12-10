@@ -98,3 +98,8 @@ def stop():
     # Ausführung von Minim in der übergeordneten Klasse stoppen 
     super.stop()
 ```
+
+### Weitere Funktionen der *minim*-Bibliothek
+
+Neben der Klasse `AudioSample`, die wir im vorangegangenen Beispiel verwendet haben, bietet *minim* noch die Klassen `AudioPlayer` und `AudioOutput`. `AudioPlayer` ist mithilfe der Referenz nahezu selbsterklärend. Zu `AudioOutput` wollen wir uns noch ein kleines Beispiel ansehen.
+
