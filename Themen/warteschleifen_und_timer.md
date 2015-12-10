@@ -57,12 +57,24 @@ def draw():
 Mit dieser Lösung können wir Ereignisse nach dem Start des Programms einmal eintreten lassen. Wie können wir aber **wiederholt** etwas in einem bestimmten zeitlichen Abstand eintreten lassen?
 
 ```python
-wartezeit = 2000 # 2 Sekunden
-    
+wartezeit = 1000
+# Variable, die immer die Millisekunden des aktuellen Beobachtungszeitpunkts speichert
+lastMillis = 0
+
+
+
 def draw():
-    if (millis() > wartezeit):
-        # Ereignis, das erst stattfindet, wenn die 
-        # Wartezeit rum ist
-        ellipse(10,10,10,10)
+    # Das folgende nur ausführen, wenn der Rückgabewert
+    # von wait() True ist
+    if wait():
+        ellipse(random(width), random(height), 10, 10)
+
+def wait():
+    global lastMillis
+    if ((millis() - lastMillis) > wartezeit):
+        # Den Beobachtungszeitpunkt neu setzen
+        lastMillis = millis()
+        return True
 ```
+
 
