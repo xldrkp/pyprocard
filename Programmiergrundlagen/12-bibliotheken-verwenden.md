@@ -103,3 +103,36 @@ def stop():
 
 Neben der Klasse `AudioSample`, die wir im vorangegangenen Beispiel verwendet haben, bietet *minim* noch die Klassen `AudioPlayer` und `AudioOutput`. `AudioPlayer` ist mithilfe der Referenz nahezu selbsterklärend. Zu `AudioOutput` wollen wir uns noch ein kleines Beispiel ansehen.
 
+Wir wollen durch die Mausbewegung eine Sinus-Wellenform verändern und damit einen Retro-Videospielesound erzeugen:
+
+```python
+add_library('minim')
+
+def setup():
+    global sinus
+    size(400,200)
+    
+    frequenz = 0
+    amplitude = 1.0
+    
+    minim = Minim(this)
+    
+    # Audioausgang freischalten
+    output = minim.getLineOut(minim.STEREO)
+    # Oszillator für Sinus-Wellenform erzeugen
+    sinus = SineWave(frequenz, amplitude, output.sampleRate())
+    
+    # Dem Ausgang das Sinus-Signal hinzufügen
+    output.addSignal(sinus)
+
+def draw():
+    # Übertragen der Mausbewegung auf der x-Achse in einen anderen Wertebereich
+    frequenz = map(mouseX, 0, width*2, 20, 1000)
+    # Frequenz entsprechend anpassen
+    sinus.setFreq(frequenz)
+    
+    
+def stop():
+    minim.stop()
+    super.stop()
+```
