@@ -71,10 +71,16 @@ def draw():
 
 def wait():
     global lastMillis
-    if ((millis() - lastMillis) > wartezeit):
+    if ((millis() - lastMillis) > wartezeit): # [1]
         # Den Beobachtungszeitpunkt neu setzen
-        lastMillis = millis()
+        lastMillis = millis() # [2]
         return True
 ```
+
+Wenngleich die Menge an Code auch mehr geworden ist, so ist die Idee hinter der Lösung dieselbe wie eben: 
+
+In der Funktion `wait()` wird eine Bedingung formuliert (vgl. Kommentar [1]), die vom augenblicklichen Millisekundenwert `millis()` den letzten, also `lastMillis` subtrahiert. 
+
+Am Anfang ist `lastMillis = 0`. Das heißt, das erste Ereignis tritt erst ein, wenn `millis()` größer ist als `wartezeit`. Anschließend wird `lastMillis` auf den Wert von `millis()` gesetzt und damit quasi eingefroren (vgl. Kommentar [2]). Die Uhr läuft aber weiter, sodass nun der gespeicherte Wert `lastMillis` von `millis()` substrahiert wird, bis das Ergebnis wieder `wartezeit` überschreitet. Und so fort. Die Folge ist jede Sekunde ein neuer Kreis auf der Leinwand.
 
 
