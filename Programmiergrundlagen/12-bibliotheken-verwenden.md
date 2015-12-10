@@ -62,6 +62,8 @@ Nichts zu hören? Das liegt daran, dass die mimim-Klasse Methoden bereithält, d
 - .ogg
 - .aif
 
-Es ist ratsam, 
+### Den Sketch korrekt beenden
+
+Erik Bartmann weist in seinem hervorragenden Processing-Buch darauf hin, dass man einen Sketch um die Funktion `stop()` ergänzen sollte. Sie wird aufgerufen, wenn der Sketch beendet wird und gibt Speicherresourcen frei, die *minim* in Anspruch nimmt (Bartmann 2010). 
 
 
