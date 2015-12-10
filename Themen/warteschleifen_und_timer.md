@@ -83,4 +83,6 @@ In der Funktion `wait()` wird eine Bedingung formuliert (vgl. Kommentar [1]), di
 
 Am Anfang ist `lastMillis = 0`. Das heißt, das erste Ereignis tritt erst ein, wenn `millis()` größer ist als `wartezeit`. Anschließend wird `lastMillis` auf den Wert von `millis()` gesetzt und damit quasi eingefroren (vgl. Kommentar [2]). Die Uhr läuft aber weiter, sodass nun der gespeicherte Wert `lastMillis` von `millis()` substrahiert wird, bis das Ergebnis wieder `wartezeit` überschreitet. Und so fort. Die Folge ist jede Sekunde ein neuer Kreis auf der Leinwand.
 
+Der Vorteil dieser Lösung ist, dass sich damit unabhängig voneinander verschiedene Zeitsteuerungen realisieren lassen. Denkbar ist auch, Wartezeiten in einer Liste zu speichern, wenn der Wert nicht konstant sein soll. Zufällige Wartezeiten sind auch möglich.
+
 
