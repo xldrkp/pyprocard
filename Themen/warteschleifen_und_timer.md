@@ -17,7 +17,7 @@ Das liegt daran, dass die Wiederholfrequenz der `draw()`-Schleife auf eine besti
 
 ```python
 def setup():
-    # Wiederholung der draw()-Schleife nur jede Sekunde
+    # Wiederholfrequenz der draw()-Schleife eine Sekunde
     frameRate(1)
 
 def draw():
