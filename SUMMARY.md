@@ -33,7 +33,7 @@
    * [Interaktion](Themen/interaktion.md)
    * [Schriften einsetzen](Themen/schriften_einsetzen.md)
    * [Listen und Schleifen](Themen/listen_und_schleifen.md)
-   * [Bilder und Videos einbinden](Programmiergrundlagen/11-bilder-und-videos.md)
+   * [Bilder und Videos einbinden](Themen/bilder-und-videos.md)
    * [Bibliotheken verwenden](Themen/bibliotheken-verwenden.md)
    * [Warteschleifen und Timer](Themen/warteschleifen_und_timer.md)
 * [Anhang](Anhang/0-einleitung.md)
