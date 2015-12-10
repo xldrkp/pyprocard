@@ -24,3 +24,4 @@ def draw():
     print(millis())
 ```
 
+Die Verringerung der Wiederholfrequenz durch `frameRate()` bringt in der Regel nicht viel für die zeitliche Kontrolle eines Sketches, da der gesamte 
