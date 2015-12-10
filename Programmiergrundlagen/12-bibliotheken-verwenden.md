@@ -38,4 +38,30 @@ Bevor wir eine Sounddatei in unserem Sketch abspielen können, muss diese dem `d
 
 Nun können wir den Code schreiben, der unsere Datei zum Klingen bringt.
 
+```python
+# minim-Bibliothek laden
+add_library('minim')
+
+def setup():
+    # Ein minim-Objekt erzeugen.
+    minim = Minim(this)
+    # Sounddatei laden und einer Variablen zuweisen
+    song = minim.loadSample("snowflake_-_Breathe_the_Sun.mp3")
+```
+
+Nichts zu hören? Das liegt daran, dass die mimim-Klasse Methoden bereithält, die das Abspielen von Klängen genau steuern können. Um unseren Song abspielen zu können, reicht eine weitere Zeile:
+
+```python
+    song.trigger()
+```
+
+*minim* kann die folgenden Dateiformate abspielen:
+
+- .mp3
+- .wav
+- .ogg
+- .aif
+
+Es ist ratsam, 
+
 
