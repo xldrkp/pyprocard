@@ -55,6 +55,8 @@ Nichts zu hören? Das liegt daran, dass die mimim-Klasse Methoden bereithält, d
     song.trigger()
 ```
 
+Der Song wird jetzt bis zum Ende gespielt, es sei denn, das Programm wird vorher gestoppt.
+
 *minim* kann die folgenden Dateiformate abspielen:
 
 - .mp3
