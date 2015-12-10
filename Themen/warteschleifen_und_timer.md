@@ -85,4 +85,6 @@ Am Anfang ist `lastMillis = 0`. Das heißt, das erste Ereignis tritt erst ein, w
 
 Der Vorteil dieser Lösung ist, dass sich damit unabhängig voneinander verschiedene Zeitsteuerungen realisieren lassen. Denkbar ist auch, Wartezeiten in einer Liste zu speichern, wenn der Wert nicht konstant sein soll. Zufällige Wartezeiten sind auch möglich.
 
+### Lernvorschläge
 
+1. Lass mit zeitlichem Abstand Objekte auf der Leinwand erscheinen. Synchronisiere diese Ereignisse mit einem Klang (vgl. dazu das Kapitel [Bibliotheken verwenden](./Themen/)
