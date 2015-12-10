@@ -28,7 +28,7 @@ Die Verringerung der Wiederholfrequenz durch `frameRate()` bringt in der Regel n
 
 ### Einen Timer bauen
 
-Ausgehen von den Eigenschaften von `millis()` können wir einen Timer bauen, der zwei Möglichkeiten bietet:
+Ausgehend von den Eigenschaften von `millis()` können wir Timer bauen, die zwei Möglichkeiten bieten:
 
 - ein Ereignis tritt **einmalig** nach einer bestimmten Zeit ein
 - ein Ereignis tritt **wiederholt** nach einer bestimmten Zeit ein
@@ -53,6 +53,8 @@ def draw():
         # Wartezeit rum ist
         ellipse(10,10,10,10)
 ```
+
+Mit dieser Lösung können wir Ereignisse nach dem Start des Programms einmal eintreten lassen. Wie können wir aber **wiederholt** etwas in einem bestimmten zeitlichen Abstand eintreten lassen?
 
 
 
