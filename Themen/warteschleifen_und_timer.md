@@ -62,8 +62,6 @@ wartezeit = 1000
 # Variable, die immer die Millisekunden des aktuellen Beobachtungszeitpunkts speichert
 lastMillis = 0
 
-
-
 def draw():
     # Das folgende nur ausführen, wenn der Rückgabewert
     # von wait() True ist
