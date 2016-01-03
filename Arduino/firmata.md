@@ -110,6 +110,7 @@ Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden
 * ***pinMode(pin, mode)*** - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
 * ***digitalRead(pin)*** - Sofern der Pin als INPUT gesetzt ist, liefert die Methode `Arduino.HIGH` oder `Arduino.LOW` bzw. `1` und `0` zurück.
 * ***digitalWrite(pin, value)*** - schreibt Arduino.HIGH oder Arduino.LOW auf einen digitalen Pin. Pin 13 ist ein digitaler. HIGH bedeutet, dass 5 V an diesem Pin anliegen, LOW steht für 0 V.
-* ***analogRead(pin)*** - schreibt Arduino.HIGH oder Arduino.LOW auf einen digitalen Pin. Pin 13 ist ein digitaler. HIGH bedeutet, dass 5 V an diesem Pin anliegen, LOW steht für 0 V.
+* ***analogRead(pin)*** - liefert den Wert eines analogen Eingangs im Wertebereich von `0` bis `1023` zurück (10 Bit).
+* ***analogWrite(pin, value)*** - 
 
 
