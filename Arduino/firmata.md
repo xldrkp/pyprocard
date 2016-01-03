@@ -7,7 +7,9 @@ Die StandardFirmate wird **einmalig** auf das Arduino-Board geladen. Anschließe
 
 Das folgende Schaubild zeigt diesen Sachverhalt.
 
-![](../iimages/workflow.png)
+![](../images/workflow.png)
+
+**TODO**: Der Code in der Processing-IDE ist fehlerhaft!
 
 **Abbildung**: Grundsätzliche Arbeitsweise mit der StandardFirmata
 
