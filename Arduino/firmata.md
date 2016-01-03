@@ -71,7 +71,6 @@ add_library('arduino')
 def setup():
     a = Arduino(this, '/dev/ttyACM1', 57600)
     
-    
 def draw():
     pass
 ```
