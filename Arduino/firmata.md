@@ -13,11 +13,11 @@ Das folgende Schaubild zeigt diesen Sachverhalt.
 
 Schreiten wir zu Tat und stellen die notwendigen Bedingungen für die Weiterarbeit her!
 
-## Hello World!
+## Hello World! Again.
 
 Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen ähnlich einfachen Versuch aufbauen: Wir schreiben einen Processing-Sketch, der eine LED blinken lässt!
 
-## Vorbereitung
+### Vorbereitung
 
 Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige vorbereitende Schritte erledigen:
 
