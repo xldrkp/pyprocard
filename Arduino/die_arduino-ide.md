@@ -56,6 +56,8 @@ Um das Programm zu kompilieren, genügt ein Klick auf den Haken oben links in de
 
 Nun muss der Maschinencode noch auf den Controller geladen werden. Dies geschieht mit einem Klick auf den Pfeil neben dem Haken. Sofern Board und Port korrekt eingestellt sind und eine funktionierende USB-Verbindung zwischen Board und PC existiert, wird der Maschinencode nun über die serielle Schnittstelle auf den Arduino kopiert und kommt dort direkt zur Ausführung. Es kann immer nur ein Programm zur Zeit von dem Microcontroller ausgeführt werden. Sobald und solange der Arduino mit genügend Spannung versorgt wird, läuft das Programm in einer Endlosschleife. Um es zu stoppen, genügt es, den Arduino von der Stromquelle zu trennen. Er muss nicht heruntergefahren werden.
 
+Der Vorgang des Kompilierens und Hochladens kann auch durch einen Klick auf den Pfeil zusammen erfolgen.
+
 ## Kein Python???
 
 Die Syntax ist anders als bei den bisherigen Python-Beispielen. Da die Arduino-IDE aus der Processing-IDE entstanden ist, handelt es sich auch hier um Java-Code. Er wird beim Upload auf das Board umgewandelt und kompiliert. Einen Python-Mode für die Arduino-IDE gibt es nicht. Entwicklungsgeschichte und technische Hintergründe werden in der [deutschen](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29)
