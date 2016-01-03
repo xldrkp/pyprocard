@@ -27,9 +27,10 @@
        * [Mehr Eigenschaften](Programmiergrundlagen/mehr_eigenschaften.md)
 * [Arduino](Arduino/0-einleitung.md)
    * Die Arduino-IDE
+   * Grundlagen der Kommunikation zwischen Arduino und Computer
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
-   * [Processing und Arduino](Arduino/2-processing-arduino.md)
    * [Firmata](Arduino/firmata.md)
+   * [Processing und Arduino](Arduino/2-processing-arduino.md)
    * 
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
