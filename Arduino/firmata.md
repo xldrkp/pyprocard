@@ -87,11 +87,15 @@ Nun wollen wir den Code schreiben, der unsere LED auf Pin 13 einschaltet!
 add_library('serial')
 add_library('arduino')
 
+# Auch hier wird die On-Board-LED auf Pin 13 verwendet
 led = 13
 
 def setup():
+    # Erzeugung eines Arduino-Objekts
     a = Arduino(this, '/dev/ttyACM1', 57600)
+    # Pin 13 wird als Ausgang definiert
     a.pinMode(led, Arduino.OUTPUT)
+    # Die LED wird angeschaltet
     a.digitalWrite(led, Arduino.HIGH)
     
 def draw():
