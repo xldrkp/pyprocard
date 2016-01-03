@@ -52,6 +52,9 @@ void loop() {
 
 Im Ergebnis sollte jetzt die kleine viereckige LED auf dem Board blinken. Hello World!
 
+![
+](http://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2012/03/Arduino-LED-Overview.jpg)
+
 ## Kompilieren und Hochladen
 
 Um das Programm zu kompilieren, genügt ein Klick auf den Haken oben links in der IDE. Der geschriebene Code wird nun mithilfe des GCC-Compilers in Maschinencode umgewandelt, den der Microcontrollerchip auf dem Board verarbeiten kann. Das Gelingen oder Misslingen des Vorgangs meldet die IDE zurück.
