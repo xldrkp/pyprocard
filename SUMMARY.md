@@ -26,10 +26,10 @@
        * [Objekte erstellen](Programmiergrundlagen/objekte_erstellen.md)
        * [Mehr Eigenschaften](Programmiergrundlagen/mehr_eigenschaften.md)
 * [Arduino](Arduino/0-einleitung.md)
+   * Die Arduino-IDE
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
    * [Firmata](Arduino/firmata.md)
-   * Die Arduino-IDE
    * 
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
