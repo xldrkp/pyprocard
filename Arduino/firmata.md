@@ -39,5 +39,5 @@ Mit dem Upload-Pfeil unter der Menüleiste der Arduino-IDE wird anschließend da
 
 ## Installation und Import der Bibliothek *Arduino (Firmata)*
 
-
+In der Processing-IDE ist nun 
 
