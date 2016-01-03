@@ -109,4 +109,6 @@ Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden
 * *pinMode(pin, mode)* - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
 * *digitalWrite(pin, value)* - schreibt Arduino.HIGH oder Arduino.LOW auf einen digitalen Pin. Pin 13 ist ein digitaler. HIGH bedeutet, dass 5 V an diesem Pin anliegen, LOW steht für 0 V.
 
+Weitere Methoden der Klasse sind auf der Projektwebseite dokumentiert.
+
 
