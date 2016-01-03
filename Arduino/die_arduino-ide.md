@@ -8,9 +8,23 @@ Bevor wir uns fortgeschritteneren Programmen und Versuchen widmen, sollten wir d
 
 ## Öffnen der IDE
 
+Wir öffnen die Arduino-IDE, die standardmäßig das *bare minimum* als Grundgerüst anbietet:
+
+```java
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+```
+
 Ein Programm, das eine LED blinken lässt, ist schnell geschrieben:
 
-```python
+```java
 // Zuweisung an eine Variable vom Typ byte:
 // Es soll der PIN 13 verwendet werden.
 byte led = 13;
