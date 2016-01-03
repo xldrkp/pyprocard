@@ -12,6 +12,8 @@ Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen 
 
 ## Vorbereitung
 
+![](../images/workflow.png)
+
 ### Mit der Arduino-IDE
 
 1. Installation der StandardFirmata auf dem Arduino Uno.
