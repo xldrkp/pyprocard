@@ -106,6 +106,7 @@ Die Ausführung mit *STRG+R* oder Klick auf die Playtaste bringt wieder *RX* und
 
 Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden mitbringt, die wir hier einsetzen:
 
-*pinMode* - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
+* *pinMode(pin, mode)* - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
+* *digitalWrite(pin, value)* - schreibt Arduino.HIGH oder Arduino.LOW auf einen digitalen Pin
 
 
