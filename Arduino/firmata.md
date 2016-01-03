@@ -7,7 +7,7 @@ Die StandardFirmate wird **einmalig** auf das Arduino-Board geladen. Anschließe
 
 Das folgende Schaubild zeigt diesen Sachverhalt.
 
-![](../images/workflow.png)
+![](../iimages/workflow.png)
 
 **Abbildung**: Grundsätzliche Arbeitsweise mit der StandardFirmata
 
