@@ -77,8 +77,7 @@ Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Sy
 
 ## Weiter mit Python!
 
-Da wir nun aber aus guten Gründen mit Python und nicht mit Java angefangen haben, setzen wir diesen Weg auch konsequent an dieser Stelle fort: Weiter mit Python!
-
+Da wir nun aber aus guten Gründen mit Python und nicht mit Java angefangen haben, setzen wir diesen Weg auch konsequent an dieser Stelle fort: Weiter mit Python! 
 
 
 
