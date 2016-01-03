@@ -37,7 +37,7 @@ Dieser Schritt ist denkbar einfach zu erledigen, da die StandardFirmata wie jede
 
 Mit dem Upload-Pfeil unter der Menüleiste der Arduino-IDE wird anschließend das Programm kompiliert und auf den Microcontroller hochgeladen. Geht alles korrekt vonstatten, steht folglich eine Softwareschnittstelle auf dem Arduino zur Verfügung, die sich aus Processing heraus ansprechen lässt.
 
-Falls die On-Board-LED infolge des vorangegangenen Beispiels noch geblinkt haben sollte, hat sie nach diesem Vorgang damit aufgehört, da die StandardFirmata das Blink-Programm überschrieben hat.
+Falls die On-Board-LED infolge des vorangegangenen Beispiels noch geblinkt haben sollte, hat sie nach diesem Vorgang damit aufgehört, da die StandardFirmata das Blink-Programm überschrieben hat. Dass die StandardFirmata nun in einer Endlosschleife auf dem Arduino läuft, ist von außen nicht zu erkennen.
 
 ## Installation und Import der Bibliothek *Arduino (Firmata)*
 
