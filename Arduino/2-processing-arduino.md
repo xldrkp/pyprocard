@@ -21,10 +21,11 @@ class Blink:
         time.sleep(.2)
 
 def setup():
+    global b
     a.pinMode(led_pin, Arduino.OUTPUT)
     b = Blink()
 
 def draw():
-    Blink.on()
-    Blink.off()
+    b.on()
+    b.off()
 ```
