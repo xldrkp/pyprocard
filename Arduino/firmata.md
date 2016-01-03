@@ -44,7 +44,15 @@ Falls die On-Board-LED infolge des vorangegangenen Beispiels noch geblinkt haben
 In der Processing-IDE erstellen wir nun ein erstes Programm:
 
 ```python
+add_library('serial')
+add_library('arduino')
 
+def setup():
+    pass
+    
+def draw():
+    pass
 
 ```
 
+Lassen wir es laufen, könnte es sich mit einem Fehler melden: 
