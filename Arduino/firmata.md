@@ -12,7 +12,7 @@ Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen 
 
 ## Vorbereitung
 
-![](../images/workflow.png)
+Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige vorbereitende Schritte erledigen:
 
 ### Mit der Arduino-IDE
 
@@ -24,3 +24,4 @@ Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen 
 2. Import der Bibliothek *serial*
 3. Erstellung einer Klasse *LED*
 
+![](../images/workflow.png)
