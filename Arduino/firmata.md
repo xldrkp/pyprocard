@@ -1,6 +1,7 @@
-# Firmata
+# StandardFirmata
 
-Der einfachste Zugang zur Programmierung des Arduino erfolgt mithilfe der so genannten StandardFirmata. Die technischen Zusammenhänge sowie Aufbau und Installation werden im folgenden erklärt.
+Der einfachste Zugang zur Programmierung des Arduino mit Python erfolgt mithilfe der so genannten [StandardFirmata](https://github.com/firmata/protocol)
+. Die technischen Zusammenhänge sowie Aufbau und Installation werden im folgenden erklärt.
 
 
 ## Hello World!
