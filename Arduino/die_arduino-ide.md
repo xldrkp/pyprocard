@@ -50,3 +50,5 @@ void loop() {
 }
 ```
 
+Die Syntax ist anders als bei den bisherigen Python-Beispielen. Hierbei handelt es sich um 
+
