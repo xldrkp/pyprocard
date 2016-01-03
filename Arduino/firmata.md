@@ -56,3 +56,7 @@ def draw():
 ```
 
 Lassen wir es laufen, könnte es sich mit einem Fehler melden: 
+
+![](../images/missing-arduino-lib.png)
+
+Es fehlt eine Bibliothek, die die Kommunikation mit der StandardFirmata auf dem Board ermöglicht. Wir installieren sie also nach (vgl. 
