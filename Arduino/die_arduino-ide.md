@@ -63,7 +63,12 @@ Der Vorgang des Kompilierens und Hochladens kann auch durch einen Klick auf den 
 Die Syntax ist anders als bei den bisherigen Python-Beispielen. Da die Arduino-IDE aus der Processing-IDE entstanden ist, handelt es sich auch hier um Java-Code. Er wird beim Upload auf das Board umgewandelt und kompiliert. Einen Python-Mode für die Arduino-IDE gibt es nicht. Entwicklungsgeschichte und technische Hintergründe werden in der [deutschen](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29)
 und [englischen](https://en.wikipedia.org/wiki/Arduino) Wikipedia genauer erläutert.
 
-An dieser Stelle gilt es, eine Entscheidung zu treffen: Weiter mit Python oder weiter mit Java?
+An dieser Stelle gilt es, eine Entscheidung zu treffen: Weiter mit Python oder weiter mit Java? 
+
+## Weiter mit Java
+
+Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Syntax verfasst. Sie sind sehr gut dokumentiert und spiegeln die vielfältigen Einsatzmöglichkeiten der Entwicklungsumgebung. Jedes Beispiel ist auf der Arduino-Homepage ausführlich dokumentiert, notwendige Bauteile und Schaltpläne anbeigestellt (vgl. exemplarisch das [Blink-Beispiel](https://www.arduino.cc/en/Tutorial/Blink)
+).
 
 
 
