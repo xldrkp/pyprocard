@@ -65,6 +65,8 @@ Im Ergebnis sollte jetzt die kleine viereckige LED auf dem Board blinken. Hello 
 ![
 ](http://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2012/03/Arduino-LED-Overview.jpg)
 
+**TODO** Das Foto selber herstellen
+
 ## Kein Python???
 
 Die Syntax des Arduino-Sketches ist anders als bei unseren bisherigen Python-Beispielen. Da die Arduino-IDE aus der Processing-IDE entstanden ist, handelt es sich auch hier um Java-Code. Er wird beim Upload auf das Board umgewandelt und kompiliert. Einen Python-Mode für die Arduino-IDE gibt es nicht. Entwicklungsgeschichte und technische Hintergründe werden in der [deutschen](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29)
