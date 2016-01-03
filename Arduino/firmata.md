@@ -62,3 +62,5 @@ Lassen wir es laufen, könnte es sich mit einem Fehler melden:
 Es fehlt eine Bibliothek, die die Kommunikation mit der StandardFirmata auf dem Board ermöglicht. Wir installieren sie also nach (vgl. [Bibliotheken verwenden](../Themen/bibliotheken-verwenden.md)
 ). Die Bibliothek *serial* ist standardmäßig installiert. Sie dient der allgemeinen seriellen Kommunikation, worauf später noch genauer eingegangen werden soll.
 
+## Instanziierung des Arduino-Objekts
+
