@@ -31,4 +31,9 @@ Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige v
 2. Import der Bibliothek *serial*
 3. Erstellung einer Klasse *LED* und des Hauptprogramms
 
+## Installation der StandardFirmata
+
+Dieser Schritt ist denkbar einfach zu erledigen, da die StandardFirmata wie jeder andere Arduino-Sketch auf das Board geladen wird. Zunächst muss die StandardFirmata in der Arduino-IDE aus den Beispielen geöffnet werden (Menü Datei -> Beispiele -> Firmata -> StandardFirmata).
+
+Mit dem Upload-Pfeil unter der 
 
