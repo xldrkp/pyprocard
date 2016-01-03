@@ -28,6 +28,7 @@
 * [Arduino](Arduino/0-einleitung.md)
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
+   * Firmata
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
    * [Interaktion](Themen/interaktion.md)
@@ -35,7 +36,7 @@
    * [Listen und Schleifen](Themen/listen_und_schleifen.md)
    * [Bilder und Videos einbinden](Themen/bilder-und-videos.md)
    * [Bibliotheken verwenden](Themen/bibliotheken-verwenden.md)
-   * [Warteschleifen und Timer](Themen/warteschleifen_und_timer.md) 
+   * [Warteschleifen und Timer](Themen/warteschleifen_und_timer.md)
 * [Anhang](Anhang/0-einleitung.md)
    * [Literatur](Anhang/99-literatur.md)
    * [Bekannte Probleme](Anhang/bekannte_probleme.md)
