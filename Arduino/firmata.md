@@ -106,6 +106,8 @@ Die Ausführung mit *STRG+R* oder Klick auf die Playtaste bringt wieder *RX* und
 
 Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden mitbringt. Die vollständige Referenz der Schnittstelle zeigt, dass es nicht viele sind. Ihr Potenzial ist allerdings groß.
 
+## API (Application Programming Interface) der Arduino-Klasse
+
 * ***list()*** - `print(Arduino.list())` gibt eine Liste aller seriellen Geräte aus. Wenn das Board korrekt am Rechner angeschlossen ist, steht der zugehörige serielle Anschluss in der Liste und kann an den Konstruktor übergeben werden.
 * ***pinMode(pin, mode)*** - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
 * ***digitalRead(pin)*** - Sofern der Pin als INPUT gesetzt ist, liefert die Methode `Arduino.HIGH` oder `Arduino.LOW` bzw. `1` und `0` zurück.
