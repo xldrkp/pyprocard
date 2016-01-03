@@ -31,7 +31,6 @@
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Firmata](Arduino/firmata.md)
    * [Processing und Arduino](Arduino/2-processing-arduino.md)
-   * 
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
    * [Interaktion](Themen/interaktion.md)
