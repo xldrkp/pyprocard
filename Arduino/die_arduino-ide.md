@@ -50,6 +50,12 @@ void loop() {
 }
 ```
 
+Um das Programm zu kompilieren, genügt ein Klick auf den Haken oben links in der IDE. Der geschriebene Code wird nun mithilfe des GCC-Compilers in Maschinencode umgewandelt, den der Microcontrollerchip auf dem Board verarbeiten kann. Das Gelingen oder Misslingen des Vorgangs meldet die IDE zurück.
+
+Nun muss der Maschinencode noch auf den Controller geladen werden. Dies geschieht mit einem Klick auf 
+
+## Kein Python???
+
 Die Syntax ist anders als bei den bisherigen Python-Beispielen. Da die Arduino-IDE aus der Processing-IDE entstanden ist, handelt es sich auch hier um Java-Code. Er wird beim Upload auf das Board umgewandelt und kompiliert. Einen Python-Mode für die Arduino-IDE gibt es nicht. Entwicklungsgeschichte und technische Hintergründe werden in der [deutschen](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29)
 und [englischen](https://en.wikipedia.org/wiki/Arduino) Wikipedia genauer erläutert.
 
