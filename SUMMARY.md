@@ -26,7 +26,7 @@
        * [Objekte erstellen](Programmiergrundlagen/objekte_erstellen.md)
        * [Mehr Eigenschaften](Programmiergrundlagen/mehr_eigenschaften.md)
 * [Arduino](Arduino/0-einleitung.md)
-   * Die Arduino-IDE
+   * [Die Arduino-IDE](Arduino/die_arduino-ide.md)
    * Grundlagen der Kommunikation zwischen Arduino und Computer
    * [Serielle Kommunikation](Arduino/1-serielle-kommunikation.md)
    * [Firmata](Arduino/firmata.md)
