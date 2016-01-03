@@ -76,3 +76,4 @@ def draw():
 ```
 
 Die Arduino-Bibliothek bringt eine Klasse *Arduino* mit, von der wir hier ein Objekt erzeugen. Der Konstruktor empfängt den Kontext des aktuellen Programms sowie den Namen der seriellen Schnittstelle, an der das Arduino-Board angeschlossen ist. Als dritten Parameter übergeben wir die Baud-Rate. Diese **muss** für die Kommunikation mit der StandardFirmata 57600 betragen! Mehr zur Baud-Rate später, wenn wir uns genauer mit serieller Kommunikation beschäftigen.
+
