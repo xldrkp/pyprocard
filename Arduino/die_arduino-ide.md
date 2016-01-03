@@ -65,10 +65,11 @@ und [englischen](https://en.wikipedia.org/wiki/Arduino) Wikipedia genauer erläu
 
 An dieser Stelle gilt es, eine Entscheidung zu treffen: Weiter mit Python oder weiter mit Java? 
 
-## Weiter mit Java
+## Weiter mit Java?
 
 Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Syntax verfasst. Sie sind sehr gut dokumentiert und spiegeln die vielfältigen Einsatzmöglichkeiten der Entwicklungsumgebung. Jedes Beispiel ist auf der Arduino-Homepage ausführlich dokumentiert, notwendige Bauteile und Schaltpläne anbeigestellt (vgl. exemplarisch das [Blink-Beispiel](https://www.arduino.cc/en/Tutorial/Blink)
 ).
+
 
 
 
