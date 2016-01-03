@@ -104,7 +104,7 @@ def draw():
 
 Die Ausführung mit *STRG+R* oder Klick auf die Playtaste bringt wieder *RX* und *TX* zum Flackern. Aber auch die LED flackert einige Male. Das gehört zum Initialisierungsvorgang der Kommunikation dazu. Daran anschließend sollte sie allerdings kontinuierlich leuchten. Voilá!
 
-Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden mitbringt, die wir hier einsetzen:
+Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden mitbringt. Die vollständige Referenz der Schnittstelle zeigt, dass es nicht viele sind. Ihr Potenzial ist allerdings groß.
 
 * ***list()*** - `print(Arduino.list())` gibt eine Liste aller seriellen Geräte aus. Wenn das Board korrekt am Rechner angeschlossen ist, steht der zugehörige serielle Anschluss in der Liste und kann an den Konstruktor übergeben werden.
 * ***pinMode(pin, mode)*** - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
