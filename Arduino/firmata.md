@@ -29,7 +29,7 @@ Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige v
 
 1. Installation und Import der Bibliothek *Arduino (Firmata)*.
 2. Import der Bibliothek *serial*
-3. Erstellung einer Klasse *LED* und des Hauptprogramms
+3. Erstellung des Hauptprogramms und einer Klasse *LED*
 
 ## Installation der StandardFirmata
 
