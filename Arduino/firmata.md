@@ -108,7 +108,7 @@ Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden
 
 * ***list()*** - `print(Arduino.list())` gibt eine Liste aller seriellen Geräte aus. Wenn das Board korrekt am Rechner angeschlossen ist, steht der zugehörige serielle Anschluss in der Liste und kann an den Konstruktor übergeben werden.
 * ***pinMode(pin, mode)*** - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
-* ***digitalRead(pin)*** - Sofern der Pin als INPUT gesetzt ist, liefert die Methode `Arduino.HIGH` oder `Arduino.LOW` zurück.
+* ***digitalRead(pin)*** - Sofern der Pin als INPUT gesetzt ist, liefert die Methode `Arduino.HIGH` oder `Arduino.LOW` bzw. `1` und `0` zurück.
 * ***digitalWrite(pin, value)*** - schreibt Arduino.HIGH oder Arduino.LOW auf einen digitalen Pin. Pin 13 ist ein digitaler. HIGH bedeutet, dass 5 V an diesem Pin anliegen, LOW steht für 0 V.
 
 
