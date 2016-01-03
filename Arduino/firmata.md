@@ -5,7 +5,7 @@ für Arduino-Boards. Wir setzen sie ein, um von Processing aus unser Arduino-Boa
 
 Die technischen Zusammenhänge sowie Aufbau und Installation werden im folgenden erklärt. Dabei ist eine Sache für das Verständnis des komplexen Aufbaus am wichtigsten: 
 
-Die StandardFirmate wird **einmalig** auf das Arduino-Board geladen. Anschließend erfolgt die Programmierung in Python nur noch in der Processing-IDE!
+Die StandardFirmate wird **einmalig** auf das Arduino-Board geladen. Anschließend erfolgt die Programmierung in der Processing-IDE nur noch in Python!
 
 
 ## Hello World!
