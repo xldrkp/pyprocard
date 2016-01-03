@@ -1,6 +1,8 @@
 # Die Arduino-IDE
 
-Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert, sodass an dieser Stelle nur eine kurze Einführung erfolgt. Es wird davon ausgegangen, dass die Arduino-IDE auf dem eigenen Rechner installiert wurde.
+Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert, sodass an dieser Stelle nur eine kurze Einführung erfolgt. Es wird davon ausgegangen, dass die Arduino-IDE auf dem eigenen Rechner installiert wurde ([Windows](https://www.arduino.cc/en/Guide/Windows#)
+/[Mac](https://www.arduino.cc/en/Guide/MacOSX)
+/[Linux](http://playground.arduino.cc/Learning/Linux)) und alle erforderlichen Schritte zur Inbetriebnahme erfolgt sind.
 
 Wie auf der Homepage des Projekts erklärt, wird der Arduino durch ein USB-Kabel mit einem Computer verbunden. Die Kommunikation über diesen Weg erfolgt *seriell*. Das ist wichtig im Kopf zu behalten, weil sich Begriffe, Konzepte und Namen von Bibliotheken immer wieder auf diese Art des Datenaustauschs beziehen werden.
 
