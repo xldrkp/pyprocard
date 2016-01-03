@@ -50,6 +50,8 @@ void loop() {
 }
 ```
 
+## Kompilieren und Hochladen
+
 Um das Programm zu kompilieren, genügt ein Klick auf den Haken oben links in der IDE. Der geschriebene Code wird nun mithilfe des GCC-Compilers in Maschinencode umgewandelt, den der Microcontrollerchip auf dem Board verarbeiten kann. Das Gelingen oder Misslingen des Vorgangs meldet die IDE zurück.
 
 Nun muss der Maschinencode noch auf den Controller geladen werden. Dies geschieht mit einem Klick auf den Pfeil neben dem Haken. Sofern Board und Port korrekt eingestellt sind und eine funktionierende USB-Verbindung zwischen Board und PC existiert, wird der Maschinencode nun über die serielle Schnittstelle auf den Arduino kopiert und kommt dort direkt zur Ausführung. Es kann immer nur ein Programm zur Zeit von dem Microcontroller ausgeführt werden. Sobald und solange der Arduino mit genügend Spannung versorgt wird, läuft das Programm in einer Endlosschleife. Um es zu stoppen, genügt es, den Arduino von der Stromquelle zu trennen. Er muss nicht heruntergefahren werden.
