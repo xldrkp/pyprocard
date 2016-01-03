@@ -64,3 +64,14 @@ Es fehlt eine Bibliothek, die die Kommunikation mit der StandardFirmata auf dem 
 
 ## Instanziierung des Arduino-Objekts
 
+```python
+add_library('serial')
+add_library('arduino')
+
+def setup():
+    a = Arduino(this, '/dev/ttyACM1', 57600)
+    
+    
+def draw():
+    pass
+```
