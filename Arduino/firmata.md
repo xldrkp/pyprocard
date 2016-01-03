@@ -102,4 +102,10 @@ def draw():
     pass
 ```
 
+Die Ausführung mit *STRG+R* oder Klick auf die Playtaste bringt wieder *RX* und *TX* zum Flackern. Aber auch die LED flackert einige Male. Das gehört zum Initialisierungsvorgang der Kommunikation dazu. Daran anschließend sollte sie allerdings kontinuierlich leuchten. Voilá!
+
+Im Code ist zu sehen, dass die Arduino-Klasse aus der Bibliothek einige Methoden mitbringt, die wir hier einsetzen:
+
+*pinMode* - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
+
 
