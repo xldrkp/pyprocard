@@ -39,6 +39,7 @@
    * [Bilder und Videos einbinden](Themen/bilder-und-videos.md)
    * [Bibliotheken verwenden](Themen/bibliotheken-verwenden.md)
    * [Warteschleifen und Timer](Themen/warteschleifen_und_timer.md)
+   * Umweltdaten messen und visualisieren
 * [Anhang](Anhang/0-einleitung.md)
    * [Literatur](Anhang/99-literatur.md)
    * [Bekannte Probleme](Anhang/bekannte_probleme.md)
