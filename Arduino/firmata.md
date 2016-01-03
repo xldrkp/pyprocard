@@ -14,4 +14,7 @@ Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen 
 
 ### Mit der Processing-IDE
 
-1. 
+1. Installation und Import der Bibliothek *Arduino (Firmata)*.
+2. Import der Bibliothek *serial*
+3. Erstellung einer Klasse *LED*
+
