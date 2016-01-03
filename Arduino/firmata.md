@@ -7,6 +7,13 @@ Die technischen Zusammenhänge sowie Aufbau und Installation werden im folgenden
 
 Die StandardFirmate wird **einmalig** auf das Arduino-Board geladen. Anschließend erfolgt die Programmierung in der Processing-IDE nur noch in Python!
 
+Das folgende Schaubild zeigt diesen Sachverhalt.
+
+![](../images/workflow.png)
+
+**Abbildung**: Grundsätzliche Arbeitsweise mit der StandardFirmata
+
+
 
 ## Hello World!
 
@@ -27,4 +34,3 @@ Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige v
 3. Erstellung einer Klasse *LED* und des Hauptprogramms
 
 
-![](../images/workflow.png)
