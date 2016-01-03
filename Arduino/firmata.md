@@ -4,4 +4,4 @@ Der einfachste Zugang zur Programmierung des Arduino erfolgt mithilfe der so gen
 
 ## Hello World!
 
-- Blink-Beispiel
+Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, 
