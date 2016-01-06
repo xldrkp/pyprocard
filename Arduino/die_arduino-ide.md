@@ -62,10 +62,8 @@ Der Vorgang des Kompilierens und Hochladens kann auch durch einen Klick auf den 
 
 Im Ergebnis sollte jetzt die kleine viereckige LED auf dem Board blinken. Hello World!
 
-![
-](http://www.wired.com/wp-content/uploads/blogs/geekdad/wp-content/uploads/2012/03/Arduino-LED-Overview.jpg)
 
-**TODO** Das Foto selber herstellen
+![](../images/blink.gif)
 
 ## Kein Python???
 
