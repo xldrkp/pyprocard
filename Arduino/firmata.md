@@ -17,19 +17,7 @@ Schreiten wir zu Tat und stellen die notwendigen Bedingungen für die Weiterarbe
 
 Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen ähnlich einfachen Versuch aufbauen: Wir schreiben einen Processing-Sketch, der eine LED blinken lässt - mit Python!
 
-### Vorbereitung
-
 Damit wir mit Processing das Arduino-Board steuern können, müssen wir einige vorbereitende Schritte erledigen:
-
-### Mit der Arduino-IDE
-
-1. Installation der StandardFirmata auf dem Arduino Uno.
-
-### Mit der Processing-IDE
-
-1. Installation und Import der Bibliothek *Arduino (Firmata)*.
-2. Import der Bibliothek *serial*
-3. Erstellung des Hauptprogramms und einer Klasse *LED*
 
 ## Installation der StandardFirmata
 
