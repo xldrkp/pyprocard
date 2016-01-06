@@ -30,9 +30,8 @@
    * [Firmata](Arduino/firmata.md)
        * [Hello World! Again.](Arduino/hello_world_again.md)
        * [API der Arduino-Klasse](Arduino/api_der_arduino-klasse.md)
-   * [Grundlagen der Kommunikation zwischen Arduino und Computer](Arduino/grundlagen_der_kommunikation.md)
+   * Grundlagen der Kommunikation zwischen Arduino und Computer
    * Serielle Kommunikation
-   * [Processing und Arduino](Arduino/2-processing-arduino.md)
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
    * [Interaktion](Themen/interaktion.md)
