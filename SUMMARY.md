@@ -34,10 +34,10 @@
    * Serielle Kommunikation
 * [Anwendungsbezogene Themen](Themen/0-einleitung.md)
    * [Animationen](Themen/animationen.md)
-   * [Interaktion](Themen/interaktion.md)
+   * Interaktion
    * [Schriften einsetzen](Themen/schriften_einsetzen.md)
    * [Listen und Schleifen](Themen/listen_und_schleifen.md)
-   * [Bilder und Videos einbinden](Themen/bilder-und-videos.md)
+   * Bilder und Videos einbinden
    * [Bibliotheken verwenden](Themen/bibliotheken-verwenden.md)
    * [Warteschleifen und Timer](Themen/warteschleifen_und_timer.md)
    * Umweltdaten messen und visualisieren
