@@ -12,8 +12,3 @@ Das folgende Schaubild zeigt diesen Sachverhalt.
 **Abbildung**: Grundsätzliche Arbeitsweise mit der StandardFirmata
 
 Schreiten wir zu Tat und stellen die notwendigen Bedingungen für die Weiterarbeit her!
-
-## Hello World! Again.
-
-
-
