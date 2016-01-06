@@ -1,6 +1,7 @@
 # Schnittstelle der Arduino-Klasse
 
-Die Schnittstelle einer Klasse oder Anwendung wird als *Application Programming Interface (API)* bezeichnet. Schnittstelle wird hier verstanden als der Zugang zu den Funktionalitäten, die durch Attribute und Methoden in der Klasse festgeschrieben wurden. Damit andere Programmiererinnen und Programmierer die API auch verstehen und anwenden können, muss sie ausführlich und verständlich dokumentiert werden.
+Die Schnittstelle einer Klasse oder Anwendung wird als *Application Programming Interface (API)* bezeichnet. [Schnittstelle](https://de.wikipedia.org/wiki/Schnittstelle_%28Objektorientierung%29)
+wird hier verstanden als der Zugang zu den Funktionalitäten, die durch Attribute und Methoden in der Klasse festgeschrieben wurden. Damit andere Programmiererinnen und Programmierer die API auch verstehen und anwenden können, muss sie ausführlich und verständlich dokumentiert werden.
 
 * ***list()*** - `print(Arduino.list())` gibt eine Liste aller seriellen Geräte aus. Wenn das Board korrekt am Rechner angeschlossen ist, steht der zugehörige serielle Anschluss in der Liste und kann an den Konstruktor übergeben werden.
 * ***pinMode(pin, mode)*** - legt den Modus eines Pins fest. Möglich sind INPUT, OUTPUT und SERVO
