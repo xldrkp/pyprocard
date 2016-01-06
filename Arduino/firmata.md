@@ -9,15 +9,13 @@ Das folgende Schaubild zeigt diesen Sachverhalt.
 
 ![](../images/workflow.png)
 
-**TODO**: Der Code in der Processing-IDE ist fehlerhaft!
-
 **Abbildung**: Grundsätzliche Arbeitsweise mit der StandardFirmata
 
 Schreiten wir zu Tat und stellen die notwendigen Bedingungen für die Weiterarbeit her!
 
 ## Hello World! Again.
 
-Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen ähnlich einfachen Versuch aufbauen: Wir schreiben einen Processing-Sketch, der eine LED blinken lässt!
+Nachdem wir mit der Arduino-IDE "Hello World!" geblinkt haben, wollen wir einen ähnlich einfachen Versuch aufbauen: Wir schreiben einen Processing-Sketch, der eine LED blinken lässt - mit Python!
 
 ### Vorbereitung
 
