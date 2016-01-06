@@ -87,4 +87,4 @@ Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Sy
 
 Da wir nun aber aus guten Gründen mit Python und nicht mit Java angefangen haben, setzen wir diesen Weg auch konsequent an dieser Stelle fort: Weiter mit Python! Dies kann auf unterschiedliche Weise geschehen. Wir beginnen damit, die so genannte StandardFirmata an den Start zu bringen.
 
-[^1]: https://www.arduino.cc/en/Main/Products# und http://www.arduino.org/products Zum Streit unter den Arduino-Erfindern gibt es eine [kurze Abhandlung in der Wikipedia](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29#Rechtsstreit_um_die_Marke_Arduino).
+[^1]: https://www.arduino.cc/en/Main/Products# und http://www.arduino.org/products Zum Streit unter den Arduino-Erfindern gibt es eine [kurze Abhandlung in der Wikipedia](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29#Rechtsstreit_um_die_Marke_Arduino). Ganz hervorragend sind die Lernangebote von [Adafruit](https://learn.adafruit.com/category/learn-arduino) und [Sparkfun](https://learn.sparkfun.com/).
