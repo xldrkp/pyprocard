@@ -4,7 +4,7 @@ Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert[^1], sodass a
 /[Mac](https://www.arduino.cc/en/Guide/MacOSX)
 /[Linux](http://playground.arduino.cc/Learning/Linux)) und alle erforderlichen Schritte zur Inbetriebnahme erfolgt sind.
 
-Wie auf der Homepage des Projekts erklärt, wird der Arduino durch ein USB-Kabel mit einem Computer verbunden. Die Kommunikation über diesen Weg erfolgt *seriell*. Das ist wichtig im Kopf zu behalten, weil sich Begriffe, Konzepte und Namen von Bibliotheken immer wieder auf diese Art des Datenaustauschs beziehen werden.
+W   ie auf der Homepage des Projekts erklärt, wird der Arduino durch ein USB-Kabel mit einem Computer verbunden. Die Kommunikation über diesen Weg erfolgt *seriell*. Das ist wichtig im Kopf zu behalten, weil sich Begriffe, Konzepte und Namen von Bibliotheken immer wieder auf diese Art des Datenaustauschs beziehen werden.
 
 Bevor wir uns fortgeschritteneren Programmen und Versuchen widmen, sollten wir die Welt darüber informieren, dass wir jetzt auch an Board sind: Es ist Zeit, *Hello World!* zu sagen. Da die Ausgabe von Texten auf dem Arduino nicht so einfach möglich ist - es gibt keinen Bildschirm und kein Display - lassen wir im folgenden eine LED blinken.
 
@@ -32,11 +32,11 @@ Ein Programm, das eine LED blinken lässt, ist schnell geschrieben:
 
 ```java
 // Zuweisung an eine Variable vom Typ byte:
-// Es soll der PIN 13 verwendet werden.
+// Es soll der Pin 13 verwendet werden.
 byte led = 13;
 
 void setup() {
-  // Definition des PINs 13 als Ausgang
+  // Definition des Pin 13 als Ausgang
   pinMode(led, OUTPUT);
 }
 
@@ -56,7 +56,7 @@ void loop() {
 
 Um das Programm zu kompilieren, genügt ein Klick auf den Haken oben links in der IDE. Der geschriebene Code wird nun mithilfe des GCC-Compilers in Maschinencode umgewandelt, den der Microcontrollerchip auf dem Board verarbeiten kann. Das Gelingen oder Misslingen des Vorgangs meldet die IDE zurück.
 
-Nun muss der Maschinencode noch auf den Controller geladen werden. Dies geschieht mit einem Klick auf den Pfeil neben dem Haken. Sofern Board und Port korrekt eingestellt sind und eine funktionierende USB-Verbindung zwischen Board und PC existiert, wird der Maschinencode nun über die serielle Schnittstelle auf den Arduino kopiert und kommt dort direkt zur Ausführung. Es kann immer nur ein Programm zur Zeit von dem Microcontroller ausgeführt werden. Sobald und solange der Arduino mit genügend Spannung versorgt wird, läuft das Programm in einer Endlosschleife. Um es zu stoppen, genügt es, den Arduino von der Stromquelle zu trennen. Er muss nicht heruntergefahren werden.
+Nun muss der Maschinencode noch auf den Controller geladen werden. Dies geschieht mit einem Klick auf den Pfeil neben dem Haken. Sofern Board und Port korrekt eingestellt sind und eine funktionierende USB-Verbindung zwischen Board und PC existiert, wird der Maschinencode über die serielle Schnittstelle auf den Arduino kopiert und kommt dort direkt zur Ausführung. Es kann immer nur ein Programm zur Zeit von dem Microcontroller ausgeführt werden. Sobald und solange der Arduino mit genügend Spannung versorgt wird, läuft das Programm in einer Endlosschleife. Um es zu stoppen, genügt es, den Arduino von der Stromquelle zu trennen. Er muss nicht heruntergefahren werden.
 
 Der Vorgang des Kompilierens und Hochladens kann auch durch einen Klick auf den Pfeil zusammen erfolgen.
 
