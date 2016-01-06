@@ -32,7 +32,7 @@ def draw():
 ```
 
 Das Konzept des Ausdrucks `global x` kann im Kapitel [
-Variablen](../Programmiergrundlagen/variablen.md) vertieft werden.
+Variablen](../Programmiergrundlagen/2-variablen.md) vertieft werden.
 
 Die letzte Zeile des kleinen Programms ist für die Bewegung des Balls verantwortlich: Zum augenblicklichen Wert der Variablen `x` wird immer `1` hinzuaddiert und das Ergebnis anschließend `x` zugewiesen. So wächst der Wert von `x` bei jedem Durchlauf der Endlosschleife `draw()` um `1`. Der Ball bleibt stehen, wenn `x` die Breite der Leinwand erreicht hat.
 
