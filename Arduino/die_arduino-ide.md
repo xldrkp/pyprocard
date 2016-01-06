@@ -1,6 +1,6 @@
 # Die Arduino-IDE
 
-Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert[^1] [^2], sodass an dieser Stelle nur eine kurze Einführung erfolgt. Es wird davon ausgegangen, dass die Arduino-IDE auf dem eigenen Rechner installiert wurde ([Windows](https://www.arduino.cc/en/Guide/Windows#)
+Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert[^1], sodass an dieser Stelle nur eine kurze Einführung erfolgt. Es wird davon ausgegangen, dass die Arduino-IDE auf dem eigenen Rechner installiert wurde ([Windows](https://www.arduino.cc/en/Guide/Windows#)
 /[Mac](https://www.arduino.cc/en/Guide/MacOSX)
 /[Linux](http://playground.arduino.cc/Learning/Linux)) und alle erforderlichen Schritte zur Inbetriebnahme erfolgt sind.
 
@@ -87,5 +87,4 @@ Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Sy
 
 Da wir nun aber aus guten Gründen mit Python und nicht mit Java angefangen haben, setzen wir diesen Weg auch konsequent an dieser Stelle fort: Weiter mit Python! Dies kann auf unterschiedliche Weise geschehen. Wir beginnen damit, die so genannte StandardFirmata an den Start zu bringen.
 
-[^1]: https://www.arduino.cc/en/Main/Products#
-[^2]: http://www.arduino.org/products
+[^1]: https://www.arduino.cc/en/Main/Products# und http://www.arduino.org/products Zum Streit unter den Arduino-Erfindern gibt es eine [kurze Abhandlung in der Wikipedia](https://de.wikipedia.org/wiki/Arduino_%28Plattform%29#Rechtsstreit_um_die_Marke_Arduino).
