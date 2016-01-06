@@ -27,7 +27,7 @@
        * [Mehr Eigenschaften](Programmiergrundlagen/mehr_eigenschaften.md)
 * [Arduino](Arduino/0-einleitung.md)
    * [Die Arduino-IDE](Arduino/die_arduino-ide.md)
-   * [Firmata](Arduino/firmata.md)
+   * [Firmata. Einfacher geht's nicht](Arduino/firmata.md)
        * [Hello World! Again.](Arduino/hello_world_again.md)
        * [Schnittstelle der Arduino-Klasse](Arduino/api_der_arduino-klasse.md)
    * Grundlagen der Kommunikation zwischen Arduino und Computer
