@@ -16,11 +16,11 @@
        * [Listen](Programmiergrundlagen/listen.md)
    * [Variablen](Programmiergrundlagen/2-variablen.md)
    * [Bedingte Anweisungen und Verzweigungen](Programmiergrundlagen/3-bedingte-anweisungen-und-verzweigungen.md)
-   * [Schleifen](Programmiergrundlagen/4-schleifen.md)
+   * Schleifen
    * [Funktionen](Programmiergrundlagen/5-funktionen.md)
    * [Funktionen mit Parametern](Programmiergrundlagen/funktionen_mit_parametern.md)
    * [Funktionen mit Rückgabe](Programmiergrundlagen/6-funktionen-mit-rueckgabe.md)
-   * [Operatoren](Programmiergrundlagen/9-operatoren.md)
+   * Operatoren
    * [Objektorientierte Programmierung](Programmiergrundlagen/10-oop.md)
        * [Klassen erstellen](Programmiergrundlagen/klassen_erstellen.md)
        * [Objekte erstellen](Programmiergrundlagen/objekte_erstellen.md)
