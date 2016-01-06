@@ -4,9 +4,6 @@ Arduino Uno und verwandte Boards sind im Netz bestens dokumentiert[^1] [^2], sod
 /[Mac](https://www.arduino.cc/en/Guide/MacOSX)
 /[Linux](http://playground.arduino.cc/Learning/Linux)) und alle erforderlichen Schritte zur Inbetriebnahme erfolgt sind.
 
-[^1]: https://www.arduino.cc/en/Main/Products#
-[^2]: http://www.arduino.org/products
-
 Wie auf der Homepage des Projekts erklärt, wird der Arduino durch ein USB-Kabel mit einem Computer verbunden. Die Kommunikation über diesen Weg erfolgt *seriell*. Das ist wichtig im Kopf zu behalten, weil sich Begriffe, Konzepte und Namen von Bibliotheken immer wieder auf diese Art des Datenaustauschs beziehen werden.
 
 Bevor wir uns fortgeschritteneren Programmen und Versuchen widmen, sollten wir die Welt darüber informieren, dass wir jetzt auch an Board sind: Es ist Zeit, *Hello World!* zu sagen. Da die Ausgabe von Texten auf dem Arduino nicht so einfach möglich ist - es gibt keinen Bildschirm und kein Display - lassen wir im folgenden eine LED blinken.
@@ -89,3 +86,6 @@ Alle Beispiele in der Arduino-IDE (Menü Datei -> Beispiele) sind in der Java-Sy
 ## Weiter mit Python!
 
 Da wir nun aber aus guten Gründen mit Python und nicht mit Java angefangen haben, setzen wir diesen Weg auch konsequent an dieser Stelle fort: Weiter mit Python! Dies kann auf unterschiedliche Weise geschehen. Wir beginnen damit, die so genannte StandardFirmata an den Start zu bringen.
+
+[^1]: https://www.arduino.cc/en/Main/Products#
+[^2]: http://www.arduino.org/products
