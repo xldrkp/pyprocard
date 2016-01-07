@@ -52,7 +52,7 @@ Die Arduino-Bibliothek bringt eine Klasse *Arduino* mit, von der wir hier ein Ob
 
 <div class="box">
 <p><b>Wie heißt meine serielle Schnittstelle?</b></p>
-Unter Unix/Linux-Systemen werden serielle Schnittstellen als "device" bezeichnet und wie im Beispiel oben an den Konstruktor übergeben. Unter Windows gilt immer noch die Bezeichnung "COM" gefolgt von einer Zahl. Nachzusehen ist diese im Gerätemanager (nur Windows!). In der Arduino-IDE kann die Bezeichnung der Schnittstelle unter "Werkzeuge -> Port" abgelesen werden.
+<p style="font-weight: normal">Unter Unix/Linux-Systemen werden serielle Schnittstellen als "device" bezeichnet und wie im Beispiel oben an den Konstruktor übergeben. Unter Windows gilt immer noch die Bezeichnung "COM" gefolgt von einer Zahl. Nachzusehen ist diese im Gerätemanager (nur Windows!). In der Arduino-IDE kann die Bezeichnung der Schnittstelle unter "Werkzeuge -> Port" abgelesen werden.</p>
 
 </div>
 
