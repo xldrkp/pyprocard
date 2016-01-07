@@ -53,7 +53,7 @@ Die Arduino-Bibliothek bringt eine Klasse *Arduino* mit, von der wir hier ein Ob
 <div class="box">
 <p><b>Wie heißt meine serielle Schnittstelle?</b></p>
 <p style="font-weight: normal">Unter Unix/Linux-Systemen werden serielle Schnittstellen als "device" bezeichnet und wie im Beispiel oben an den Konstruktor übergeben. Unter Windows gilt immer noch die Bezeichnung "COM" gefolgt von einer Zahl. Nachzusehen ist diese im Gerätemanager (nur Windows!). In der Arduino-IDE kann die Bezeichnung der Schnittstelle unter "Werkzeuge -> Port" abgelesen werden.</p>
-
+<p style="font-weight: normal">Beim Ab- und Anstecken des Arduinos an den Rechner kann sich das Device ändern! Das Argument im Konstruktor muss dann entsprechend angepasst werden!</p>
 </div>
 
 Die Ausführung des aktuellen Programms bewirkt nicht viel: Es sollte sich die Processing-Leinwand öffnen, und auf dem Board flackern kurz die LEDs *TX* und *RX*. Sie zeigen an, dass eine serielle Übertragung stattfindet. *RX* steht für empfangen (receive), *TX* für senden (transmit).
