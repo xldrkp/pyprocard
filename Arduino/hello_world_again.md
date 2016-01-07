@@ -51,6 +51,8 @@ def draw():
 Die Arduino-Bibliothek bringt eine Klasse *Arduino* mit, von der wir hier ein Objekt erzeugen. Der Konstruktor empfängt den Kontext des aktuellen Programms sowie den Namen der seriellen Schnittstelle, an der das Arduino-Board angeschlossen ist. Als dritten Parameter übergeben wir die Baud-Rate. Diese **muss** für die Kommunikation mit der StandardFirmata 57600 betragen! Mehr zur Baud-Rate später, wenn wir uns genauer mit serieller Kommunikation beschäftigen.
 
 <div class="box">
+<p><b>Wie heißt meine serielle Schnittstelle?</b></p>
+Unter Unix/Linux-Systemen werden serielle Schnittstellen als "device" bezeichnet und wie im Beispiel oben an den Konstruktor übergeben. Unter Windows gilt immer noch die Bezeichnung "COM" gefolgt von einer Zahl. Nachzusehen ist diese im Gerätemanager (nur Windows!). In der Arduino-IDE kann die Bezeichnung der Schnittstelle unter "Werkzeuge -> Port" abgelesen werden.
 
 </div>
 
