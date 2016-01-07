@@ -50,7 +50,9 @@ def draw():
 
 Die Arduino-Bibliothek bringt eine Klasse *Arduino* mit, von der wir hier ein Objekt erzeugen. Der Konstruktor empfängt den Kontext des aktuellen Programms sowie den Namen der seriellen Schnittstelle, an der das Arduino-Board angeschlossen ist. Als dritten Parameter übergeben wir die Baud-Rate. Diese **muss** für die Kommunikation mit der StandardFirmata 57600 betragen! Mehr zur Baud-Rate später, wenn wir uns genauer mit serieller Kommunikation beschäftigen.
 
+<div class="box">
 
+</div>
 
 Die Ausführung des aktuellen Programms bewirkt nicht viel: Es sollte sich die Processing-Leinwand öffnen, und auf dem Board flackern kurz die LEDs *TX* und *RX*. Sie zeigen an, dass eine serielle Übertragung stattfindet. *RX* steht für empfangen (receive), *TX* für senden (transmit).
 
